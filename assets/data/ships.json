@@ -1,0 +1,379 @@
+[
+  {
+    "id": "bismarck",
+    "name": "Bismarck",
+    "nation": "alemania",
+    "nationName": "Alemania",
+    "type": "acorazado",
+    "typeName": "Acorazado",
+    "status": "hundido",
+    "statusName": "Hundido",
+    "era": "era-acero",
+    "conflicts": ["segunda-guerra-mundial"],
+    "commissioned": "1940-08-24",
+    "decommissioned": "1941-05-27",
+    "featured": true,
+    "summary": "Acorazado alemán de la clase Bismarck, famoso por hundir al HMS Hood y por su persecución y destrucción en el Atlántico Norte en mayo de 1941.",
+    "description": "El Bismarck fue el buque insignia de la Kriegsmarine alemana y uno de los acorazados más temidos de la Segunda Guerra Mundial. Con un desplazamiento de más de 50.000 toneladas y armamento principal de ocho cañones de 380 mm, representaba la cúspide del diseño naval alemán de la era. Su breve pero intensa carrera operativa culminó con la Operación Rheinübung y su hundimiento tras un intenso combate contra la Royal Navy.",
+    "specs": {
+      "desplazamiento": "50.900 t (plena carga)",
+      "eslora": "251,2 m",
+      "manga": "36 m",
+      "calado": "9,9 m",
+      "propulsion": "3 turbinas Parsons, 3 hélices",
+      "potencia": "150.000 CV",
+      "velocidad": "30 nudos",
+      "tripulacion": "2.200",
+      "armamento": "8 × 380 mm, 12 × 150 mm, 16 × 105 mm AA"
+    },
+    "serviceHistory": [
+      {
+        "date": "1940-08-24",
+        "event": "Puesta en servicio en Hamburgo."
+      },
+      {
+        "date": "1941-05-18",
+        "event": "Inicio de la Operación Rheinübung hacia el Atlántico."
+      },
+      {
+        "date": "1941-05-24",
+        "event": "Batalla del Estrecho de Dinamarca: hundimiento del HMS Hood."
+      },
+      {
+        "date": "1941-05-26",
+        "event": "Dañado por un torpedo de un Swordfish del HMS Ark Royal."
+      },
+      {
+        "date": "1941-05-27",
+        "event": "Hundido por fuego de la Royal Navy al oeste de Brest."
+      }
+    ],
+    "location": {
+      "lat": 48.17,
+      "lng": -16.20,
+      "description": "Pecio localizado a unos 650 km al oeste de Brest, Francia."
+    },
+    "tags": ["Kriegsmarine", "Operación Rheinübung", "HMS Hood", "Atlántico Norte"],
+    "sources": [
+      {
+        "title": "Battleship Bismarck: A Comprehensive History",
+        "author": "William H. Garzke Jr. & Robert Dulin Jr.",
+        "year": "1985",
+        "type": "libro"
+      },
+      {
+        "title": "Kriegsmarine Archives",
+        "author": "Bundesarchiv",
+        "year": "1941",
+        "type": "archivo"
+      }
+    ],
+    "imageColor": "#1a3a5c"
+  },
+  {
+    "id": "yamato",
+    "name": "Yamato",
+    "nation": "japon",
+    "nationName": "Japón",
+    "type": "acorazado",
+    "typeName": "Acorazado superpesado",
+    "status": "hundido",
+    "statusName": "Hundido",
+    "era": "era-acero",
+    "conflicts": ["segunda-guerra-mundial"],
+    "commissioned": "1941-12-16",
+    "decommissioned": "1945-04-07",
+    "featured": true,
+    "summary": "El acorazado superpesado más grande jamás construido, armado con cañones de 460 mm, hundido durante la Operación Ten-Go en 1945.",
+    "description": "El Yamato fue la materialización del concepto japonés de acorazado superpesado, diseñado para enfrentar múltiples buques enemigos en batalla naval decisiva. Con blindaje extremadamente grueso y los cañones navales más grandes desplegados en combate (460 mm/45), simbolizaba la determinación imperial japonesa. Sin embargo, la evolución hacia la guerra de portaviones relegó su utilidad estratégica.",
+    "specs": {
+      "desplazamiento": "72.800 t (plena carga)",
+      "eslora": "263 m",
+      "manga": "38,9 m",
+      "calado": "10,4 m",
+      "propulsion": "4 turbinas Kanpon, 4 hélices",
+      "potencia": "150.000 CV",
+      "velocidad": "27 nudos",
+      "tripulacion": "2.750",
+      "armamento": "9 × 460 mm, 12 × 155 mm, 130 × 25 mm AA"
+    },
+    "serviceHistory": [
+      {
+        "date": "1941-12-16",
+        "event": "Puesto en servicio en Kure."
+      },
+      {
+        "date": "1944-10-24",
+        "event": "Participación en la Batalla del Golfo de Leyte."
+      },
+      {
+        "date": "1945-04-06",
+        "event": "Zarpe en la Operación Ten-Go hacia Okinawa."
+      },
+      {
+        "date": "1945-04-07",
+        "event": "Hundido por ataques aéreos masivos al sur de Kyushu."
+      }
+    ],
+    "location": {
+      "lat": 30.43,
+      "lng": 128.04,
+      "description": "Pecio al suroeste de Kyushu, Japón."
+    },
+    "tags": ["Armada Imperial", "Operación Ten-Go", "Okinawa", "Acorazado superpesado"],
+    "sources": [
+      {
+        "title": "Battleships: Yamato and Musashi",
+        "author": "Janusz Skulski",
+        "year": "2004",
+        "type": "libro"
+      }
+    ],
+    "imageColor": "#2d4a3e"
+  },
+  {
+    "id": "uss-enterprise",
+    "name": "USS Enterprise (CV-6)",
+    "nation": "estados-unidos",
+    "nationName": "Estados Unidos",
+    "type": "portaviones",
+    "typeName": "Portaviones",
+    "status": "desguazado",
+    "statusName": "Desguazado",
+    "era": "era-acero",
+    "conflicts": ["segunda-guerra-mundial"],
+    "commissioned": "1938-05-12",
+    "decommissioned": "1947-02-17",
+    "featured": true,
+    "summary": "El portaviones más condecorado de la US Navy, participó en casi todas las acciones importantes del Pacífico, incluyendo Midway y Guadalcanal.",
+    "description": "El USS Enterprise (CV-6) fue el sexto portaviones de la US Navy y el único de su clase en sobrevivir la guerra. Apodado el 'Big E', fue fundamental en las victorias de Midway, Guadalcanal y la campaña de islas del Pacífico. Su legado representa la transición definitiva del acorazado al portaviones como rey de los mares.",
+    "specs": {
+      "desplazamiento": "32.060 t (estándar)",
+      "eslora": "251,4 m",
+      "manga": "33,4 m",
+      "calado": "7,9 m",
+      "propulsion": "4 turbinas Parsons, 4 hélices",
+      "potencia": "120.000 CV",
+      "velocidad": "32,5 nudos",
+      "tripulacion": "2.217",
+      "armamento": "8 × 127 mm, 16 × 28 mm AA, 24 × 12,7 mm AA",
+      "aeronaves": "90 (máximo operacional)"
+    },
+    "serviceHistory": [
+      {
+        "date": "1938-05-12",
+        "event": "Puesto en servicio en Newport News."
+      },
+      {
+        "date": "1942-06-04",
+        "event": "Batalla de Midway: destrucción de cuatro portaviones japoneses."
+      },
+      {
+        "date": "1942-08",
+        "event": "Apoyo aérea en la campaña de Guadalcanal."
+      },
+      {
+        "date": "1945-05",
+        "event": "Operaciones finales en el Pacífico occidental."
+      },
+      {
+        "date": "1947-02-17",
+        "event": "Retirado del servicio activo."
+      }
+    ],
+    "location": {
+      "lat": null,
+      "lng": null,
+      "description": "Desguazado en 1958; no existe pecio."
+    },
+    "tags": ["US Navy", "Midway", "Guadalcanal", "Portaviones de flota"],
+    "sources": [
+      {
+        "title": "Enterprise: America's Fightingest Ship",
+        "author": "Barrett Tillman",
+        "year": "2012",
+        "type": "libro"
+      }
+    ],
+    "imageColor": "#1e4d6b"
+  },
+  {
+    "id": "hms-hood",
+    "name": "HMS Hood",
+    "nation": "reino-unido",
+    "nationName": "Reino Unido",
+    "type": "crucero-batalla",
+    "typeName": "Crucero de batalla",
+    "status": "hundido",
+    "statusName": "Hundido",
+    "era": "era-acero",
+    "conflicts": ["segunda-guerra-mundial"],
+    "commissioned": "1920-05-15",
+    "decommissioned": "1941-05-24",
+    "featured": true,
+    "summary": "Orgullo de la Royal Navy y el mayor crucero de batalla jamás construido por Gran Bretaña, hundido por el Bismarck en el Estrecho de Dinamarca.",
+    "description": "El HMS Hood fue durante décadas el buque de guerra más grande del mundo y símbolo del poder naval británico. A pesar de su imponente presencia, su diseño de blindaje presentaba debilidades estructurales que se manifestaron trágicamente en la batalla del Estrecho de Dinamarca, cuando una detonación de la santabárbara destruyó el buque en minutos.",
+    "specs": {
+      "desplazamiento": "48.360 t (plena carga)",
+      "eslora": "262,3 m",
+      "manga": "31,8 m",
+      "calado": "8,5 m",
+      "propulsion": "4 turbinas Parsons, 4 hélices",
+      "potencia": "144.000 CV",
+      "velocidad": "31 nudos",
+      "tripulacion": "1.418",
+      "armamento": "8 × 381 mm, 12 × 140 mm, 32 × 102 mm AA"
+    },
+    "serviceHistory": [
+      {
+        "date": "1920-05-15",
+        "event": "Puesto en servicio como buque insignia de la Royal Navy."
+      },
+      {
+        "date": "1939-09",
+        "event": "Patrullas en el Atlántico Norte tras el inicio de la guerra."
+      },
+      {
+        "date": "1941-05-24",
+        "event": "Batalla del Estrecho de Dinamarca: hundido por el Bismarck."
+      }
+    ],
+    "location": {
+      "lat": 63.63,
+      "lng": -31.50,
+      "description": "Pecio en el Estrecho de Dinamarca, entre Groenlandia e Islandia."
+    },
+    "tags": ["Royal Navy", "Crucero de batalla", "Bismarck", "Estrecho de Dinamarca"],
+    "sources": [
+      {
+        "title": "HMS Hood: An Illustrated History",
+        "author": "Roger Chesneau",
+        "year": "2002",
+        "type": "libro"
+      }
+    ],
+    "imageColor": "#3d3d52"
+  },
+  {
+    "id": "uss-fletcher",
+    "name": "USS Fletcher (DD-445)",
+    "nation": "estados-unidos",
+    "nationName": "Estados Unidos",
+    "type": "destructor",
+    "typeName": "Destructor",
+    "status": "retirado",
+    "statusName": "Retirado",
+    "era": "era-acero",
+    "conflicts": ["segunda-guerra-mundial"],
+    "commissioned": "1942-06-30",
+    "decommissioned": "1969-08-01",
+    "featured": false,
+    "summary": "Buque líder de la clase Fletcher, la serie de destructores más producida en la historia de la US Navy con 175 unidades.",
+    "description": "La clase Fletcher representó la respuesta industrial masiva de Estados Unidos a las necesidades navales de la Segunda Guerra Mundial. Estos destructores versátiles realizaron escolta de convoyes, defensa antiaérea, bombardeo de costa y combates nocturnos en el Pacífico. El USS Fletcher (DD-445) fue el primero de su clase y sirvió con distinción.",
+    "specs": {
+      "desplazamiento": "2.924 t (estándar)",
+      "eslora": "114,7 m",
+      "manga": "12,1 m",
+      "calado": "5,4 m",
+      "propulsion": "2 turbinas General Electric, 2 hélices",
+      "potencia": "60.000 CV",
+      "velocidad": "38 nudos",
+      "tripulacion": "329",
+      "armamento": "5 × 127 mm, 10 × 21\" torpedos, 6 × 40 mm AA"
+    },
+    "serviceHistory": [
+      {
+        "date": "1942-06-30",
+        "event": "Puesto en servicio en Boston Navy Yard."
+      },
+      {
+        "date": "1942-10",
+        "event": "Operaciones en Guadalcanal y combates navales nocturnos."
+      },
+      {
+        "date": "1944-1945",
+        "event": "Operaciones en Filipinas y Okinawa."
+      },
+      {
+        "date": "1969-08-01",
+        "event": "Retirado del servicio tras la Guerra de Corea y Vietnam."
+      }
+    ],
+    "location": {
+      "lat": null,
+      "lng": null,
+      "description": "Desguazado; no existe pecio."
+    },
+    "tags": ["US Navy", "Clase Fletcher", "Guadalcanal", "Destructor"],
+    "sources": [
+      {
+        "title": "Destroyers of World War II",
+        "author": "M.J. Whitley",
+        "year": "2000",
+        "type": "libro"
+      }
+    ],
+    "imageColor": "#2a5a7a"
+  },
+  {
+    "id": "tirpitz",
+    "name": "Tirpitz",
+    "nation": "alemania",
+    "nationName": "Alemania",
+    "status": "hundido",
+    "statusName": "Hundido",
+    "type": "acorazado",
+    "typeName": "Acorazado",
+    "era": "era-acero",
+    "conflicts": ["segunda-guerra-mundial"],
+    "commissioned": "1941-02-25",
+    "decommissioned": "1944-11-12",
+    "featured": false,
+    "summary": "Hermana del Bismarck, conocida como el 'lobo solitario del norte', mantuvo a la Royal Navy en alerta constante en aguas noruegas.",
+    "description": "El Tirpitz fue el segundo acorazado de la clase Bismarck y representó una amenaza estratégica permanente para los convoyes árticos aliados. Estacionado en fiordos noruegos, su sola presencia obligó a la Royal Navy a mantener importantes recursos en el norte. Fue finalmente destruido por bombarderos Lancaster en la Operación Catechism.",
+    "specs": {
+      "desplazamiento": "52.600 t (plena carga)",
+      "eslora": "251,2 m",
+      "manga": "36 m",
+      "calado": "9,9 m",
+      "propulsion": "3 turbinas Parsons, 3 hélices",
+      "potencia": "163.000 CV",
+      "velocidad": "30 nudos",
+      "tripulacion": "2.608",
+      "armamento": "8 × 380 mm, 12 × 150 mm, 16 × 105 mm AA"
+    },
+    "serviceHistory": [
+      {
+        "date": "1941-02-25",
+        "event": "Puesto en servicio en Wilhelmshaven."
+      },
+      {
+        "date": "1942-01",
+        "event": "Despliegue en fiordos noruegos como amenaza estratégica."
+      },
+      {
+        "date": "1943-09-22",
+        "event": "Dañado por mini-submarinos británicos (Operación Source)."
+      },
+      {
+        "date": "1944-11-12",
+        "event": "Hundido por bombarderos Lancaster en Tromsø."
+      }
+    ],
+    "location": {
+      "lat": 69.65,
+      "lng": 18.96,
+      "description": "Pecio en aguas poco profundas cerca de Tromsø, Noruega."
+    },
+    "tags": ["Kriegsmarine", "Noruega", "Convoyes árticos", "Clase Bismarck"],
+    "sources": [
+      {
+        "title": "Tirpitz: The Life and Death of Germany's Last Super Battleship",
+        "author": "Niklas Zetterling & Michael Tamelander",
+        "year": "2009",
+        "type": "libro"
+      }
+    ],
+    "imageColor": "#1a3050"
+  }
+]

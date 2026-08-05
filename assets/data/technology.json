@@ -1,0 +1,74 @@
+[
+  {
+    "id": "propulsion",
+    "name": "Propulsión Naval",
+    "category": "Ingeniería",
+    "description": "Evolución desde la vela hasta las turbinas de vapor, motores diésel y propulsión nuclear.",
+    "topics": [
+      {
+        "title": "Turbinas de vapor",
+        "period": "1900–1945",
+        "detail": "Las turbinas Parsons revolucionaron la velocidad naval, permitiendo acorazados de más de 30 nudos."
+      },
+      {
+        "title": "Propulsión diésel-eléctrica",
+        "period": "1930–1945",
+        "detail": "Sistema estándar en submarinos alemanes U-boat, combinando motores diésel en superficie y eléctricos sumergidos."
+      }
+    ]
+  },
+  {
+    "id": "armamento",
+    "name": "Armamento Naval",
+    "category": "Artillería",
+    "description": "Desarrollo de cañones de gran calibre, torretas triples, sistemas de control de fuego y armamento antiaéreo.",
+    "topics": [
+      {
+        "title": "Cañones de acorazado",
+        "period": "1935–1945",
+        "detail": "Calibres de 380 mm a 460 mm en acorazados como el Bismarck (380 mm) y el Yamato (460 mm)."
+      },
+      {
+        "title": "Defensa antiaérea",
+        "period": "1940–1945",
+        "detail": "Sistemas Bofors de 40 mm y cañones Oerlikon de 20 mm se volvieron esenciales contra aviación enemiga."
+      }
+    ]
+  },
+  {
+    "id": "blindaje",
+    "name": "Blindaje y Protección",
+    "category": "Construcción",
+    "description": "Diseño de cinturones blindados, cubiertas protegidas y compartimentación para resistir impactos y mantener la flotabilidad.",
+    "topics": [
+      {
+        "title": "Esquema de blindaje all-or-nothing",
+        "period": "1920–1945",
+        "detail": "Concentración del blindaje en zonas vitales, abandonando protección en áreas menos críticas para reducir peso."
+      },
+      {
+        "title": "Compartimentación",
+        "period": "1900–1945",
+        "detail": "División del casco en compartimentos estancos para limitar inundaciones tras impactos de torpedos o proyectiles."
+      }
+    ]
+  },
+  {
+    "id": "aviacion-naval",
+    "name": "Aviación Naval",
+    "category": "Operaciones",
+    "description": "El portaviones redefinió la guerra naval, desplazando al acorazado como arma principal de las flotas.",
+    "topics": [
+      {
+        "title": "Portaviones de flota",
+        "period": "1920–1945",
+        "detail": "Embarcaciones capaces de transportar más de 80 aeronaves, como el USS Enterprise (CV-6)."
+      },
+      {
+        "title": "Operaciones combinadas",
+        "period": "1941–1945",
+        "detail": "Coordinación entre aviación embarcada, superficie y submarinos en campañas del Pacífico."
+      }
+    ]
+  }
+]

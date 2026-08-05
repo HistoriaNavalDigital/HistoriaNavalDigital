@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Acerca de HistoriaNavalDigital — Misión, objetivos y metodología">
+  <meta name="base-path" content="">
+  <title>Acerca del Proyecto — HistoriaNavalDigital</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <div id="site-header"></div>
+
+  <main id="main-content" class="site-main">
+    <div class="page-layout page-layout--full">
+      <div class="page-content">
+        <div id="breadcrumbs"></div>
+
+        <header class="page-header">
+          <h1>Acerca del Proyecto</h1>
+          <p>HistoriaNavalDigital es una plataforma digital dedicada a la recopilación, organización y divulgación de la historia naval.</p>
+        </header>
+
+        <section class="about-section">
+          <h2>Misión</h2>
+          <p>Crear una plataforma digital interactiva que permita consultar y explorar información histórica sobre buques de guerra, conflictos navales y evolución tecnológica, con un enfoque educativo y accesible para estudiantes, docentes, investigadores y el público general.</p>
+        </section>
+
+        <section class="about-section">
+          <h2>Objetivos</h2>
+          <ul class="about-list">
+            <li>Digitalizar la información obtenida de la investigación sobre buques de guerra</li>
+            <li>Analizar el panorama del progreso bélico desde la perspectiva naval</li>
+            <li>Organizar el contenido por buques, eras, naciones y tecnología</li>
+            <li>Publicar información respaldada por fuentes confiables y verificables</li>
+            <li>Ofrecer una experiencia de consulta intuitiva y profesional</li>
+          </ul>
+        </section>
+
+        <section class="about-section">
+          <h2>Público objetivo</h2>
+          <div class="grid grid-2">
+            <div class="info-card">
+              <h3>Estudiantes</h3>
+              <p>Interesados en historia y en comprender el papel de la marina en los conflictos mundiales.</p>
+            </div>
+            <div class="info-card">
+              <h3>Docentes</h3>
+              <p>Personas dedicadas a la enseñanza que buscan recursos organizados para el aula.</p>
+            </div>
+            <div class="info-card">
+              <h3>Investigadores</h3>
+              <p>Historiadores y aficionados a la historia naval que necesitan referencias estructuradas.</p>
+            </div>
+            <div class="info-card">
+              <h3>Público general</h3>
+              <p>Personas interesadas en embarcaciones y conflictos históricos.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-section">
+          <h2>Metodología</h2>
+          <p>El contenido se elabora a partir de investigación fundamentada con fuentes académicas, archivos oficiales y publicaciones especializadas. La plataforma utiliza archivos JSON para el almacenamiento inicial de datos, con una arquitectura preparada para futuras ampliaciones como bases de datos, mapas interactivos y soporte multilingüe.</p>
+        </section>
+
+        <section class="about-section">
+          <h2>Estado del proyecto</h2>
+          <p><strong>Versión 0.1</strong> — Primera versión funcional con catálogo de buques de la Segunda Guerra Mundial, navegación por secciones, fichas individuales, modo oscuro y diseño responsive.</p>
+        </section>
+
+        <section class="about-section">
+          <h2>Tecnologías</h2>
+          <ul class="about-list">
+            <li>HTML5, CSS3 y JavaScript para el frontend</li>
+            <li>Archivos JSON para datos históricos</li>
+            <li>Git y GitHub para control de versiones</li>
+            <li>GitHub Pages para publicación (previsto)</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      Components.mountLayout("");
+      const breadcrumbsEl = document.getElementById("breadcrumbs");
+      if (breadcrumbsEl) {
+        breadcrumbsEl.innerHTML = Components.renderBreadcrumbs([
+          { label: "Inicio", href: "index.html" },
+          { label: "Acerca del Proyecto", href: "acerca.html" },
+        ]);
+      }
+    });
+  </script>
+</body>
+</html>

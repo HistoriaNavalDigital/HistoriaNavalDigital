@@ -1,0 +1,20 @@
+[
+  {
+    "id": "segunda-guerra-mundial",
+    "name": "Segunda Guerra Mundial",
+    "period": "1939–1945",
+    "theaters": ["Atlántico", "Pacífico", "Mediterráneo", "Ártico"],
+    "description": "El conflicto más amplio de la historia naval moderna, con batallas decisivas como Midway, el Atlántico Norte y el Mar del Coral.",
+    "keyBattles": ["Pearl Harbor", "Midway", "Guadalcanal", "Batalla del Atlántico", "El Almirante Graf Spee"],
+    "shipCount": 6
+  },
+  {
+    "id": "primera-guerra-mundial",
+    "name": "Primera Guerra Mundial",
+    "period": "1914–1918",
+    "theaters": ["Mar del Norte", "Mediterráneo", "Pacífico"],
+    "description": "Introducción del submarino como arma estratégica y batallas entre flotas de acorazados dreadnought.",
+    "keyBattles": ["Jutlandia", "Coronel", "Falklands"],
+    "shipCount": 0
+  }
+]

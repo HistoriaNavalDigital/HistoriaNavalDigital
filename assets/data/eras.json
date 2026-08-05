@@ -1,0 +1,38 @@
+[
+  {
+    "id": "era-vela",
+    "name": "Era de la Vela",
+    "period": "Siglos XVI–XIX",
+    "description": "Período dominado por la navegación a vela, los galeones, los navíos de línea y las grandes batallas navales de la era clásica.",
+    "conflicts": ["Guerras Napoleónicas", "Guerra anglo-española"],
+    "technologies": ["Navegación a vela", "Artillería de cañones laterales"],
+    "shipCount": 0
+  },
+  {
+    "id": "transicion-vapor",
+    "name": "Transición al Vapor",
+    "period": "Siglo XIX",
+    "description": "Era de hibridación entre propulsión a vela y máquinas de vapor, con la aparición de los primeros acorazados y blindajes.",
+    "conflicts": ["Guerra de Secesión", "Guerra hispano-americana"],
+    "technologies": ["Propulsión a vapor", "Blindaje de hierro"],
+    "shipCount": 0
+  },
+  {
+    "id": "era-acero",
+    "name": "Era del Acero",
+    "period": "1900–1945",
+    "description": "La revolución del acero, la turbina de vapor y el acorazado dreadnought transformaron la guerra naval. Incluye ambas guerras mundiales.",
+    "conflicts": ["Primera Guerra Mundial", "Segunda Guerra Mundial"],
+    "technologies": ["Acorazados", "Portaviones", "Submarinos modernos"],
+    "shipCount": 6
+  },
+  {
+    "id": "guerra-fria",
+    "name": "Guerra Fría y Era Moderna",
+    "period": "1945–presente",
+    "description": "Era de portaviones nucleares, submarinos de propulsión nuclear, misiles guiados y dominio tecnológico en alta mar.",
+    "conflicts": ["Guerra Fría", "Conflictos regionales modernos"],
+    "technologies": ["Propulsión nuclear", "Misiles guiados", "Portaviones supercarriers"],
+    "shipCount": 0
+  }
+]

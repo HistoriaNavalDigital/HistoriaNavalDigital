@@ -1,0 +1,56 @@
+[
+  {
+    "id": "img-bismarck-01",
+    "title": "Bismarck en alta mar",
+    "type": "fotografia",
+    "shipId": "bismarck",
+    "era": "era-acero",
+    "description": "Fotografía histórica del acorazado alemán Bismarck durante operaciones en el Atlántico Norte.",
+    "year": "1941"
+  },
+  {
+    "id": "img-yamato-01",
+    "title": "Yamato en pruebas de mar",
+    "type": "fotografia",
+    "shipId": "yamato",
+    "era": "era-acero",
+    "description": "El acorazado superpesado Yamato, el buque de guerra más grande jamás construido.",
+    "year": "1941"
+  },
+  {
+    "id": "img-enterprise-01",
+    "title": "USS Enterprise (CV-6)",
+    "type": "fotografia",
+    "shipId": "uss-enterprise",
+    "era": "era-acero",
+    "description": "El portaviones más condecorado de la US Navy durante la Segunda Guerra Mundial.",
+    "year": "1942"
+  },
+  {
+    "id": "img-hood-01",
+    "title": "HMS Hood en Gibraltar",
+    "type": "fotografia",
+    "shipId": "hms-hood",
+    "era": "era-acero",
+    "description": "El crucero de batalla HMS Hood, orgullo de la Royal Navy, antes de su hundimiento en 1941.",
+    "year": "1940"
+  },
+  {
+    "id": "plan-bismarck-01",
+    "title": "Plano general del Bismarck",
+    "type": "plano",
+    "shipId": "bismarck",
+    "era": "era-acero",
+    "description": "Plano técnico mostrando la disposición de torretas y superestructura del acorazado.",
+    "year": "1940"
+  },
+  {
+    "id": "map-atlantico-01",
+    "title": "Rutas en el Atlántico Norte",
+    "type": "mapa",
+    "shipId": null,
+    "era": "era-acero",
+    "description": "Mapa esquemático de las rutas de convoyes y operaciones navales en el Atlántico durante 1941–1942.",
+    "year": "1941"
+  }
+]

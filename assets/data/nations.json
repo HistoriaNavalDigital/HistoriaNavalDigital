@@ -1,0 +1,42 @@
+[
+  {
+    "id": "alemania",
+    "name": "Alemania",
+    "flag": "🇩🇪",
+    "period": "1939–1945",
+    "description": "La Kriegsmarine alemana desplegó una flota de superficie limitada pero tecnológicamente avanzada, centrada en acorazados, cruceros pesados y la guerra de convoyes con U-boats.",
+    "navalDoctrine": "Guerra comercial contra convoyes aliados y operaciones de superficie de alto impacto.",
+    "keyShipTypes": ["Acorazados", "Cruceros pesados", "Submarinos U-boat"],
+    "shipCount": 2
+  },
+  {
+    "id": "japon",
+    "name": "Japón",
+    "flag": "🇯🇵",
+    "period": "1939–1945",
+    "description": "La Armada Imperial Japonesa fue una de las más poderosas del Pacífico, pionera en aviación naval y operaciones anfibias a gran escala.",
+    "navalDoctrine": "Dominio del Pacífico occidental mediante fuerzas de portaviones y acorazados superpesados.",
+    "keyShipTypes": ["Portaviones", "Acorazados", "Cruceros"],
+    "shipCount": 1
+  },
+  {
+    "id": "estados-unidos",
+    "name": "Estados Unidos",
+    "flag": "🇺🇸",
+    "period": "1941–1945",
+    "description": "La US Navy se convirtió en la flota más grande del mundo durante la Segunda Guerra Mundial, liderando la guerra en el Pacífico con portaviones y producción industrial masiva.",
+    "navalDoctrine": "Guerra de anfibios, dominio aéreo desde portaviones y superioridad industrial.",
+    "keyShipTypes": ["Portaviones", "Destructores", "Cruceros"],
+    "shipCount": 2
+  },
+  {
+    "id": "reino-unido",
+    "name": "Reino Unido",
+    "flag": "🇬🇧",
+    "period": "1939–1945",
+    "description": "La Royal Navy mantuvo el control de las rutas marítimas vitales, protegiendo convoyes y combatiendo la amenaza de superficie y submarina alemana.",
+    "navalDoctrine": "Protección de convoyes, bloqueo naval y persecución de unidades de superficie enemigas.",
+    "keyShipTypes": ["Cruceros de batalla", "Portaviones", "Destructores"],
+    "shipCount": 1
+  }
+]

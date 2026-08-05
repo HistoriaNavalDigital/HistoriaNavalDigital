@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de buques de guerra históricos — HistoriaNavalDigital">
+  <meta name="base-path" content="">
+  <title>Registro de Buques — HistoriaNavalDigital</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <div id="site-header"></div>
+
+  <main id="main-content" class="site-main">
+    <div class="page-layout">
+      <div id="sidebar"></div>
+      <div class="page-content">
+        <div id="breadcrumbs"></div>
+
+        <header class="page-header">
+          <h1>Registro de Buques</h1>
+          <p>Catálogo de embarcaciones históricas con buscador, filtros por tipología, nación y estado operativo.</p>
+        </header>
+
+        <div class="search-bar">
+          <div class="search-input-wrapper">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="search" id="search-input" class="search-input" placeholder="Buscar por nombre, nación o etiqueta..." aria-label="Buscar buques">
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <select id="filter-nation" class="filter-select" aria-label="Filtrar por nación">
+            <option value="">Todas las naciones</option>
+          </select>
+          <select id="filter-type" class="filter-select" aria-label="Filtrar por tipología">
+            <option value="">Todas las tipologías</option>
+            <option value="acorazado">Acorazado</option>
+            <option value="crucero-batalla">Crucero de batalla</option>
+            <option value="portaviones">Portaviones</option>
+            <option value="destructor">Destructor</option>
+          </select>
+          <select id="filter-status" class="filter-select" aria-label="Filtrar por estado">
+            <option value="">Todos los estados</option>
+            <option value="hundido">Hundido</option>
+            <option value="retirado">Retirado</option>
+            <option value="desguazado">Desguazado</option>
+          </select>
+        </div>
+
+        <p id="results-count" class="results-count" aria-live="polite"></p>
+        <div id="ships-grid" class="grid grid-3"></div>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/data-loader.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/pages/ships.js"></script>
+</body>
+</html>

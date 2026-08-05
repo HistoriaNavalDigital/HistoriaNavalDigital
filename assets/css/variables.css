@@ -1,0 +1,106 @@
+/* HistoriaNavalDigital — Design tokens & theme */
+
+:root {
+  /* Palette — naval heritage */
+  --color-navy-900: #0a1628;
+  --color-navy-800: #0f2340;
+  --color-navy-700: #163058;
+  --color-navy-600: #1e4070;
+  --color-navy-500: #2563a8;
+  --color-navy-400: #4a8fd4;
+
+  --color-gold-500: #c9a227;
+  --color-gold-400: #dbb84a;
+  --color-gold-300: #e8cc72;
+
+  --color-slate-100: #f0f4f8;
+  --color-slate-200: #dce4ed;
+  --color-slate-300: #b8c5d4;
+  --color-slate-400: #8899aa;
+  --color-slate-500: #5a6d7e;
+  --color-slate-600: #3d4f5f;
+  --color-slate-700: #2a3847;
+  --color-slate-800: #1a2530;
+
+  /* Semantic — light mode */
+  --color-bg: #f5f7fa;
+  --color-bg-elevated: #ffffff;
+  --color-bg-subtle: #e8edf3;
+  --color-bg-header: var(--color-navy-800);
+  --color-text: var(--color-slate-700);
+  --color-text-muted: var(--color-slate-500);
+  --color-text-inverse: #ffffff;
+  --color-text-heading: var(--color-navy-800);
+  --color-border: var(--color-slate-200);
+  --color-border-strong: var(--color-slate-300);
+  --color-accent: var(--color-navy-600);
+  --color-accent-hover: var(--color-navy-700);
+  --color-highlight: var(--color-gold-500);
+  --color-link: var(--color-navy-500);
+  --color-link-hover: var(--color-navy-700);
+  --color-shadow: rgba(10, 22, 40, 0.08);
+  --color-shadow-strong: rgba(10, 22, 40, 0.16);
+  --color-overlay: rgba(10, 22, 40, 0.6);
+
+  /* Status colors */
+  --color-status-sunk: #8b2942;
+  --color-status-active: #1a6b4a;
+  --color-status-retired: #5a6d7e;
+  --color-status-scrapped: #6b5a4a;
+
+  /* Typography */
+  --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Source Code Pro", Consolas, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Layout */
+  --header-height: 4rem;
+  --sidebar-width: 260px;
+  --content-max-width: 1200px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --transition: 200ms ease;
+}
+
+[data-theme="dark"] {
+  --color-bg: var(--color-navy-900);
+  --color-bg-elevated: var(--color-navy-800);
+  --color-bg-subtle: var(--color-navy-700);
+  --color-bg-header: #060e1a;
+  --color-text: var(--color-slate-200);
+  --color-text-muted: var(--color-slate-400);
+  --color-text-heading: #ffffff;
+  --color-border: var(--color-navy-600);
+  --color-border-strong: var(--color-navy-500);
+  --color-accent: var(--color-navy-400);
+  --color-accent-hover: var(--color-navy-300, #6aafe8);
+  --color-link: var(--color-navy-400);
+  --color-link-hover: var(--color-gold-300);
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-shadow-strong: rgba(0, 0, 0, 0.5);
+  --color-overlay: rgba(0, 0, 0, 0.75);
+}
