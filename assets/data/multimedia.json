@@ -1,19 +1,21 @@
 [
   {
-    "id": "img-bismarck-01",
-    "title": "Bismarck en alta mar",
-    "type": "fotografia",
-    "shipId": "bismarck",
-    "era": "era-acero",
-    "description": "Fotografía histórica del acorazado alemán Bismarck durante operaciones en el Atlántico Norte.",
-    "year": "1941"
-  },
+  "id": "img-bismarck-01",
+  "title": "Bismarck en alta mar",
+  "type": "fotografia",
+  "shipId": "bismarck",
+  "era": "era-acero",
+  "image": "assets/images/multimedia/bismarck_01.jpg",
+  "description": "Fotografía histórica del acorazado alemán Bismarck durante operaciones en el Atlántico Norte.",
+  "year": "1941"
+},
   {
     "id": "img-yamato-01",
     "title": "Yamato en pruebas de mar",
     "type": "fotografia",
     "shipId": "yamato",
     "era": "era-acero",
+    "image": "assets/images/multimedia/yamato-01.jpg",
     "description": "El acorazado superpesado Yamato, el buque de guerra más grande jamás construido.",
     "year": "1941"
   },
@@ -23,6 +25,7 @@
     "type": "fotografia",
     "shipId": "uss-enterprise",
     "era": "era-acero",
+    "image": "assets/images/multimedia/enterprise-01.jpg",
     "description": "El portaviones más condecorado de la US Navy durante la Segunda Guerra Mundial.",
     "year": "1942"
   },
@@ -32,6 +35,7 @@
     "type": "fotografia",
     "shipId": "hms-hood",
     "era": "era-acero",
+    "image": "assets/images/multimedia/hood-01.jpg",
     "description": "El crucero de batalla HMS Hood, orgullo de la Royal Navy, antes de su hundimiento en 1941.",
     "year": "1940"
   },
@@ -41,6 +45,7 @@
     "type": "plano",
     "shipId": "bismarck",
     "era": "era-acero",
+    "image": "assets/images/multimedia/bismarck-plan-01.jpg",
     "description": "Plano técnico mostrando la disposición de torretas y superestructura del acorazado.",
     "year": "1940"
   },
@@ -50,6 +55,7 @@
     "type": "mapa",
     "shipId": null,
     "era": "era-acero",
+    "image": "assets/images/multimedia/atlantic-map-01.jpg",
     "description": "Mapa esquemático de las rutas de convoyes y operaciones navales en el Atlántico durante 1941–1942.",
     "year": "1941"
   }

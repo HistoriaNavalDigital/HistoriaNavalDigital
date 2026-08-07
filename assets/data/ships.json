@@ -6,6 +6,8 @@
     "nationName": "Alemania",
     "type": "acorazado",
     "typeName": "Acorazado",
+    "class": "clase-bismarck",
+    "className": "Clase Bismarck",
     "status": "hundido",
     "statusName": "Hundido",
     "era": "era-acero",
@@ -14,6 +16,9 @@
     "decommissioned": "1941-05-27",
     "featured": true,
     "summary": "Acorazado alemán de la clase Bismarck, famoso por hundir al HMS Hood y por su persecución y destrucción en el Atlántico Norte en mayo de 1941.",
+    "image": "assets/images/ships/bismarck.jpg",
+   
+    "imageDetail": "assets/images/ships/bismarck1.jpg",
     "description": "El Bismarck fue el buque insignia de la Kriegsmarine alemana y uno de los acorazados más temidos de la Segunda Guerra Mundial. Con un desplazamiento de más de 50.000 toneladas y armamento principal de ocho cañones de 380 mm, representaba la cúspide del diseño naval alemán de la era. Su breve pero intensa carrera operativa culminó con la Operación Rheinübung y su hundimiento tras un intenso combate contra la Royal Navy.",
     "specs": {
       "desplazamiento": "50.900 t (plena carga)",
@@ -321,6 +326,8 @@
     "nation": "alemania",
     "nationName": "Alemania",
     "status": "hundido",
+    "class": "clase-bismarck",
+  "className": "Clase Bismarck",
     "statusName": "Hundido",
     "type": "acorazado",
     "typeName": "Acorazado",

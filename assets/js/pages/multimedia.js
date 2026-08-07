@@ -50,10 +50,14 @@ const MultimediaPage = {
         const typeName = HND.multimediaTypes[item.type] || item.type;
 
         return `
-          <div class="gallery-item">
-            <div class="gallery-thumb" style="background: linear-gradient(135deg, var(--color-navy-700) 0%, var(--color-navy-500) 100%);">
-              ${icon}
-            </div>
+         <div class="gallery-item">
+  <div class="gallery-thumb">
+    ${
+      item.image
+        ? `<img src="${item.image}" alt="${Utils.escapeHtml(item.title)}">`
+        : icon
+    }
+  </div>
             <div class="gallery-info">
               <span class="badge badge-type" style="margin-bottom: var(--space-2);">${Utils.escapeHtml(typeName)}</span>
               <h4>${Utils.escapeHtml(item.title)}</h4>

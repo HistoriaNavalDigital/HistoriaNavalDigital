@@ -12,7 +12,11 @@ const ShipDetailPage = {
     }
 
     try {
-      const ship = await DataLoader.getShip(shipId);
+      const [ship, multimedia, allShips] = await Promise.all([
+  DataLoader.getShip(shipId),
+  DataLoader.getMultimedia(),
+  DataLoader.getShips(),
+]);
       if (!ship) {
         document.getElementById("ship-content").innerHTML =
           '<div class="empty-state"><div class="empty-state-icon">🚢</div><p>Buque no encontrado.</p><a href="buques.html" class="btn btn-primary" style="margin-top: var(--space-4);">Volver al catálogo</a></div>';
@@ -30,17 +34,24 @@ const ShipDetailPage = {
         ]);
       }
 
-      this.renderShip(ship);
+      this.renderShip(ship, multimedia, allShips);
     } catch (err) {
       console.error("Error cargando buque:", err);
     }
   },
 
-  renderShip(ship) {
+  renderShip(ship, multimedia, allShips) { 
     const container = document.getElementById("ship-content");
     const statusClass = Utils.getStatusClass(ship.status);
     const icon = Utils.getShipIcon(ship.type);
-
+const shipMedia = multimedia.filter(
+  (item) => item.shipId === ship.id
+);
+const sisterShips = ship.class
+  ? allShips.filter(
+      (s) => s.class === ship.class && s.id !== ship.id
+    )
+  : [];
     const specsRows = Object.entries(ship.specs)
       .map(
         ([key, value]) =>
@@ -73,12 +84,51 @@ const ShipDetailPage = {
       .join("");
 
     const locationText = ship.location.description || "Ubicación no disponible";
+const gallery = shipMedia.length
+  ? `
+    <section class="content-section">
+      <h2>Galería multimedia</h2>
 
+      <div class="gallery-grid">
+        ${shipMedia
+          .map(
+            (item) => `
+            <div class="gallery-item">
+              <div class="gallery-thumb">
+                <img src="${HND.getAssetPath(item.image)}" alt="${Utils.escapeHtml(item.title)}">
+              </div>
+              <div class="gallery-info">
+                <span class="badge badge-type">
+                  ${Utils.escapeHtml(HND.multimediaTypes[item.type] || item.type)}
+                </span>
+
+                <h4>${Utils.escapeHtml(item.title)}</h4>
+
+                <p>${Utils.escapeHtml(item.description)}</p>
+
+                <p style="margin-top: var(--space-2); opacity: .7;">
+                  ${item.year || ""}
+                </p>
+              </div>
+            </div>
+          `
+          )
+          .join("")}
+      </div>
+    </section>
+  `
+  : "";
     container.innerHTML = `
       <div class="ship-hero">
-        <div class="ship-hero-image" style="background: linear-gradient(135deg, ${ship.imageColor} 0%, ${ship.imageColor}88 100%);">
-          ${icon}
-        </div>
+        <div class="ship-hero-image">
+  ${
+    ship.imageDetail
+      ? `<img src="${HND.getAssetPath(ship.imageDetail)}" alt="${Utils.escapeHtml(ship.name)}">`
+      : ship.image
+        ? `<img src="${HND.getAssetPath(ship.image)}" alt="${Utils.escapeHtml(ship.name)}">`
+        : icon
+  }
+</div>
         <div class="ship-hero-info">
           <div class="card-meta" style="margin-bottom: var(--space-4);">
             <span class="badge badge-nation">${Utils.escapeHtml(ship.nationName)}</span>
@@ -130,17 +180,28 @@ const ShipDetailPage = {
         <h2>Localización</h2>
         <p>${Utils.escapeHtml(locationText)}</p>
       </section>
+${gallery}
 
-      <section class="content-section">
-        <h2>Fuentes y bibliografía</h2>
-        <ul class="sources-list">${sources}</ul>
-      </section>
+${
+  sisterShips.length
+    ? `
+<section class="content-section">
+  <h2>Buques de la misma clase</h2>
 
-      <div style="margin-top: var(--space-8);">
-        <a href="buques.html" class="btn btn-outline">← Volver al catálogo</a>
-      </div>
-    `;
+  <div class="grid grid-3">
+    ${sisterShips
+      .map((s) => Utils.renderShipCard(s))
+      .join("")}
+  </div>
+</section>
+`
+    : ""
+}
+
+<div style="margin-top: var(--space-8);">
+  <a href="buques.html" class="btn btn-outline">← Volver al catálogo</a>
+</div>
+`;
   },
 };
-
 document.addEventListener("DOMContentLoaded", () => ShipDetailPage.init());

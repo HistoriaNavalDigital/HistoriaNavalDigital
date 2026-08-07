@@ -6,15 +6,16 @@ const HomePage = {
     Components.mountLayout("inicio");
 
     try {
-      const [allShips, featured, ephemerides, nations, eras] = await Promise.all([
+      const [allShips, featured, ephemerides, nations, eras, conflicts] = await Promise.all([
         DataLoader.getShips(),
         DataLoader.getFeaturedShips(),
         DataLoader.getEphemerides(),
         DataLoader.getNations(),
         DataLoader.getEras(),
+        DataLoader.getConflicts(),
       ]);
 
-      this.renderStats(allShips, nations, eras);
+      this.renderStats(allShips, nations, eras, conflicts);;
       this.renderFeaturedShips(featured);
       this.renderEphemerides(ephemerides);
     } catch (err) {
@@ -22,7 +23,7 @@ const HomePage = {
     }
   },
 
-  renderStats(allShips, nations, eras) {
+  renderStats(allShips, nations, eras, conflicts) {
     const statsEl = document.getElementById("stats-bar");
     if (!statsEl) return;
 
@@ -40,8 +41,8 @@ const HomePage = {
         <div class="stat-label">Eras históricas</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">1</div>
-        <div class="stat-label">Conflicto principal</div>
+        <div class="stat-number">${conflicts.length}</div>
+        <div class="stat-label">Conflictos</div>
       </div>
     `;
   },
