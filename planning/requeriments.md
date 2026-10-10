@@ -1,0 +1,2 @@
+# Requisitos
+HTML/CSS/JS estático, sin backend. Contenido mediante JSON válido e identificadores únicos. Referencias visibles, imágenes con procedencia, navegación accesible, filtros recuperables y estados de carga/error. Favoritos locales y comparación de 2–3 buques. Mapa externo de escenarios, con etiquetas de aproximación. Pruebas automáticas de datos, enlaces internos y comportamiento. Conservar la paleta azul/dorada y los registros existentes.

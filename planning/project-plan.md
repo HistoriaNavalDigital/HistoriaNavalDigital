@@ -1,5 +1,8 @@
 # HistoriaNavalDigital
 
+## Estado actual · versión 0.2
+Catálogo, comparador, favoritos locales, galería ampliable, páginas de acontecimientos, mapa de escenarios, referencias visibles y validación automática. El soporte multilingüe, cuentas y coordenadas verificadas de pecios siguen previstos para futuras versiones.
+
 ## 1. Descripción del proyecto
 Plataforma digital dedicada a la recopilación, organización y divulgación de la historia naval mediante información de buques, conflictos, naciones y evolución tecnológica.
 ## 2. Objetivo general

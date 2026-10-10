@@ -13,6 +13,7 @@ const ErasPage = {
       ]);
     }
 
+    Features.loading(document.getElementById("eras-grid"));
     try {
       const [eras, conflicts, ships] = await Promise.all([
         DataLoader.getEras(),
@@ -23,7 +24,7 @@ const ErasPage = {
       this.renderEras(eras, ships);
       this.renderConflicts(conflicts, ships);
     } catch (err) {
-      console.error("Error cargando eras:", err);
+      Features.error(document.getElementById("eras-grid"));
     }
   },
 
@@ -46,7 +47,7 @@ const ErasPage = {
           <div class="info-card">
            <div class="era-card-image">
   <img
-    src="${HND.getAssetPath(era.image)}"
+    src="${HND.getAssetPath(era.image)}" loading="lazy" decoding="async" data-image
     alt="${Utils.escapeHtml(era.name)}"
   >
 </div>
@@ -54,6 +55,7 @@ const ErasPage = {
             <p><strong>${Utils.escapeHtml(era.period)}</strong></p>
             <p>${Utils.escapeHtml(era.description)}</p>
             <p style="font-size: var(--text-sm);"><strong>${eraShips.length}</strong> buque(s) en el registro</p>
+            ${!eraShips.length?'<p class="pending-note">Esta era está pendiente de incorporar buques documentados.</p>':""}
             ${shipLinks ? `<p style="margin-top: var(--space-3);">${shipLinks}</p>` : ""}
             <a href="buques.html?era=${era.id}" class="btn btn-outline" style="margin-top: var(--space-4);">Ver buques</a>
           </div>
@@ -72,12 +74,13 @@ const ErasPage = {
 
         return `
           <div class="info-card">
-            <div class="info-card-icon">⚔️</div>
+            <div class="info-card-icon"><img src="assets/images/icons/eras.svg" width="40" height="40" alt=""></div>
             <h3>${Utils.escapeHtml(conflict.name)}</h3>
             <p><strong>${Utils.escapeHtml(conflict.period)}</strong> · Teatros: ${conflict.theaters.map(Utils.escapeHtml).join(", ")}</p>
             <p>${Utils.escapeHtml(conflict.description)}</p>
             <p style="font-size: var(--text-sm); margin-top: var(--space-3);"><strong>Batallas clave:</strong> ${conflict.keyBattles.map(Utils.escapeHtml).join(", ")}</p>
             <p style="font-size: var(--text-sm);"><strong>${conflictShips.length}</strong> buque(s) registrado(s)</p>
+            <a href="batallas.html?conflicto=${conflict.id}" class="btn btn-outline">Explorar batallas →</a>
           </div>
         `;
       })

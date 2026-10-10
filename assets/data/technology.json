@@ -15,7 +15,12 @@
         "period": "1930–1945",
         "detail": "Sistema estándar en submarinos alemanes U-boat, combinando motores diésel en superficie y eléctricos sumergidos."
       }
-    ]
+    ],
+    "shipIds": [
+      "bismarck",
+      "tirpitz"
+    ],
+    "diagramAlt": "Esquema conceptual, no plano técnico: Caldera → turbina → eje → hélice"
   },
   {
     "id": "armamento",
@@ -33,7 +38,12 @@
         "period": "1940–1945",
         "detail": "Sistemas Bofors de 40 mm y cañones Oerlikon de 20 mm se volvieron esenciales contra aviación enemiga."
       }
-    ]
+    ],
+    "shipIds": [
+      "bismarck",
+      "yamato"
+    ],
+    "diagramAlt": "Esquema conceptual, no plano técnico: Artillería principal y defensa antiaérea"
   },
   {
     "id": "blindaje",
@@ -51,7 +61,11 @@
         "period": "1900–1945",
         "detail": "División del casco en compartimentos estancos para limitar inundaciones tras impactos de torpedos o proyectiles."
       }
-    ]
+    ],
+    "shipIds": [
+      "bismarck"
+    ],
+    "diagramAlt": "Esquema conceptual, no plano técnico: Protección de espacios vitales"
   },
   {
     "id": "aviacion-naval",
@@ -69,6 +83,10 @@
         "period": "1941–1945",
         "detail": "Coordinación entre aviación embarcada, superficie y submarinos en campañas del Pacífico."
       }
-    ]
+    ],
+    "shipIds": [
+      "uss-enterprise"
+    ],
+    "diagramAlt": "Esquema conceptual, no plano técnico: Ciclo operativo de aviación embarcada"
   }
 ]

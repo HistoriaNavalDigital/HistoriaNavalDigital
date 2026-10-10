@@ -13,11 +13,12 @@ const TechnologyPage = {
       ]);
     }
 
+    Features.loading(document.getElementById("technology-sections"));
     try {
       const tech = await DataLoader.getTechnology();
       this.renderTechnology(tech);
     } catch (err) {
-      console.error("Error cargando tecnología:", err);
+      Features.error(document.getElementById("technology-sections"));
     }
   },
 
@@ -29,15 +30,17 @@ const TechnologyPage = {
       .map(
         (item, index) => `
         <div class="tech-section">
-          <div class="tech-header" role="button" tabindex="0" aria-expanded="${index === 0}" data-tech-id="${item.id}">
+          <div class="tech-header" role="button" tabindex="0" aria-expanded="${index === 0}" aria-controls="tech-${item.id}" data-tech-id="${item.id}">
             <div>
               <div class="tech-category">${Utils.escapeHtml(item.category)}</div>
               <h3>${Utils.escapeHtml(item.name)}</h3>
             </div>
             <span aria-hidden="true">${index === 0 ? "▼" : "▶"}</span>
           </div>
-          <div class="tech-body" style="display: ${index === 0 ? "block" : "none"};">
+          <div id="tech-${item.id}" class="tech-body" style="display: ${index === 0 ? "block" : "none"};">
             <p style="margin-bottom: var(--space-4);">${Utils.escapeHtml(item.description)}</p>
+            <img class="diagram" src="assets/images/diagrams/${item.id}.svg" alt="${Utils.escapeHtml(item.diagramAlt || item.name)}" loading="lazy">
+            <p>${(item.shipIds||[]).map(id=>`<a href="buque.html?id=${id}">Ver ejemplo: ${Utils.escapeHtml(id.replaceAll("-"," "))} →</a>`).join(" · ")}</p>
             ${item.topics
               .map(
                 (topic) => `

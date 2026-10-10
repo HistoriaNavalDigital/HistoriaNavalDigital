@@ -1,62 +1,111 @@
 [
   {
-  "id": "img-bismarck-01",
-  "title": "Bismarck en alta mar",
-  "type": "fotografia",
-  "shipId": "bismarck",
-  "era": "era-acero",
-  "image": "assets/images/multimedia/bismarck_01.jpg",
-  "description": "Fotografía histórica del acorazado alemán Bismarck durante operaciones en el Atlántico Norte.",
-  "year": "1941"
-},
+    "id": "img-bismarck-01",
+    "title": "Bismarck en alta mar",
+    "type": "fotografia",
+    "shipId": "bismarck",
+    "era": "era-acero",
+    "image": "assets/images/multimedia/bismarck_01.jpg",
+    "description": "Fotografía histórica del acorazado alemán Bismarck durante operaciones en el Atlántico Norte.",
+    "year": "1941",
+    "credit": {
+      "author": "Autor pendiente de identificar",
+      "license": "Procedencia y licencia pendientes de verificar"
+    }
+  },
   {
     "id": "img-yamato-01",
-    "title": "Yamato en pruebas de mar",
+    "title": "Yamato en pruebas de mar, 1941",
     "type": "fotografia",
     "shipId": "yamato",
     "era": "era-acero",
-    "image": "assets/images/multimedia/yamato-01.jpg",
-    "description": "El acorazado superpesado Yamato, el buque de guerra más grande jamás construido.",
-    "year": "1941"
+    "image": "assets/images/ships/yamato.jpg",
+    "description": "El Yamato durante sus pruebas de mar en Japón, en 1941.",
+    "year": "1941",
+    "credit": {
+      "author": "Hasuya Hirohata",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Japanese_battleship_Yamato_running_trials_off_Bungo_Strait,_20_October_1941.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Japanese_battleship_Yamato_running_trials_off_Bungo_Strait%2C_20_October_1941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
   },
   {
     "id": "img-enterprise-01",
-    "title": "USS Enterprise (CV-6)",
+    "title": "USS Enterprise en Puget Sound, 1945",
     "type": "fotografia",
     "shipId": "uss-enterprise",
     "era": "era-acero",
-    "image": "assets/images/multimedia/enterprise-01.jpg",
-    "description": "El portaviones más condecorado de la US Navy durante la Segunda Guerra Mundial.",
-    "year": "1942"
+    "image": "assets/images/ships/uss-enterprise.jpg",
+    "description": "Fotografía del Enterprise en Puget Sound, en septiembre de 1945.",
+    "year": "1945",
+    "credit": {
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(CV-6)_in_Puget_Sound,_September_1945.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/USS_Enterprise_%28CV-6%29_in_Puget_Sound%2C_September_1945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
   },
   {
     "id": "img-hood-01",
-    "title": "HMS Hood en Gibraltar",
+    "title": "Vista aérea del HMS Hood en Sídney, 1924",
     "type": "fotografia",
     "shipId": "hms-hood",
     "era": "era-acero",
-    "image": "assets/images/multimedia/hood-01.jpg",
-    "description": "El crucero de batalla HMS Hood, orgullo de la Royal Navy, antes de su hundimiento en 1941.",
-    "year": "1940"
+    "image": "assets/images/ships/hms-hood.jpg",
+    "description": "Vista aérea del Hood en Sídney durante su viaje de 1924.",
+    "year": "1924",
+    "credit": {
+      "author": "The Sun Sydney",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_H.M.S._Hood_1924_Sydney.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Aerial_view_of_H.M.S._Hood_1924_Sydney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
   },
   {
-    "id": "plan-bismarck-01",
-    "title": "Plano general del Bismarck",
-    "type": "plano",
+    "id": "img-uss-fletcher",
+    "title": "USS Fletcher frente a Nueva York, 1942",
+    "description": "El Fletcher frente a Nueva York en 1942.",
+    "image": "assets/images/ships/uss-fletcher.jpg",
+    "credit": {
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Fletcher_(DD-445)_off_New_York,_1942.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6a/USS_Fletcher_%28DD-445%29_off_New_York%2C_1942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "shipId": "uss-fletcher",
+    "era": "era-acero",
+    "type": "fotografia",
+    "year": "1942"
+  },
+  {
+    "id": "img-tirpitz",
+    "title": "Tirpitz durante sus pruebas, 1941",
+    "description": "Fotografía del Tirpitz durante sus pruebas de 1941.",
+    "image": "assets/images/ships/tirpitz.jpg",
+    "credit": {
+      "author": "U.S. Naval Historical Center",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Tirpitz_trials_1941_h59668.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Tirpitz_trials_1941_h59668.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "shipId": "tirpitz",
+    "era": "era-acero",
+    "type": "fotografia",
+    "year": "1941"
+  },
+  {
+    "id": "diagram-bismarck",
+    "title": "Artillería principal del Bismarck: esquema conceptual",
+    "type": "ilustracion",
     "shipId": "bismarck",
     "era": "era-acero",
-    "image": "assets/images/multimedia/bismarck-plan-01.jpg",
-    "description": "Plano técnico mostrando la disposición de torretas y superestructura del acorazado.",
-    "year": "1940"
-  },
-  {
-    "id": "map-atlantico-01",
-    "title": "Rutas en el Atlántico Norte",
-    "type": "mapa",
-    "shipId": null,
-    "era": "era-acero",
-    "image": "assets/images/multimedia/atlantic-map-01.jpg",
-    "description": "Mapa esquemático de las rutas de convoyes y operaciones navales en el Atlántico durante 1941–1942.",
-    "year": "1941"
+    "image": "assets/images/diagrams/bismarck-layout.svg",
+    "description": "Cuatro torretas de dos cañones. Esquema de elaboración propia, sin escala; no es un plano técnico histórico.",
+    "year": "",
+    "credit": {
+      "author": "Historia Naval Digital",
+      "license": "Elaboración propia",
+      "source": "https://www.kbismarck.com/genedata.html"
+    }
   }
 ]

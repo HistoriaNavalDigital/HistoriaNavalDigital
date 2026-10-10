@@ -10,14 +10,20 @@ const Utils = {
 
   formatDate(dateStr) {
     if (!dateStr) return "—";
-    const date = new Date(dateStr);
+    if (/^\d{4}-\d{4}$/.test(dateStr)) return dateStr.replace('-', '–');
+    if (/^\d{4}$/.test(dateStr)) return dateStr;
+    const partial = /^\d{4}-\d{2}$/.test(dateStr);
+    const date = new Date((partial ? dateStr + '-01' : dateStr) + 'T12:00:00Z');
     if (isNaN(date.getTime())) return dateStr;
     return date.toLocaleDateString("es-ES", {
       year: "numeric",
       month: "long",
-      day: "numeric",
+      day: partial ? undefined : "numeric",
+      timeZone: "UTC",
     });
   },
+
+  normalize(text) { return String(text || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); },
 
   formatYear(dateStr) {
     if (!dateStr) return "—";
@@ -52,6 +58,8 @@ const Utils = {
       hundido: "badge-status--hundido",
       desguazado: "badge-status--desguazado",
       retirado: "badge-status--retirado",
+      activo: "badge-status--activo",
+      museo: "badge-status--museo",
     };
     return classes[status] || "";
   },
@@ -81,17 +89,14 @@ const Utils = {
   renderShipCard(ship) {
   const base = document.querySelector('meta[name="base-path"]')?.content || "";
   const statusClass = this.getStatusClass(ship.status);
-  const icon = this.getShipIcon(ship.type);
 
-  const imageContent = ship.image
-  ? `<img src="${base}${ship.image}" alt="${this.escapeHtml(ship.name)}">`
-  : icon;
+  const imageContent = Features.image(ship.image, ship.name);
 
   return `
     <article class="card">
       <a href="${base}buque.html?id=${ship.id}" class="card-link">
         <div class="card-image">
-         <div class="card-image-placeholder" style="background: linear-gradient(135deg, ${ship.imageColor || "#1a3a5c"} 0%, ${ship.imageColor || "#1a3a5c"}99 100%);">
+         <div class="card-image-placeholder has-photo" style="background: linear-gradient(135deg, ${ship.imageColor || "#1a3a5c"} 0%, ${ship.imageColor || "#1a3a5c"}99 100%);">
          ${imageContent}
          </div>
         </div>
@@ -105,6 +110,7 @@ const Utils = {
           <p class="card-text">${this.escapeHtml(ship.summary)}</p>
         </div>
       </a>
+      <div class="card-actions"><button class="btn btn-outline" data-favorite="${ship.id}" aria-pressed="${Features.isFavorite(ship.id)}">${Features.isFavorite(ship.id)?"♥ Guardado":"♡ Guardar"}</button><a href="${base}comparar.html?ids=${encodeURIComponent(ship.id)}">Comparar →</a></div>
     </article>
   `;
 },

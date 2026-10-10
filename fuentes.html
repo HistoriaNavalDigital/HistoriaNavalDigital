@@ -7,6 +7,12 @@
   <meta name="base-path" content="">
   <title>Fuentes y Bibliografía — HistoriaNavalDigital</title>
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fuentes y Bibliografía — HistoriaNavalDigital">
+  <meta property="og:description" content="Fuentes y bibliografía — HistoriaNavalDigital">
+  <meta property="og:image" content="https://historianavaldigital.github.io/HistoriaNavalDigital/assets/images/ships/bismarck.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
   <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
@@ -23,58 +29,7 @@
           <p>Recursos de referencia utilizados para respaldar la información presentada en la plataforma.</p>
         </header>
 
-        <section class="about-section">
-          <h2>Bibliografía general</h2>
-          <ul class="sources-list">
-            <li class="source-item">
-              <div class="source-title">Battleship Bismarck: A Comprehensive History</div>
-              <div class="source-meta">William H. Garzke Jr. & Robert Dulin Jr. · 1985 · Libro</div>
-            </li>
-            <li class="source-item">
-              <div class="source-title">Battleships: Yamato and Musashi</div>
-              <div class="source-meta">Janusz Skulski · 2004 · Libro</div>
-            </li>
-            <li class="source-item">
-              <div class="source-title">Enterprise: America's Fightingest Ship</div>
-              <div class="source-meta">Barrett Tillman · 2012 · Libro</div>
-            </li>
-            <li class="source-item">
-              <div class="source-title">HMS Hood: An Illustrated History</div>
-              <div class="source-meta">Roger Chesneau · 2002 · Libro</div>
-            </li>
-            <li class="source-item">
-              <div class="source-title">Destroyers of World War II</div>
-              <div class="source-meta">M.J. Whitley · 2000 · Libro</div>
-            </li>
-            <li class="source-item">
-              <div class="source-title">Tirpitz: The Life and Death of Germany's Last Super Battleship</div>
-              <div class="source-meta">Niklas Zetterling & Michael Tamelander · 2009 · Libro</div>
-            </li>
-          </ul>
-        </section>
-
-        <section class="about-section">
-          <h2>Archivos y documentación</h2>
-          <ul class="sources-list">
-            <li class="source-item">
-              <div class="source-title">Kriegsmarine Archives</div>
-              <div class="source-meta">Bundesarchiv · Alemania · Archivo oficial</div>
-            </li>
-            <li class="source-item">
-              <div class="source-title">Naval History and Heritage Command</div>
-              <div class="source-meta">U.S. Navy · Estados Unidos · Archivo oficial</div>
-            </li>
-            <li class="source-item">
-              <div class="source-title">Imperial War Museum Collections</div>
-              <div class="source-meta">Imperial War Museum · Reino Unido · Archivo y museo</div>
-            </li>
-          </ul>
-        </section>
-
-        <section class="about-section">
-          <h2>Metodología</h2>
-          <p>Toda la información publicada en HistoriaNavalDigital se basa en fuentes académicas, archivos oficiales y publicaciones especializadas en historia naval. Cada ficha de buque incluye referencias específicas cuando están disponibles.</p>
-        </section>
+        <section class="content-section"><h2>Documentación histórica</h2><div id="all-sources"></div></section><section class="content-section"><h2>Procedencia de imágenes</h2><p class="editor-note">Las fotografías históricas y las ilustraciones de elaboración propia se identifican por separado. Los archivos anteriores sin metadatos conservan una advertencia hasta confirmar su procedencia.</p><div id="image-sources"></div></section>
       </div>
     </div>
   </main>
@@ -83,20 +38,10 @@
 
   <script src="assets/js/config.js"></script>
   <script src="assets/js/utils.js"></script>
+  <script src="assets/js/features.js"></script>
+  <script src="assets/js/data-loader.js"></script>
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/navigation.js"></script>
   <script src="assets/js/components.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      Components.mountLayout("");
-      const breadcrumbsEl = document.getElementById("breadcrumbs");
-      if (breadcrumbsEl) {
-        breadcrumbsEl.innerHTML = Components.renderBreadcrumbs([
-          { label: "Inicio", href: "index.html" },
-          { label: "Fuentes y Bibliografía", href: "fuentes.html" },
-        ]);
-      }
-    });
-  </script>
-</body>
-</html>
+  <script src="assets/js/pages/sources.js"></script>
+</body></html>

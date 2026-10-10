@@ -20,6 +20,7 @@ const Navigation = {
       }
     });
 
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && nav.classList.contains("is-open")) { nav.classList.remove("is-open"); toggle.setAttribute("aria-expanded", "false"); toggle.focus(); } });
     nav.querySelectorAll("a").forEach((link) => {
       link.addEventListener("click", () => {
         nav.classList.remove("is-open");

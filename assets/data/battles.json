@@ -1,0 +1,143 @@
+[
+  {
+    "id": "midway",
+    "name": "Batalla de Midway",
+    "date": "1942-06-04",
+    "conflict": "segunda-guerra-mundial",
+    "region": "Pacífico central",
+    "summary": "La defensa de Midway alteró el equilibrio entre las fuerzas de portaviones estadounidenses y japonesas.",
+    "participants": "Fuerzas estadounidenses, incluidos Enterprise, Hornet y Yorktown, contra la fuerza de portaviones japonesa.",
+    "development": "La inteligencia estadounidense permitió anticipar la operación japonesa. La batalla se desarrolló mediante ataques de aviación embarcada y basada en tierra, con fuertes pérdidas en ambos bandos.",
+    "result": "Japón perdió cuatro portaviones; Estados Unidos perdió el Yorktown. La victoria frenó la ofensiva japonesa en el Pacífico.",
+    "shipIds": [
+      "uss-enterprise"
+    ],
+    "map": {
+      "lat": 28.2,
+      "lng": -177.4,
+      "span": 8
+    },
+    "sources": [
+      {
+        "title": "Battle of Midway",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/midway.html",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "guadalcanal",
+    "name": "Campaña de Guadalcanal",
+    "date": "1942-08",
+    "conflict": "segunda-guerra-mundial",
+    "region": "Islas Salomón",
+    "summary": "Una campaña terrestre, naval y aérea para disputar el control de Guadalcanal y sus aguas.",
+    "participants": "Fuerzas aliadas y japonesas; participaron numerosas unidades de superficie y aviación.",
+    "development": "Los desembarcos aliados de agosto de 1942 iniciaron una lucha prolongada por el aeródromo y las rutas de abastecimiento. Los combates navales nocturnos y aéreos fueron decisivos para sostener las posiciones en tierra.",
+    "result": "La retirada japonesa a comienzos de 1943 consolidó la posición aliada y abrió una nueva fase de la campaña de las Salomón.",
+    "shipIds": [
+      "uss-enterprise",
+      "uss-fletcher"
+    ],
+    "map": {
+      "lat": -9.5,
+      "lng": 160.2,
+      "span": 5
+    },
+    "sources": [
+      {
+        "title": "Solomons Campaign: Guadalcanal",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/guadalcanal.html",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "ten-go",
+    "name": "Operación Ten-Go",
+    "date": "1945-04-07",
+    "conflict": "segunda-guerra-mundial",
+    "region": "Mar de China Oriental, al norte de Okinawa",
+    "summary": "La última salida del Yamato terminó bajo ataques de aviación estadounidense.",
+    "participants": "Yamato y sus escoltas frente a aviones de portaviones estadounidenses.",
+    "development": "La fuerza japonesa salió hacia Okinawa con un plan de ataque de escasas posibilidades de retorno. Aviones estadounidenses localizaron la formación y la atacaron con bombas y torpedos.",
+    "result": "El Yamato, el crucero Yahagi y varios destructores fueron hundidos. La operación no alcanzó su objetivo.",
+    "shipIds": [
+      "yamato"
+    ],
+    "map": {
+      "lat": 30,
+      "lng": 128.5,
+      "span": 5
+    },
+    "sources": [
+      {
+        "title": "Death of Battleship Yamato",
+        "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-044/h-044-3.html",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "tirpitz-catechism",
+    "name": "Ataque final al Tirpitz",
+    "date": "1944-11-12",
+    "conflict": "segunda-guerra-mundial",
+    "region": "Tromsø, Noruega",
+    "summary": "Los ataques aéreos aliados culminaron en el hundimiento del Tirpitz.",
+    "participants": "El acorazado Tirpitz y bombarderos Lancaster británicos.",
+    "development": "Tras sucesivos ataques que habían reducido su capacidad operativa, el Tirpitz fue atacado cerca de Tromsø por bombarderos armados con bombas Tallboy.",
+    "result": "El buque volcó y se hundió; desapareció una importante amenaza para las operaciones aliadas en el norte.",
+    "shipIds": [
+      "tirpitz"
+    ],
+    "map": {
+      "lat": 69.6,
+      "lng": 19,
+      "span": 3
+    },
+    "sources": [
+      {
+        "title": "Tirpitz: historial de servicio",
+        "url": "https://www.kbismarck.com/tirpitz.html",
+        "author": "José M. Rico",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "estrecho-dinamarca",
+    "name": "Batalla del Estrecho de Dinamarca",
+    "date": "1941-05-24",
+    "conflict": "segunda-guerra-mundial",
+    "region": "Entre Islandia y Groenlandia",
+    "summary": "El enfrentamiento entre fuerzas británicas y alemanas terminó con la pérdida del Hood.",
+    "participants": "Hood y Prince of Wales frente a Bismarck y Prinz Eugen.",
+    "development": "Los buques británicos interceptaron la formación alemana durante su salida al Atlántico. En el intercambio de artillería, una explosión destruyó el Hood.",
+    "result": "El Hood se hundió y el Prince of Wales se retiró. El Bismarck sufrió daños que condicionaron la continuación de su operación.",
+    "shipIds": [
+      "bismarck",
+      "hms-hood"
+    ],
+    "map": {
+      "lat": 63.6,
+      "lng": -31.5,
+      "span": 7
+    },
+    "sources": [
+      {
+        "title": "Report on the Loss of H.M.S. Hood (ADM 116/4351)",
+        "author": "Admiralty / HMS Hood Association",
+        "type": "Documento de archivo",
+        "url": "https://hmshood.org.uk/reference/official/adm116/adm116-4351_to59.htm"
+      }
+    ]
+  }
+]

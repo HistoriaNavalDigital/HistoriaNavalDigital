@@ -5,16 +5,16 @@ const Theme = {
   STORAGE_KEY: "hnd-theme",
 
   init() {
-    const saved = localStorage.getItem(this.STORAGE_KEY);
+    let saved; try { saved = localStorage.getItem(this.STORAGE_KEY); } catch {}
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const theme = saved || (prefersDark ? "dark" : "light");
+    const theme = ["dark", "light"].includes(saved) ? saved : (prefersDark ? "dark" : "light");
     this.setTheme(theme);
     this.bindToggle();
   },
 
   setTheme(theme) {
     document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem(this.STORAGE_KEY, theme);
+    try { localStorage.setItem(this.STORAGE_KEY, theme); } catch {}
     this.updateToggleIcon(theme);
   },
 

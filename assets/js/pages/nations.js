@@ -13,11 +13,12 @@ const NationsPage = {
       ]);
     }
 
+    Features.loading(document.getElementById("nations-grid"));
     try {
       const [nations, ships] = await Promise.all([DataLoader.getNations(), DataLoader.getShips()]);
       this.renderNations(nations, ships);
     } catch (err) {
-      console.error("Error cargando naciones:", err);
+      Features.error(document.getElementById("nations-grid"));
     }
   },
 

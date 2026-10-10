@@ -1,6 +1,6 @@
 /* HistoriaNavalDigital — UI Components */
 
-@import "variables.css";
+/* Theme variables are loaded by main.css. */
 
 /* Cards */
 .card {

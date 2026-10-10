@@ -1,10 +1,13 @@
-# Sitemap
-
-- Inicio
-  - Barcos
-    - Acorazados
-    - Portaaviones
-    - Submarinos
-  - Batallas
-  - Países
-  - Acerca del proyecto
+# Mapa del sitio · versión 0.2
+- Inicio: index.html
+- Registro: buques.html → buque.html?id=identificador
+- Eras y conflictos: eras.html
+- Batallas: batallas.html → batalla.html?id=identificador
+- Naciones: naciones.html
+- Tecnología: tecnologia.html
+- Multimedia: multimedia.html
+- Comparador: comparar.html?ids=buque1,buque2
+- Mapa: mapa.html?id=acontecimiento
+- Favoritos: favoritos.html
+- Fuentes: fuentes.html
+- Acerca del proyecto: acerca.html

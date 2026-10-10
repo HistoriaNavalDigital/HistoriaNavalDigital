@@ -4,7 +4,7 @@
 const HND = {
   siteName: "HistoriaNavalDigital",
   siteTagline: "Historia naval al alcance de todos",
-  version: "0.1",
+  version: "0.2",
 
   navItems: [
     { id: "inicio", label: "Inicio", href: "index.html", icon: "🏠" },
@@ -23,6 +23,9 @@ const HND = {
       { label: "Tecnología", href: "tecnologia.html" },
     ],
     info: [
+      { label: "Comparar buques", href: "comparar.html" },
+      { label: "Mapa naval", href: "mapa.html" },
+      { label: "Favoritos", href: "favoritos.html" },
       { label: "Fuentes y Bibliografía", href: "fuentes.html" },
       { label: "Acerca del Proyecto", href: "acerca.html" },
     ],

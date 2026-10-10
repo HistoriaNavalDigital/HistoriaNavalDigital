@@ -7,7 +7,7 @@ const Components = {
     const navLinks = HND.navItems
       .map(
         (item) =>
-          `<li><a href="${base}${item.href}" class="${item.id === activePage ? "active" : ""}">${item.label}</a></li>`
+          `<li><a href="${base}${item.href}" class="${item.id === activePage ? "active" : ""}" ${item.id === activePage ? 'aria-current="page"' : ""}>${item.label}</a></li>`
       )
       .join("");
 
@@ -15,18 +15,18 @@ const Components = {
       <header class="site-header" role="banner">
         <div class="header-inner">
           <a href="${base}index.html" class="site-logo">
-            <span class="logo-icon" aria-hidden="true">⚓</span>
+            <img class="logo-mark" src="${base}assets/images/logo.svg" width="40" height="40" alt="">
             <span class="logo-text">
               HistoriaNavalDigital
               <span>Historia naval al alcance de todos</span>
             </span>
           </a>
-          <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+          <nav class="main-nav" id="main-navigation" role="navigation" aria-label="Navegación principal">
             <ul>${navLinks}</ul>
           </nav>
           <div class="header-actions">
             <button class="theme-toggle" aria-label="Cambiar tema">🌙</button>
-            <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+            <button class="nav-toggle" aria-label="Abrir menú" aria-controls="main-navigation" aria-expanded="false">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
               </svg>
@@ -116,6 +116,7 @@ const Components = {
     if (footerEl) footerEl.innerHTML = this.renderFooter();
 
     Theme.init();
+    Features.syncFavorites();
     Navigation.init();
   },
 };

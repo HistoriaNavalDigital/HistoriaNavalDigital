@@ -1,6 +1,6 @@
 /* HistoriaNavalDigital — Base & layout */
 
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap");
+/* System fonts keep the archive readable without external font requests. */
 @import "variables.css";
 
 *, *::before, *::after {

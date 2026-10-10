@@ -3,12 +3,18 @@
  */
 const DataLoader = {
   _cache: {},
+  _pending: {},
 
   async load(filename) {
     if (this._cache[filename]) {
       return this._cache[filename];
     }
 
+    if (this._pending[filename]) return this._pending[filename];
+    this._pending[filename] = this._fetch(filename);
+    try { return await this._pending[filename]; } finally { delete this._pending[filename]; }
+  },
+  async _fetch(filename) {
     const path = HND.getAssetPath(`assets/data/${filename}`);
     const response = await fetch(path);
 
@@ -17,6 +23,7 @@ const DataLoader = {
     }
 
     const data = await response.json();
+    if (!Array.isArray(data)) throw new Error(`Formato inválido: ${filename}`);
     this._cache[filename] = data;
     return data;
   },

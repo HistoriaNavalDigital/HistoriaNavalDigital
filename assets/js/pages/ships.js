@@ -1,113 +1,19 @@
-/**
- * HistoriaNavalDigital — Ship catalog page
- */
-const ShipsPage = {
-  allShips: [],
-  filteredShips: [],
-
-  async init() {
-    Components.mountLayout("buques");
-
-    const sidebarEl = document.getElementById("sidebar");
-    if (sidebarEl) {
-      sidebarEl.innerHTML = Components.renderSidebar(
-        "Categorías",
-        [
-          { id: "all", label: "Todos los buques", href: "buques.html" },
-          { id: "acorazado", label: "Acorazados", href: "buques.html?tipo=acorazado" },
-          { id: "portaviones", label: "Portaviones", href: "buques.html?tipo=portaviones" },
-          { id: "destructor", label: "Destructores", href: "buques.html?tipo=destructor" },
-          { id: "crucero-batalla", label: "Cruceros de batalla", href: "buques.html?tipo=crucero-batalla" },
-        ],
-        Utils.getQueryParam("tipo") || "all"
-      );
-    }
-
-    const breadcrumbsEl = document.getElementById("breadcrumbs");
-    if (breadcrumbsEl) {
-      breadcrumbsEl.innerHTML = Components.renderBreadcrumbs([
-        { label: "Inicio", href: "index.html" },
-        { label: "Registro de Buques", href: "buques.html" },
-      ]);
-    }
-
-    try {
-      this.allShips = await DataLoader.getShips();
-      this.setupFilters();
-      this.applyFilters();
-    } catch (err) {
-      console.error("Error cargando buques:", err);
-      document.getElementById("ships-grid").innerHTML =
-        '<div class="empty-state"><div class="empty-state-icon">⚠️</div><p>Error al cargar el catálogo de buques.</p></div>';
-    }
-  },
-
-  setupFilters() {
-    const searchInput = document.getElementById("search-input");
-    const nationFilter = document.getElementById("filter-nation");
-    const typeFilter = document.getElementById("filter-type");
-    const statusFilter = document.getElementById("filter-status");
-
-    const nations = [...new Set(this.allShips.map((s) => s.nation))];
-    nations.forEach((nation) => {
-      const ship = this.allShips.find((s) => s.nation === nation);
-      nationFilter.innerHTML += `<option value="${nation}">${ship.nationName}</option>`;
-    });
-
-    this.urlEra = Utils.getQueryParam("era");
-
-    const urlType = Utils.getQueryParam("tipo");
-    const urlNation = Utils.getQueryParam("nacion");
-    if (urlType) typeFilter.value = urlType;
-    if (urlNation) nationFilter.value = urlNation;
-
-    const debouncedSearch = Utils.debounce(() => this.applyFilters(), 250);
-
-    searchInput.addEventListener("input", debouncedSearch);
-    nationFilter.addEventListener("change", () => this.applyFilters());
-    typeFilter.addEventListener("change", () => this.applyFilters());
-    statusFilter.addEventListener("change", () => this.applyFilters());
-  },
-
-  applyFilters() {
-    const query = document.getElementById("search-input").value.toLowerCase().trim();
-    const nation = document.getElementById("filter-nation").value;
-    const type = document.getElementById("filter-type").value;
-    const status = document.getElementById("filter-status").value;
-
-    this.filteredShips = this.allShips.filter((ship) => {
-      const matchesQuery =
-        !query ||
-        ship.name.toLowerCase().includes(query) ||
-        ship.summary.toLowerCase().includes(query) ||
-        ship.nationName.toLowerCase().includes(query) ||
-        ship.tags.some((t) => t.toLowerCase().includes(query));
-
-      const matchesNation = !nation || ship.nation === nation;
-      const matchesType = !type || ship.type === type;
-      const matchesStatus = !status || ship.status === status;
-      const matchesEra = !this.urlEra || ship.era === this.urlEra;
-
-      return matchesQuery && matchesNation && matchesType && matchesStatus && matchesEra;
-    });
-
-    this.renderShips();
-  },
-
-  renderShips() {
-    const grid = document.getElementById("ships-grid");
-    const countEl = document.getElementById("results-count");
-
-    countEl.textContent = `${this.filteredShips.length} buque${this.filteredShips.length !== 1 ? "s" : ""} encontrado${this.filteredShips.length !== 1 ? "s" : ""}`;
-
-    if (this.filteredShips.length === 0) {
-      grid.innerHTML =
-        '<div class="empty-state"><div class="empty-state-icon">🔍</div><p>No se encontraron buques con los filtros seleccionados.</p></div>';
-      return;
-    }
-
-    grid.innerHTML = this.filteredShips.map((ship) => Utils.renderShipCard(ship)).join("");
-  },
-};
-
-document.addEventListener("DOMContentLoaded", () => ShipsPage.init());
+const ShipsPage={
+ async init(){Components.mountLayout('buques');Features.loading(document.getElementById('ships-grid'));document.getElementById('breadcrumbs').innerHTML=Components.renderBreadcrumbs([{label:'Inicio',href:'index.html'},{label:'Registro de Buques'}]);
+ try{const [ships,eras]=await Promise.all([DataLoader.getShips(),DataLoader.getEras()]);this.ships=ships;this.eras=eras;this.setup();this.render();}catch(e){Features.error(document.getElementById('ships-grid'),'No se pudo cargar el catálogo.');}},
+ setup(){const params=new URLSearchParams(location.search);const saved=Features.read('hnd-catalog','');if(!location.search&&typeof saved==='string'&&saved){history.replaceState(null,'',`?${saved}`);}
+ const current=new URLSearchParams(location.search);const opt=(value,label)=>`<option value="${Utils.escapeHtml(value)}">${Utils.escapeHtml(label)}</option>`;
+ document.getElementById('filter-nation').innerHTML=opt('','Todas las naciones')+[...new Map(this.ships.map(s=>[s.nation,s.nationName]))].map(([v,l])=>opt(v,l)).join('');
+ document.getElementById('filter-type').innerHTML=opt('','Todas las tipologías')+Object.entries(HND.shipTypes).map(([v,l])=>opt(v,l)).join('');document.getElementById('filter-status').innerHTML=opt('','Todos los estados')+Object.entries(HND.shipStatuses).map(([v,l])=>opt(v,l)).join('');document.getElementById('filter-era').innerHTML=opt('','Todas las eras')+this.eras.map(e=>opt(e.id,e.name)).join('');
+ this.fields={'q':'search-input','nacion':'filter-nation','tipo':'filter-type','estado':'filter-status','era':'filter-era','orden':'sort-ships'};
+ for(const [key,id]of Object.entries(this.fields)){const el=document.getElementById(id);el.value=current.get(key)|| (key==='orden'?'nombre':'');if(el.tagName==='SELECT'&&el.selectedIndex<0)el.selectedIndex=0;el.addEventListener(key==='q'?'input':'change',key==='q'?Utils.debounce(()=>this.update(),200):()=>this.update());}
+ document.getElementById('favorites-only').checked=current.get('favoritos')==='1';document.getElementById('favorites-only').onchange=()=>this.update();document.getElementById('clear-filters').onclick=()=>{for(const [key,id]of Object.entries(this.fields))document.getElementById(id).value=key==='orden'?'nombre':'';document.getElementById('favorites-only').checked=false;this.update();};
+ document.addEventListener('favorites-changed',()=>this.render());window.addEventListener('popstate',()=>{for(const [key,id]of Object.entries(this.fields))document.getElementById(id).value=new URLSearchParams(location.search).get(key)||(key==='orden'?'nombre':'');document.getElementById('favorites-only').checked=new URLSearchParams(location.search).get('favoritos')==='1';this.render();});
+ document.getElementById('sidebar').innerHTML=Components.renderSidebar('Categorías',[{id:'all',label:'Todos los buques',href:'buques.html?orden=nombre'},...Object.entries(HND.shipTypes).map(([id,label])=>({id,label,href:`buques.html?tipo=${id}`}))],current.get('tipo')||'all');},
+ update(){const p=new URLSearchParams();for(const [key,id]of Object.entries(this.fields)){const v=document.getElementById(id).value;if(v&&!(key==='orden'&&v==='nombre'))p.set(key,v);}if(document.getElementById('favorites-only').checked)p.set('favoritos','1');history.replaceState(null,'',location.pathname+(p.size?'?'+p:'')+(location.hash||''));Features.write('hnd-catalog',p.toString());this.render();},
+ render(){const value=id=>document.getElementById(id).value,q=Utils.normalize(value('search-input'));const nation=value('filter-nation'),type=value('filter-type'),status=value('filter-status'),era=value('filter-era'),only=document.getElementById('favorites-only').checked;
+ const ships=this.ships.filter(s=>(!q||Utils.normalize([s.name,s.nationName,s.summary,s.className,...s.tags].join(' ')).includes(q))&&(!nation||s.nation===nation)&&(!type||s.type===type)&&(!status||s.status===status)&&(!era||s.era===era)&&(!only||Features.isFavorite(s.id)));
+ const order=value('sort-ships');ships.sort((a,b)=>order==='fecha'?a.commissioned.localeCompare(b.commissioned):order==='fecha-desc'?b.commissioned.localeCompare(a.commissioned):a.name.localeCompare(b.name,'es'));
+ document.getElementById('results-count').textContent=`${ships.length} buque${ships.length===1?'':'s'} encontrado${ships.length===1?'':'s'}`;document.getElementById('ships-grid').innerHTML=ships.length?ships.map(s=>Utils.renderShipCard(s)).join(''):'<div class="empty-state"><p>No hay buques con estos filtros.</p><button class="btn btn-outline" id="reset-empty">Limpiar filtros</button></div>';document.getElementById('reset-empty')?.addEventListener('click',()=>document.getElementById('clear-filters').click());
+ const labels=[nation&&this.ships.find(s=>s.nation===nation)?.nationName,type&&HND.shipTypes[type],status&&HND.shipStatuses[status],era&&this.eras.find(e=>e.id===era)?.name,only&&'Favoritos'];document.getElementById('filter-indicators').innerHTML=labels.filter(Boolean).map(x=>`<span class="filter-pill">${Utils.escapeHtml(x)}</span>`).join('');document.querySelectorAll('.sidebar-nav a').forEach(a=>a.classList.toggle('active',(new URL(a.getAttribute("href"),location.href).searchParams.get('tipo')||'')===type));Features.syncFavorites();}
+};document.addEventListener('DOMContentLoaded',()=>ShipsPage.init());

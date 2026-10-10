@@ -1,0 +1,11 @@
+{
+  "name": "historia-naval-digital",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/functional.cjs"
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.12"
+  }
+}

@@ -1,3 +1,4 @@
 /* HistoriaNavalDigital — Main stylesheet entry point */
 @import "main.css";
 @import "components.css";
+@import "upgrade.css";

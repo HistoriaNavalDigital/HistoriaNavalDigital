@@ -5,6 +5,7 @@ const HomePage = {
   async init() {
     Components.mountLayout("inicio");
 
+    Features.loading(document.getElementById("featured-ships"));
     try {
       const [allShips, featured, ephemerides, nations, eras, conflicts] = await Promise.all([
         DataLoader.getShips(),
@@ -15,11 +16,11 @@ const HomePage = {
         DataLoader.getConflicts(),
       ]);
 
-      this.renderStats(allShips, nations, eras, conflicts);;
+      this.renderStats(allShips, nations, eras, conflicts);
       this.renderFeaturedShips(featured);
       this.renderEphemerides(ephemerides);
     } catch (err) {
-      console.error("Error cargando datos de inicio:", err);
+      Features.error(document.getElementById("featured-ships"), "No se pudo cargar la portada.");
     }
   },
 
@@ -58,7 +59,11 @@ const HomePage = {
     const container = document.getElementById("ephemerides");
     if (!container) return;
 
-    container.innerHTML = items
+    const today=new Date();const month=String(today.getMonth()+1).padStart(2,'0'),day=String(today.getDate()).padStart(2,'0');
+    const daily=items.filter(i=>i.date.slice(5)===`${month}-${day}`),monthly=items.filter(i=>i.date.slice(5,7)===month);
+    const chosen=daily.length?daily:monthly.length?monthly:[];
+    if(!chosen.length){container.innerHTML='<li class="ephemeris-item"><p>No hay efemérides registradas para este mes. <a href="batallas.html">Explorar los acontecimientos navales →</a></p></li>';return;}
+    container.innerHTML = chosen
       .map(
         (item) => `
         <li class="ephemeris-item">
