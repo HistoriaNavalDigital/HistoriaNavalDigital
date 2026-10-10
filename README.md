@@ -16,7 +16,7 @@ Guarda o confirma tus cambios locales antes de ejecutar `git pull origin main`. 
 - Fichas con historial, referencias, clase, conflictos e índice de secciones.
 - Fotografías con procedencia, visor con zoom y navegación mediante flechas.
 - Comparación de dos o tres buques y favoritos locales sin cuenta.
-- Páginas de batallas y mapa de escenarios aproximados mediante OpenStreetMap.
+- Páginas de batallas y mapa de escenarios, pecios y buques museo con marcadores aproximados mediante OpenStreetMap.
 - Efemérides del día o del mes; avisos de carga, errores y reintentos.
 - Modo oscuro, controles por teclado y diseño adaptable.
 

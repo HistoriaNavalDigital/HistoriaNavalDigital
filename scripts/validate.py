@@ -40,6 +40,9 @@ for m in data.get('multimedia', []):
     check(m.get('shipId') is None or m['shipId'] in ship_ids, f'{m["id"]}: buque desconocido')
     check(m.get('era') in era_ids, f'{m["id"]}: era desconocida')
     check(bool(m.get('credit')),f'{m["id"]}: falta procedencia de imagen')
+for place in data.get('places', []):
+    check(bool(place.get('sources')), f'{place["id"]}: falta fuente de localización')
+    check(-90 <= place['map']['lat'] <= 90 and -180 <= place['map']['lng'] <= 180, f'{place["id"]}: coordenadas inválidas')
 for b in data.get('battles', []):
     check(b['conflict'] in conflict_ids, f'{b["id"]}: conflicto desconocido')
     check(all(s in ship_ids for s in b['shipIds']), f'{b["id"]}: buque desconocido')

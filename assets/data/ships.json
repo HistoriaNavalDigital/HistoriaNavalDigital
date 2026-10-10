@@ -289,9 +289,9 @@
       }
     ],
     "location": {
-      "lat": 63.63,
-      "lng": -31.5,
-      "description": "Pecio en el Estrecho de Dinamarca, entre Groenlandia e Islandia."
+      "lat": 63.3667,
+      "lng": -32.2833,
+      "description": "Pecio en el Atlántico Norte. La zona publicada es aproximadamente 63°22′ N, 32°17′ O; la posición exacta no se divulga."
     },
     "tags": [
       "Royal Navy",
@@ -306,6 +306,12 @@
         "type": "Documento web",
         "url": "https://www.hmshood.org.uk/ship/index.htm",
         "accessed": "2026-10-10"
+      },
+      {
+        "title": "Hood Wreck Site",
+        "author": "HMS Hood Association",
+        "type": "Archivo del proyecto de exploración",
+        "url": "https://hmshood.org.uk/hoodtoday/2001expedition/hood/encrypt.htm"
       }
     ],
     "imageColor": "#3d3d52",

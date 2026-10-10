@@ -1,0 +1,63 @@
+[
+  {
+    "id": "pecio-hood",
+    "name": "Pecio del HMS Hood · zona aproximada",
+    "region": "Atlántico Norte",
+    "summary": "La asociación del Hood publica una zona aproximada próxima a 63°22′ N, 32°17′ O. La posición exacta del pecio no es pública.",
+    "map": {
+      "lat": 63.3667,
+      "lng": -32.2833,
+      "span": 3
+    },
+    "shipId": "hms-hood",
+    "kind": "Pecio",
+    "sources": [
+      {
+        "title": "Hood Wreck Site",
+        "author": "HMS Hood Association",
+        "type": "Archivo del proyecto de exploración",
+        "url": "https://hmshood.org.uk/hoodtoday/2001expedition/hood/encrypt.htm"
+      }
+    ]
+  },
+  {
+    "id": "museo-belfast",
+    "name": "HMS Belfast · Londres",
+    "region": "Queen’s Walk, Londres",
+    "summary": "Buque museo de Imperial War Museums, situado en el río Támesis junto a Queen’s Walk. El marcador representa su entorno aproximado; consulta las indicaciones oficiales para la visita.",
+    "map": {
+      "lat": 51.5066,
+      "lng": -0.0813,
+      "span": 0.02
+    },
+    "kind": "Buque museo",
+    "sources": [
+      {
+        "title": "HMS Belfast: cómo llegar",
+        "author": "Imperial War Museums",
+        "type": "Museo oficial",
+        "url": "https://www.iwm.org.uk/visits/hms-belfast/getting-here"
+      }
+    ]
+  },
+  {
+    "id": "museo-victory",
+    "name": "HMS Victory · Portsmouth",
+    "region": "Portsmouth Historic Dockyard",
+    "summary": "El Victory forma parte del Portsmouth Historic Dockyard. El marcador identifica el entorno aproximado del astillero, no una entrada o ruta de acceso. Consulta la información oficial de conservación y visita.",
+    "map": {
+      "lat": 50.8007,
+      "lng": -1.1091,
+      "span": 0.03
+    },
+    "kind": "Buque histórico",
+    "sources": [
+      {
+        "title": "HMS Victory",
+        "author": "Portsmouth Historic Dockyard",
+        "type": "Museo oficial",
+        "url": "https://historicdockyard.co.uk/attractions/hms-victory/"
+      }
+    ]
+  }
+]

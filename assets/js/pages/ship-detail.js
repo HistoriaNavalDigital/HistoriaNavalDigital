@@ -136,7 +136,7 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
 
       <section class="content-section" id="ubicacion">
         <h2>Localización</h2>
-        <p>${Utils.escapeHtml(locationText)}</p>
+        <p>${Utils.escapeHtml(locationText)}</p>${ship.id==='hms-hood'?'<a class="btn btn-outline" href="mapa.html?id=pecio-hood">Ver zona aproximada del pecio</a>':""}
       </section>
 ${gallery}
 <section class="content-section" id="fuentes"><h2>Fuentes y documentación</h2>${Features.sources(ship.sources)}<p class="editor-note">${Utils.escapeHtml(ship.reviewNote||"Revisión documental parcial. Consulta las referencias y la fecha de configuración de cada dato técnico.")}</p></section>
