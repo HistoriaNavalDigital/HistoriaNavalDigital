@@ -44,7 +44,12 @@ const ErasPage = {
 
         return `
           <div class="info-card">
-            <div class="info-card-icon">🕰️</div>
+           <div class="era-card-image">
+  <img
+    src="${HND.getAssetPath(era.image)}"
+    alt="${Utils.escapeHtml(era.name)}"
+  >
+</div>
             <h3>${Utils.escapeHtml(era.name)}</h3>
             <p><strong>${Utils.escapeHtml(era.period)}</strong></p>
             <p>${Utils.escapeHtml(era.description)}</p>
