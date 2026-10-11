@@ -13,7 +13,7 @@ const Archive = {
     const events=battles.filter(b=>b.shipIds.includes(ship.id));
     const tech=technology.filter(t=>(t.shipIds||[]).includes(ship.id));
     const routes=collections.filter(c=>c.shipIds.includes(ship.id));
-    return `<section class="content-section" id="conexiones"><h2>Continúa explorando</h2>${events.length?`<h3>Su contexto operativo</h3><div class="battle-grid">${this.battleCards(events)}</div>`:''}<h3>Comprender su tecnología</h3><div class="related-links">${tech.map(t=>`<a href="${HND.getAssetPath('tecnologia.html')}#tech-${t.id}">${this.escape(t.name)} →</a>`).join('')}<a href="${HND.getAssetPath('glosario.html')}">Glosario naval →</a></div>${routes.length?`<h3>Recorridos relacionados</h3><div class="collection-grid">${routes.map(c=>this.collectionCard(c)).join('')}</div>`:''}</section>`;
+    return `<section class="content-section" id="conexiones"><h2>Contenidos relacionados</h2>${events.length?`<h3>Su contexto operativo</h3><div class="battle-grid">${this.battleCards(events)}</div>`:''}<h3>Sistemas tecnológicos relacionados</h3><div class="related-links">${tech.map(t=>`<a href="${HND.getAssetPath('tecnologia.html')}#tech-${t.id}">${this.escape(t.name)} →</a>`).join('')}<a href="${HND.getAssetPath('glosario.html')}">Glosario naval →</a></div>${routes.length?`<h3>Recorridos relacionados</h3><div class="collection-grid">${routes.map(c=>this.collectionCard(c)).join('')}</div>`:''}</section>`;
   }
 };
 window.Archive=Archive;

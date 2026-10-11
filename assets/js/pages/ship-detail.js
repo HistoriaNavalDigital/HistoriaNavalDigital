@@ -116,7 +116,7 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
       </div>
 
       <section class="content-section" id="descripcion">
-        <h2>Historia del buque</h2><aside class="importance-note"><h3>Por qué fue importante</h3><p>${Utils.escapeHtml(ship.importance)}</p></aside><div class="reading-body">${(ship.historySections||[{title:'Descripción',text:ship.description}]).map(s=>`<section><h3>${Utils.escapeHtml(s.title)}</h3><p>${Utils.escapeHtml(s.text)}</p>${s.sourceUrl?`<a class="section-source" href="${Utils.escapeHtml(s.sourceUrl)}" target="_blank" rel="noopener noreferrer">Referencia de este apartado ↗</a>`:''}</section>`).join('')}</div>
+        <h2>Historia del buque</h2><aside class="importance-note"><h3>Relevancia histórica</h3><p>${Utils.escapeHtml(ship.importance)}</p></aside><div class="reading-body">${(ship.historySections||[{title:'Descripción',text:ship.description}]).map(s=>`<section><h3>${Utils.escapeHtml(s.title)}</h3><p>${Utils.escapeHtml(s.text)}</p>${s.sourceUrl?`<a class="section-source" href="${Utils.escapeHtml(s.sourceUrl)}" target="_blank" rel="noopener noreferrer">Referencia de este apartado ↗</a>`:''}</section>`).join('')}</div>
       </section>
 
       <section class="content-section" id="especificaciones">

@@ -61,3 +61,6 @@ Los contenidos se mantienen en `assets/data`. Ejecutar `python scripts/generate-
 Las clases muestran las unidades disponibles, no un inventario completo. Los datos técnicos heredados mantienen revisión parcial y deben comprobarse por configuración; una actualización editorial no equivale a verificación total. No hay modelos 3D, planos históricos nuevos ni reconstrucciones tácticas animadas. Las imágenes conceptuales no son planos a escala.
 
 Verificación: pruebas funcionales de DOM y comprobaciones de archivos y relaciones. La revisión visual en navegador no está disponible en este entorno. GitHub Pages requiere estar habilitado para servir el sitio.
+
+## Redacción técnica y estilo formal
+La sección de tecnología desarrolla ocho capítulos con 32 apartados y 64 párrafos de exposición continua. Los encabezados describen conceptos, arquitectura, funciones y limitaciones; se eliminan las formulaciones interrogativas del texto informativo. Las fuentes se muestran al final de cada capítulo. La búsqueda general indexa también el contenido de estos apartados.

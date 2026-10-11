@@ -4,18 +4,6 @@
     "name": "Propulsión Naval",
     "category": "Ingeniería",
     "description": "Evolución desde la vela hasta las turbinas de vapor, motores diésel y propulsión nuclear.",
-    "topics": [
-      {
-        "title": "Turbinas de vapor",
-        "period": "1900–1945",
-        "detail": "El vapor generado en las calderas hace girar turbinas que transmiten movimiento a las hélices. Potencia, consumo y velocidad deben estudiarse juntos."
-      },
-      {
-        "title": "Propulsión diésel-eléctrica",
-        "period": "1930–1945",
-        "detail": "Sistema estándar en submarinos alemanes U-boat, combinando motores diésel en superficie y eléctricos sumergidos."
-      }
-    ],
     "shipIds": [
       "bismarck",
       "tirpitz"
@@ -23,30 +11,62 @@
     "diagramAlt": "Esquema conceptual, no plano técnico: Caldera → turbina → eje → hélice",
     "sources": [
       {
-        "title": "Documentación para Propulsión Naval",
-        "url": "https://www.kbismarck.com/technical.html",
-        "type": "Documento web",
-        "accessed": "2026-10-10"
+        "title": "Propulsión y maquinaria del Hood",
+        "url": "https://www.hmshood.org.uk/ship/hoodspecs3.htm",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "HMS Hood Association"
+      },
+      {
+        "title": "Planta propulsora del Bismarck",
+        "url": "https://es.kbismarck.com/propulsion.html",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "José M. Rico / KBismarck"
       }
-    ]
+    ],
+    "sections": [
+      {
+        "id": "propulsion-1",
+        "title": "Conversión de energía y transmisión de potencia",
+        "paragraphs": [
+          "La planta propulsora transforma la energía disponible a bordo en trabajo mecánico y, finalmente, en empuje. En una instalación de vapor, la combustión suministra calor a las calderas; el vapor se expande en las turbinas y produce el giro que llega a los ejes y las hélices. Esta cadena debe distinguirse de la generación eléctrica destinada a otros servicios del buque.",
+          "La potencia instalada expresa una capacidad mecánica, pero no determina por sí sola la velocidad. La resistencia del casco, el desplazamiento, el estado del mar y el rendimiento de la hélice intervienen en las prestaciones. Por ello, las comparaciones deben indicar si la velocidad corresponde a pruebas, servicio habitual o una estimación de diseño."
+        ]
+      },
+      {
+        "id": "propulsion-2",
+        "title": "Configuración de una planta de vapor",
+        "paragraphs": [
+          "Las calderas, las tuberías de vapor, los órganos de regulación, las turbinas, los reductores y los condensadores forman un conjunto interdependiente. Los reductores adaptan el régimen de giro de la turbina al requerido por la hélice. Los condensadores recuperan el vapor de escape como agua para su reutilización en el circuito.",
+          "La separación de salas y la disposición de los sistemas auxiliares condicionan el mantenimiento y la respuesta ante averías. En el Hood, la documentación describe conjuntos de turbinas asociados a cuatro ejes y sus equipos auxiliares. La distribución de un buque concreto no debe generalizarse a todas las plantas navales."
+        ]
+      },
+      {
+        "id": "propulsion-3",
+        "title": "Alternativas de propulsión y servicios auxiliares",
+        "paragraphs": [
+          "Los motores diésel convierten la energía del combustible mediante combustión interna. En una transmisión diésel-eléctrica, los motores accionan generadores y la propulsión depende de motores eléctricos. Se trata de una arquitectura diferente de la transmisión mecánica directa.",
+          "Bombas, ventiladores, lubricación y alimentación eléctrica sostienen el funcionamiento de la maquinaria. Su importancia explica por qué la pérdida de un equipo auxiliar puede limitar una planta cuyo motor principal no ha sido destruido."
+        ]
+      },
+      {
+        "id": "propulsion-4",
+        "title": "Prestaciones y lectura de las especificaciones",
+        "paragraphs": [
+          "Una ficha técnica debe separar potencia, velocidad y autonomía. La autonomía necesita una velocidad de referencia, ya que el consumo cambia con el régimen de operación. También deben identificarse las unidades: caballos de potencia, kilovatios, nudos y millas náuticas no representan magnitudes intercambiables.",
+          "El análisis histórico de la propulsión requiere considerar la configuración y la fecha. Las modernizaciones pueden modificar combustible, equipos auxiliares o rendimiento sin cambiar necesariamente la clasificación general del buque."
+        ]
+      }
+    ],
+    "scopeNote": "Exposición general de principios técnicos y contexto histórico. Las prestaciones de una unidad requieren comprobar modelo, configuración y fecha.",
+    "updated": "2026-10-10"
   },
   {
     "id": "armamento",
     "name": "Armamento Naval",
     "category": "Artillería",
     "description": "Desarrollo de cañones de gran calibre, torretas triples, sistemas de control de fuego y armamento antiaéreo.",
-    "topics": [
-      {
-        "title": "Cañones de acorazado",
-        "period": "1935–1945",
-        "detail": "Calibres de 380 mm a 460 mm en acorazados como el Bismarck (380 mm) y el Yamato (460 mm)."
-      },
-      {
-        "title": "Defensa antiaérea",
-        "period": "1940–1945",
-        "detail": "Sistemas Bofors de 40 mm y cañones Oerlikon de 20 mm se volvieron esenciales contra aviación enemiga."
-      }
-    ],
     "shipIds": [
       "bismarck",
       "yamato"
@@ -54,268 +74,420 @@
     "diagramAlt": "Esquema conceptual, no plano técnico: Artillería principal y defensa antiaérea",
     "sources": [
       {
-        "title": "Documentación para Armamento Naval",
+        "title": "Sistemas de armamento del Hood",
+        "url": "https://www.hmshood.org.uk/ship/index.htm",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "HMS Hood Association"
+      },
+      {
+        "title": "Documentación técnica del Bismarck",
         "url": "https://www.kbismarck.com/technical.html",
-        "type": "Documento web",
-        "accessed": "2026-10-10"
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "José M. Rico / KBismarck"
       }
-    ]
+    ],
+    "sections": [
+      {
+        "id": "armamento-1",
+        "title": "Organización del sistema de armas",
+        "paragraphs": [
+          "El armamento naval reúne equipos destinados a misiones diferentes: combate de superficie, defensa aérea y ataque contra objetivos sumergidos o costeros. La batería principal concentra habitualmente las armas de mayor relevancia para la función de combate del buque; las baterías secundarias y los sistemas antiaéreos cumplen tareas complementarias.",
+          "Una enumeración de calibres resulta insuficiente para describir su capacidad. Deben examinarse el número de piezas, las monturas, los sectores de tiro, la disponibilidad de munición y los medios de observación y dirección. La eficacia depende de la integración del sistema completo."
+        ]
+      },
+      {
+        "id": "armamento-2",
+        "title": "Artillería, monturas y alimentación",
+        "paragraphs": [
+          "El calibre indica el diámetro interior del tubo. La longitud expresada en calibres es otra medida: relaciona la longitud del tubo con ese diámetro. Una torre agrupa armas, protección y mecanismos; no debe confundirse el número de torres con el número de cañones.",
+          "El servicio de una pieza requiere almacenar, transportar y preparar municiones, apuntar y efectuar el disparo. Los espacios de almacenamiento y las rutas de alimentación son relevantes para la seguridad y la continuidad del fuego. Sus disposiciones varían entre clases y periodos."
+        ]
+      },
+      {
+        "id": "armamento-3",
+        "title": "Munición y efectos sobre el objetivo",
+        "paragraphs": [
+          "Las municiones se diseñan para efectos distintos. Un proyectil destinado a penetrar protección y uno destinado a producir efectos explosivos sobre estructuras menos protegidas responden a necesidades diferentes. El calibre, por sí solo, no informa sobre todas esas características.",
+          "El resultado de un impacto depende de la munición, la velocidad de llegada, el ángulo, la estructura alcanzada y la protección. La presencia de un cañón de gran calibre no garantiza alcanzar ni neutralizar un objetivo."
+        ]
+      },
+      {
+        "id": "armamento-4",
+        "title": "Defensa antiaérea y evolución del equipamiento",
+        "paragraphs": [
+          "La defensa antiaérea combina detección, seguimiento, dirección y armas capaces de responder a blancos en movimiento. Deben diferenciarse las funciones de las piezas pesadas y ligeras, así como las limitaciones de sus sectores de fuego.",
+          "Las modificaciones de guerra podían alterar el número de monturas y los medios de control. Por tanto, una relación de armamento necesita una fecha y una identificación de la configuración. Las fichas de Bismarck y Yamato sirven como puntos de entrada, sin convertir sus cifras de síntesis en una evaluación completa de eficacia."
+        ]
+      }
+    ],
+    "scopeNote": "Exposición general de principios técnicos y contexto histórico. Las prestaciones de una unidad requieren comprobar modelo, configuración y fecha.",
+    "updated": "2026-10-10"
   },
   {
     "id": "blindaje",
     "name": "Blindaje y Protección",
     "category": "Construcción",
     "description": "Diseño de cinturones blindados, cubiertas protegidas y compartimentación para resistir impactos y mantener la flotabilidad.",
-    "topics": [
-      {
-        "title": "Esquema de blindaje all-or-nothing",
-        "period": "1920–1945",
-        "detail": "Concentración del blindaje en zonas vitales, abandonando protección en áreas menos críticas para reducir peso."
-      },
-      {
-        "title": "Compartimentación",
-        "period": "1900–1945",
-        "detail": "División del casco en compartimentos estancos para limitar inundaciones tras impactos de torpedos o proyectiles."
-      }
-    ],
     "shipIds": [
       "bismarck"
     ],
     "diagramAlt": "Esquema conceptual, no plano técnico: Protección de espacios vitales",
     "sources": [
       {
-        "title": "Documentación para Blindaje y Protección",
+        "title": "Blindaje del Hood",
         "url": "https://www.hmshood.org.uk/ship/hoodspecs2.htm",
-        "type": "Documento web",
-        "accessed": "2026-10-10"
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "HMS Hood Association"
+      },
+      {
+        "title": "Protección del Bismarck",
+        "url": "https://www.kbismarck.com/proteccioni.html",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "José M. Rico / KBismarck"
       }
-    ]
+    ],
+    "sections": [
+      {
+        "id": "blindaje-1",
+        "title": "Distribución de la protección",
+        "paragraphs": [
+          "El blindaje busca reducir la vulnerabilidad de los espacios necesarios para conservar flotabilidad, propulsión y capacidad de combate. El cinturón protege sectores de los costados; las cubiertas blindadas forman parte de la protección horizontal. Torres, barbetas y puestos de mando pueden disponer de protecciones específicas.",
+          "Un espesor aislado no describe todo el sistema. La cobertura, la inclinación, la calidad del material y la disposición de las estructuras condicionan la protección. Dos buques con el mismo espesor nominal pueden presentar distribuciones y vulnerabilidades diferentes."
+        ]
+      },
+      {
+        "id": "blindaje-2",
+        "title": "Ciudadela y espacios vitales",
+        "paragraphs": [
+          "El concepto de ciudadela se relaciona con la protección de zonas vitales, entre ellas maquinaria y depósitos de munición. Su longitud, altura y cierre mediante cubiertas y mamparos deben analizarse junto con el volumen protegido.",
+          "Los proyectos distribuyen una masa limitada entre protección, armamento, maquinaria y otros elementos. Concentrar blindaje en determinadas zonas puede dejar otras con menor protección; extenderlo aumenta las exigencias de peso y espacio."
+        ]
+      },
+      {
+        "id": "blindaje-3",
+        "title": "Protección horizontal y vertical",
+        "paragraphs": [
+          "Los impactos sobre costados y cubiertas plantean problemas distintos. La trayectoria del proyectil y su ángulo respecto de la superficie influyen en el comportamiento de la protección. La evaluación también requiere estudiar juntas, soportes y continuidad estructural.",
+          "Las amenazas aéreas añadieron exigencias sobre las cubiertas y los espacios interiores. La protección frente a proyectiles no equivale automáticamente a protección frente a bombas o explosiones submarinas."
+        ]
+      },
+      {
+        "id": "blindaje-4",
+        "title": "Limitaciones de las comparaciones históricas",
+        "paragraphs": [
+          "Expresiones como mayor blindaje o mejor protección necesitan una referencia concreta. La comparación debe precisar la zona, el material, el tipo de amenaza y el estado del buque. No resulta riguroso convertir un único espesor en una clasificación general de superioridad.",
+          "Las fuentes del Hood y del Bismarck permiten estudiar distribuciones concretas. Sus planos y tablas deben leerse como documentación de esos proyectos, sin extrapolar automáticamente sus soluciones a todas las unidades de una armada."
+        ]
+      }
+    ],
+    "scopeNote": "Exposición general de principios técnicos y contexto histórico. Las prestaciones de una unidad requieren comprobar modelo, configuración y fecha.",
+    "updated": "2026-10-10"
   },
   {
     "id": "aviacion-naval",
     "name": "Aviación Naval",
     "category": "Operaciones",
     "description": "El portaviones redefinió la guerra naval, desplazando al acorazado como arma principal de las flotas.",
-    "topics": [
-      {
-        "title": "Portaviones de flota",
-        "period": "1920–1945",
-        "detail": "El buque proporciona cubierta, hangares y apoyo para un grupo aéreo. El número y tipo de aeronaves cambia según el periodo y la misión."
-      },
-      {
-        "title": "Operaciones combinadas",
-        "period": "1941–1945",
-        "detail": "Coordinación entre aviación embarcada, superficie y submarinos en campañas del Pacífico."
-      }
-    ],
     "shipIds": [
       "uss-enterprise"
     ],
     "diagramAlt": "Esquema conceptual, no plano técnico: Ciclo operativo de aviación embarcada",
     "sources": [
       {
-        "title": "Documentación para Aviación Naval",
+        "title": "Portaviones: evolución histórica",
+        "url": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/ships/aircraft-carriers.html",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "Naval History and Heritage Command"
+      },
+      {
+        "title": "Historial del Enterprise CV-6",
         "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html",
-        "type": "Documento web",
-        "accessed": "2026-10-10"
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "Naval History and Heritage Command"
       }
-    ]
+    ],
+    "sections": [
+      {
+        "id": "aviacion-naval-1",
+        "title": "Integración del buque y el grupo aéreo",
+        "paragraphs": [
+          "El portaviones reúne una plataforma naval y una organización aérea. Su capacidad depende de aeronaves, tripulaciones, cubierta, hangares, combustible, munición y mantenimiento. El número de aviones embarcados representa solo una parte del conjunto.",
+          "Las misiones pueden incluir reconocimiento, defensa aérea y ataque. Su combinación cambia según la campaña y las aeronaves disponibles. El análisis debe distinguir la capacidad prevista del buque y el grupo aéreo efectivamente embarcado en una fecha determinada."
+        ]
+      },
+      {
+        "id": "aviacion-naval-2",
+        "title": "Preparación, lanzamiento y recuperación",
+        "paragraphs": [
+          "La preparación de una salida requiere coordinar tareas técnicas y movimientos en cubierta. Las condiciones de viento, mar y navegación afectan las operaciones; el buque debe proporcionar un entorno compatible con el lanzamiento y la recuperación.",
+          "La recuperación exige ordenar las aproximaciones y mantener disponibles los sistemas de la cubierta. El aterrizaje, el movimiento posterior de la aeronave y la preparación de nuevas salidas forman una secuencia continua. Los procedimientos y equipos varían entre periodos."
+        ]
+      },
+      {
+        "id": "aviacion-naval-3",
+        "title": "Mantenimiento y sostenimiento de operaciones",
+        "paragraphs": [
+          "El hangar y los talleres permiten atender aeronaves, pero el rendimiento depende también de repuestos, personal y tiempo de trabajo. Una aeronave embarcada puede encontrarse disponible, en mantenimiento o fuera de servicio; estas situaciones no deben confundirse.",
+          "La continuidad de las operaciones necesita abastecimiento y coordinación con otras unidades. Las escoltas y el reconocimiento contribuyen a la protección de la fuerza, mientras que los daños en cubierta o los incendios pueden interrumpir la actividad aérea."
+        ]
+      },
+      {
+        "id": "aviacion-naval-4",
+        "title": "Transformación de la guerra naval",
+        "paragraphs": [
+          "La aviación embarcada extendió la capacidad de reconocimiento y ataque más allá del alcance de la artillería de superficie. Las campañas del Pacífico muestran enfrentamientos en los que el contacto y los ataques dependieron de aeronaves.",
+          "La trayectoria del Enterprise permite estudiar la relación entre operaciones aéreas, daños y continuidad del servicio. Su registro histórico debe consultarse junto con los acontecimientos de Midway y Guadalcanal, diferenciando la historia del buque de la de toda la campaña."
+        ]
+      }
+    ],
+    "scopeNote": "Exposición general de principios técnicos y contexto histórico. Las prestaciones de una unidad requieren comprobar modelo, configuración y fecha.",
+    "updated": "2026-10-10"
   },
   {
     "id": "radar",
     "name": "Radar y dirección de tiro",
     "category": "Detección",
     "description": "Detectar un objetivo y dirigir el fuego son tareas relacionadas, pero distintas. El radar puede aportar mediciones para la vigilancia y el control de tiro.",
-    "explainer": {
-      "title": "Cómo se relacionan sus elementos",
-      "steps": [
-        [
-          "Emisión",
-          "La antena emite ondas de radio."
-        ],
-        [
-          "Eco",
-          "La señal reflejada permite detectar objetos."
-        ],
-        [
-          "Seguimiento",
-          "Se estiman posiciones y movimientos."
-        ],
-        [
-          "Dirección de tiro",
-          "Las mediciones apoyan la solución de tiro."
-        ]
-      ]
-    },
-    "topics": [
-      {
-        "title": "Vigilancia",
-        "period": "Conceptos y evolución",
-        "detail": "Detectar contactos no equivale a identificarlos con certeza."
-      },
-      {
-        "title": "Control de tiro",
-        "period": "Conceptos y evolución",
-        "detail": "La integración del radar ayudó a medir distancias en condiciones de baja visibilidad."
-      }
-    ],
     "shipIds": [
       "bismarck",
       "hms-hood"
     ],
     "sources": [
       {
-        "title": "Radar y dirección de tiro",
+        "title": "Aplicaciones tácticas del radar: FTP 217",
+        "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/u/operational-characteristics-of-radar-classified-by-tactical-application.html",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "Naval History and Heritage Command"
+      },
+      {
+        "title": "Evolución del armamento naval",
         "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/e/evolution-of-naval-weapons.html",
-        "type": "Documento web",
-        "accessed": "2026-10-10"
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "Naval History and Heritage Command"
       }
-    ]
+    ],
+    "sections": [
+      {
+        "id": "radar-1",
+        "title": "Detección mediante ondas de radio",
+        "paragraphs": [
+          "El radar utiliza emisiones electromagnéticas y señales reflejadas para obtener información sobre objetos. La medición del tiempo de retorno permite estimar distancias; la orientación de la antena contribuye a determinar la dirección del contacto.",
+          "La existencia de un eco no equivale a una identificación completa. El operador debe interpretar la información y relacionarla con otras observaciones. El entorno, las características del equipo y la posición de la antena afectan el resultado."
+        ]
+      },
+      {
+        "id": "radar-2",
+        "title": "Vigilancia y seguimiento",
+        "paragraphs": [
+          "Los equipos de búsqueda pueden apoyar la vigilancia de superficie o aérea. La frecuencia de actualización y las características de exploración influyen en el seguimiento de contactos. Las exigencias de una alerta general difieren de las necesarias para controlar un arma.",
+          "La integración de observaciones en una imagen táctica requiere comunicación y procedimientos de trabajo. Un contacto detectado debe ser evaluado, transmitido y seguido antes de convertirse en una decisión operativa."
+        ]
+      },
+      {
+        "id": "radar-3",
+        "title": "Dirección de tiro y solución de tiro",
+        "paragraphs": [
+          "La dirección de tiro combina observación, mediciones y cálculo para orientar el armamento hacia la posición prevista del blanco. Debe considerar el movimiento relativo y el tiempo de vuelo del proyectil, además de otras correcciones propias del sistema.",
+          "El radar puede aportar mediciones de distancia y seguimiento cuando la observación óptica resulta limitada. Su integración no elimina las exigencias de calibración, entrenamiento y coordinación entre puestos de control y monturas."
+        ]
+      },
+      {
+        "id": "radar-4",
+        "title": "Alcance y límites de empleo",
+        "paragraphs": [
+          "El alcance útil depende del equipo, del blanco y de las condiciones de propagación. Las reflexiones del entorno pueden introducir ecos que dificulten la lectura. Una cifra de alcance sin condiciones de referencia puede resultar engañosa.",
+          "La documentación táctica de la Segunda Guerra Mundial distingue equipos según su aplicación. En una ficha histórica deben identificarse modelo, función y periodo de instalación, evitando atribuir a un radar antiguo capacidades propias de sistemas posteriores."
+        ]
+      }
+    ],
+    "scopeNote": "Exposición general de principios técnicos y contexto histórico. Las prestaciones de una unidad requieren comprobar modelo, configuración y fecha.",
+    "updated": "2026-10-10"
   },
   {
     "id": "sonar",
     "name": "Sonar y escucha submarina",
     "category": "Acústica",
     "description": "Bajo el agua, los sistemas acústicos permiten escuchar señales o buscar ecos. El sonar activo y el pasivo emplean procedimientos diferentes.",
-    "explainer": {
-      "title": "Cómo se relacionan sus elementos",
-      "steps": [
-        [
-          "Escucha pasiva",
-          "Recibe sonidos sin emitir una señal propia."
-        ],
-        [
-          "Emisión activa",
-          "Envía un pulso acústico."
-        ],
-        [
-          "Recepción",
-          "Recoge el eco reflejado."
-        ],
-        [
-          "Interpretación",
-          "Analiza la información recibida."
-        ]
-      ]
-    },
-    "topics": [
-      {
-        "title": "Dos procedimientos",
-        "period": "Conceptos y evolución",
-        "detail": "El sonar pasivo escucha; el activo utiliza emisiones y ecos."
-      },
-      {
-        "title": "Aplicaciones",
-        "period": "Conceptos y evolución",
-        "detail": "La acústica también permite estudiar el fondo y localizar objetos sumergidos."
-      }
-    ],
     "shipIds": [],
     "sources": [
       {
-        "title": "Sonar y escucha submarina",
+        "title": "Principios y aplicaciones del sonar",
         "url": "https://oceanexplorer.noaa.gov/technology/sonar/",
-        "type": "Documento web",
-        "accessed": "2026-10-10"
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "NOAA Ocean Exploration"
+      },
+      {
+        "title": "Radar y sonar en la historia naval",
+        "url": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/exploration-and-innovation/radar-sonar.html",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "Naval History and Heritage Command"
       }
-    ]
+    ],
+    "sections": [
+      {
+        "id": "sonar-1",
+        "title": "Propagación acústica en el medio submarino",
+        "paragraphs": [
+          "El sonar emplea sonido para obtener información bajo el agua. La propagación depende del medio y las señales pueden reflejarse en objetos o superficies. Estas condiciones explican por qué la interpretación acústica exige considerar el entorno.",
+          "La detección no implica necesariamente una clasificación o localización precisa. El ruido del propio buque, otros sonidos y las características del objetivo influyen en la información disponible."
+        ]
+      },
+      {
+        "id": "sonar-2",
+        "title": "Procedimientos activos y pasivos",
+        "paragraphs": [
+          "El sonar activo emite una señal y analiza su retorno. El tiempo de viaje del sonido permite estimar la distancia recorrida, teniendo en cuenta que la señal viaja hasta el objeto y regresa. La dirección depende de la configuración del sistema.",
+          "El sonar pasivo recibe sonidos sin emitir un pulso propio. Permite estudiar señales procedentes del entorno o de otras fuentes, pero una escucha aislada no proporciona automáticamente los mismos datos que una medición activa."
+        ]
+      },
+      {
+        "id": "sonar-3",
+        "title": "Sensores e interpretación de señales",
+        "paragraphs": [
+          "Los transductores y receptores convierten energía entre formas acústicas y eléctricas. La disposición de los sensores, el tratamiento de las señales y el trabajo de los operadores integran la cadena de información.",
+          "El seguimiento requiere observaciones continuadas y evaluación de la consistencia de los contactos. Las capacidades de un sistema deben documentarse por modelo y periodo; no todos los sonares tienen la misma función."
+        ]
+      },
+      {
+        "id": "sonar-4",
+        "title": "Aplicaciones y contexto histórico",
+        "paragraphs": [
+          "La tecnología acústica tiene aplicaciones militares, científicas e hidrográficas. Puede utilizarse para examinar el fondo, localizar objetos sumergidos o apoyar la observación submarina. Son funciones relacionadas que requieren equipos y procedimientos diferentes.",
+          "En historia naval conviene separar el principio físico general de las capacidades de un equipo instalado en un buque concreto. Este capítulo presenta los conceptos; una atribución de modelos o prestaciones requiere documentación específica de la unidad."
+        ]
+      }
+    ],
+    "scopeNote": "Exposición general de principios técnicos y contexto histórico. Las prestaciones de una unidad requieren comprobar modelo, configuración y fecha.",
+    "updated": "2026-10-10"
   },
   {
     "id": "torpedos",
     "name": "Torpedos y ataque submarino",
     "category": "Armamento",
     "description": "Armas autopropulsadas bajo el agua. Su empleo depende del sistema de lanzamiento, del control del rumbo y del funcionamiento de la espoleta.",
-    "explainer": {
-      "title": "Cómo se relacionan sus elementos",
-      "steps": [
-        [
-          "Lanzamiento",
-          "Desde el sistema diseñado para el arma."
-        ],
-        [
-          "Propulsión",
-          "Avance bajo la superficie."
-        ],
-        [
-          "Trayectoria",
-          "Rumbo y profundidad establecidos."
-        ],
-        [
-          "Espoleta",
-          "Activación de la carga según su diseño."
-        ]
-      ]
-    },
-    "topics": [
-      {
-        "title": "Sistemas de lanzamiento",
-        "period": "Conceptos y evolución",
-        "detail": "En la Segunda Guerra Mundial hubo torpedos lanzados por aviones, submarinos y buques de superficie."
-      },
-      {
-        "title": "Fiabilidad y pruebas",
-        "period": "Conceptos y evolución",
-        "detail": "Los problemas del Mark 14 estadounidense muestran la importancia de ensayos realistas."
-      }
-    ],
     "shipIds": [],
     "sources": [
       {
-        "title": "Torpedos y ataque submarino",
+        "title": "Torpedo Versus Torpedo",
         "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-008/h-008-3.html",
-        "type": "Documento web",
-        "accessed": "2026-10-10"
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "Naval History and Heritage Command"
+      },
+      {
+        "title": "Historia del uso de torpedos",
+        "url": "https://www.history.navy.mil/browse-by-topic/exploration-and-innovation/navy-torpedoes.html",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "Naval History and Heritage Command"
       }
-    ]
+    ],
+    "sections": [
+      {
+        "id": "torpedos-1",
+        "title": "Estructura y desplazamiento del arma",
+        "paragraphs": [
+          "El torpedo es un arma autopropulsada que se desplaza bajo el agua. Integra propulsión, control de trayectoria, una carga explosiva y un sistema de activación. Cada elemento interviene en la probabilidad de que el arma alcance el objetivo y funcione conforme a su diseño.",
+          "Las soluciones técnicas dependen de la época. No deben atribuirse sistemas de guiado contemporáneos a torpedos históricos que seguían trayectorias establecidas antes o durante el lanzamiento."
+        ]
+      },
+      {
+        "id": "torpedos-2",
+        "title": "Lanzamiento y cálculo del ataque",
+        "paragraphs": [
+          "El lanzamiento puede efectuarse desde plataformas de superficie, submarinas o aéreas, según el arma y el equipo. El procedimiento requiere estimar la posición futura del objetivo y las condiciones de la trayectoria.",
+          "La velocidad y el rumbo relativos, la distancia y el ángulo condicionan el ataque. La cifra de alcance representa una capacidad del arma bajo condiciones determinadas, no una garantía de éxito para cualquier lanzamiento."
+        ]
+      },
+      {
+        "id": "torpedos-3",
+        "title": "Control de profundidad y activación",
+        "paragraphs": [
+          "El control de profundidad busca mantener la trayectoria prevista bajo la superficie. Un funcionamiento incorrecto puede hacer que el arma pase por debajo del objetivo o encuentre condiciones distintas de las calculadas.",
+          "La espoleta y la carga deben analizarse separadamente de la propulsión. Un torpedo puede alcanzar una zona adecuada y fallar en la activación; por ello, la evaluación de fiabilidad requiere examinar todas las etapas del funcionamiento."
+        ]
+      },
+      {
+        "id": "torpedos-4",
+        "title": "Pruebas, fiabilidad y empleo operativo",
+        "paragraphs": [
+          "Los problemas de los torpedos estadounidenses al comienzo de la guerra del Pacífico muestran la diferencia entre prestaciones declaradas y comportamiento en combate. La documentación del Mark 14 relaciona las dificultades de empleo con deficiencias que exigieron correcciones.",
+          "El estudio histórico necesita datos sobre ensayos, modificaciones y fecha de uso. Los resultados de un periodo no deben trasladarse sin matices a versiones corregidas del mismo modelo."
+        ]
+      }
+    ],
+    "scopeNote": "Exposición general de principios técnicos y contexto histórico. Las prestaciones de una unidad requieren comprobar modelo, configuración y fecha.",
+    "updated": "2026-10-10"
   },
   {
     "id": "proteccion-submarina",
     "name": "Protección bajo la flotación",
     "category": "Construcción",
     "description": "La protección del casco y la compartimentación intentan reducir la extensión de daños e inundaciones. Ningún sistema garantiza resistir todos los ataques.",
-    "explainer": {
-      "title": "Cómo se relacionan sus elementos",
-      "steps": [
-        [
-          "Casco",
-          "Primera estructura expuesta al daño."
-        ],
-        [
-          "Espacios internos",
-          "Distribución de volúmenes de protección."
-        ],
-        [
-          "Mamparos",
-          "Separan compartimentos."
-        ],
-        [
-          "Control de averías",
-          "Busca conservar estabilidad y flotabilidad."
-        ]
-      ]
-    },
-    "topics": [
-      {
-        "title": "Diseño y compromiso",
-        "period": "Conceptos y evolución",
-        "detail": "La protección requiere espacio y peso, que compiten con otras necesidades del buque."
-      },
-      {
-        "title": "Evaluar una avería",
-        "period": "Conceptos y evolución",
-        "detail": "Importan la posición del impacto, la carga y la extensión de la inundación."
-      }
-    ],
     "shipIds": [
       "hms-hood"
     ],
     "sources": [
       {
-        "title": "Protección bajo la flotación",
+        "title": "Protección estructural del Hood",
         "url": "https://www.hmshood.org.uk/ship/hoodspecs2.htm",
-        "type": "Documento web",
-        "accessed": "2026-10-10"
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "HMS Hood Association"
+      },
+      {
+        "title": "Distribución de protección del Bismarck",
+        "url": "https://es.kbismarck.com/proteccion.html",
+        "type": "Documentación técnica o histórica",
+        "accessed": "2026-10-10",
+        "author": "José M. Rico / KBismarck"
       }
-    ]
+    ],
+    "sections": [
+      {
+        "id": "proteccion-submarina-1",
+        "title": "Explosiones y vías de inundación",
+        "paragraphs": [
+          "Una explosión bajo el agua puede deformar estructuras, abrir vías de entrada y afectar equipos sin producir un impacto directo sobre una zona visible del costado. La extensión del daño depende de la localización, de las estructuras y de la energía transmitida.",
+          "La protección submarina busca limitar esos efectos, pero no constituye una garantía absoluta. Debe estudiarse separadamente del blindaje destinado a resistir proyectiles sobre la flotación."
+        ]
+      },
+      {
+        "id": "proteccion-submarina-2",
+        "title": "Distribución de espacios y barreras",
+        "paragraphs": [
+          "Los proyectos pueden disponer espacios y mamparos para separar la zona expuesta de los compartimentos vitales. La profundidad del sistema y la continuidad de sus barreras son aspectos relevantes del diseño.",
+          "La compartimentación subdivide el volumen interior para reducir la propagación de inundaciones. Su eficacia depende del estado de los cierres, de las conexiones entre espacios y de la integridad de las estructuras que los separan."
+        ]
+      },
+      {
+        "id": "proteccion-submarina-3",
+        "title": "Estabilidad y control de averías",
+        "paragraphs": [
+          "La entrada de agua modifica el desplazamiento y la distribución de masas. Si se concentra de manera desigual, puede producir escora; los movimientos de agua en espacios parcialmente inundados también afectan el comportamiento del buque.",
+          "El control de averías requiere conocer la extensión del daño, mantener barreras, emplear medios de achique y conservar servicios esenciales. Las decisiones deben tener en cuenta que una intervención puede cambiar la distribución de pesos y la estabilidad."
+        ]
+      },
+      {
+        "id": "proteccion-submarina-4",
+        "title": "Evaluación histórica de la protección",
+        "paragraphs": [
+          "La comparación de sistemas exige identificar el proyecto, la configuración y el tipo de daño estudiado. La supervivencia de un buque depende asimismo del estado operativo, del personal y de las condiciones del combate.",
+          "La documentación de protección del Hood y del Bismarck permite examinar disposiciones concretas. Sus resultados no deben reducirse a una afirmación general de invulnerabilidad o a una clasificación basada en un único elemento estructural."
+        ]
+      }
+    ],
+    "scopeNote": "Exposición general de principios técnicos y contexto histórico. Las prestaciones de una unidad requieren comprobar modelo, configuración y fecha.",
+    "updated": "2026-10-10"
   }
 ]
