@@ -1,0 +1,542 @@
+{
+  "target": 80,
+  "navies": 8,
+  "addedRecords": [
+    {
+      "id": "scharnhorst",
+      "article": "https://en.wikipedia.org/wiki/German_battleship_Scharnhorst",
+      "pageId": 30406688,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_DVM_10_Bild-23-63-07,_Schlachtschiff_%22Scharnhorst%22.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "gneisenau",
+      "article": "https://en.wikipedia.org/wiki/German_battleship_Gneisenau",
+      "pageId": 30456135,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_DVM_10_Bild-23-63-21,_Schlachtschiff_%22Gneisenau%22.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "prinz-eugen",
+      "article": "https://en.wikipedia.org/wiki/German_cruiser_Prinz_Eugen",
+      "pageId": 620602,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:PE_Atomtest_1.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "admiral-hipper",
+      "article": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Hipper",
+      "pageId": 1290748,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_DVM_10_Bild-23-63-24,_Schwerer_Kreuzer_%22Admiral_Hipper%22.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "admiral-scheer",
+      "article": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Scheer",
+      "pageId": 359635,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Admiral_Scheer_in_Gibraltar.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "admiral-graf-spee",
+      "article": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Graf_Spee",
+      "pageId": 32873808,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_DVM_10_Bild-23-63-06,_Panzerschiff_%22Admiral_Graf_Spee%22.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "koln",
+      "article": "https://en.wikipedia.org/wiki/German_cruiser_Köln",
+      "pageId": 3195463,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:German_light_cruiser_K%C3%B6ln_underway_during_late_1930s.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "u-47",
+      "article": "https://en.wikipedia.org/wiki/German_submarine_U-47_(1938)",
+      "pageId": 728606,
+      "imageSource": null,
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "musashi",
+      "article": "https://en.wikipedia.org/wiki/Japanese_battleship_Musashi",
+      "pageId": 208417,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Japanese_battleship_Musashi_underway_in_1944_(NH_63473)_(cropped).jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "nagato",
+      "article": "https://en.wikipedia.org/wiki/Japanese_battleship_Nagato",
+      "pageId": 977013,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Nagato01cropped.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "mutsu",
+      "article": "https://en.wikipedia.org/wiki/Japanese_battleship_Mutsu",
+      "pageId": 977032,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Mutsu20.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "kongo",
+      "article": "https://en.wikipedia.org/wiki/Japanese_battleship_Kongō",
+      "pageId": 976945,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:The_Japanese_battleship_Kong%C5%8D_on_sea_trials,_off_the_coast_of_Tateyama,_14_November_1936_(cropped).jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "haruna",
+      "article": "https://en.wikipedia.org/wiki/Japanese_battleship_Haruna",
+      "pageId": 521212,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Haruna_1934.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "akagi",
+      "article": "https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Akagi",
+      "pageId": 188590,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:AkagiDeckApril42.jpg",
+      "configuration": "(después de 1938 modernización)"
+    },
+    {
+      "id": "kaga",
+      "article": "https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Kaga",
+      "pageId": 65568,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Japanese_Navy_Aircraft_Carrier_Kaga.jpg",
+      "configuration": "(después de 1935 modernización)"
+    },
+    {
+      "id": "shokaku",
+      "article": "https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Shōkaku",
+      "pageId": 65569,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Japanese_aircraft_carrier_shokaku_1941.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "zuikaku",
+      "article": "https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Zuikaku",
+      "pageId": 65571,
+      "imageSource": null,
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "uss-iowa",
+      "article": "https://en.wikipedia.org/wiki/USS_Iowa_(BB-61)",
+      "pageId": 204679,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:BB61_USS_Iowa_BB61_broadside_USN.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "uss-missouri",
+      "article": "https://en.wikipedia.org/wiki/USS_Missouri_(BB-63)",
+      "pageId": 87610,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Missouri_post_refit.JPG",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "uss-washington",
+      "article": "https://en.wikipedia.org/wiki/USS_Washington_(BB-56)",
+      "pageId": 207214,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:USS_Washington_(BB-56)_in_Puget_Sound,_10_September_1945.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "uss-south-dakota",
+      "article": "https://en.wikipedia.org/wiki/USS_South_Dakota_(BB-57)",
+      "pageId": 206164,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:USS_South_Dakota_(BB-57)_off_the_Norfolk_Naval_Shipyard_on_20_August_1943_(NH_97264).jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "uss-yorktown",
+      "article": "https://en.wikipedia.org/wiki/USS_Yorktown_(CV-5)",
+      "pageId": 194844,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:USS_Yorktown_(CV-5)_Jul1937.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "uss-hornet",
+      "article": "https://en.wikipedia.org/wiki/USS_Hornet_(CV-8)",
+      "pageId": 207225,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Aft_view_of_USS_Hornet_(CV-8),_circa_in_late_1941_(NH_81313).jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "uss-lexington",
+      "article": "https://en.wikipedia.org/wiki/USS_Lexington_(CV-2)",
+      "pageId": 199895,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:USS_Lexington_(CV-2)_leaving_San_Diego_on_14_October_1941_(80-G-416362).jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "uss-saratoga",
+      "article": "https://en.wikipedia.org/wiki/USS_Saratoga_(CV-3)",
+      "pageId": 203279,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:USS_Saratoga_(CV-3)_underway,_circa_in_1942_(80-G-K-459).jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "hms-warspite",
+      "article": "https://en.wikipedia.org/wiki/HMS_Warspite_(03)",
+      "pageId": 485635,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:HMS_Warspite,_Indian_Ocean_1942.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "hms-rodney",
+      "article": "https://en.wikipedia.org/wiki/HMS_Rodney_(29)",
+      "pageId": 485625,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:HMS_Rodney_after_refitting_at_Liverpool.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "hms-king-george-v",
+      "article": "https://en.wikipedia.org/wiki/HMS_King_George_V_(41)",
+      "pageId": 485616,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:King_George_V_class_battleship_1945.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "hms-prince-of-wales",
+      "article": "https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53)",
+      "pageId": 485617,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:HMS_Prince_Of_Wales_in_Singapore.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "hms-ark-royal",
+      "article": "https://en.wikipedia.org/wiki/HMS_Ark_Royal_(91)",
+      "pageId": 201180,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:HMS_Ark_Royal_h79167.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "hms-belfast",
+      "article": "https://en.wikipedia.org/wiki/HMS_Belfast",
+      "pageId": 209815,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:London_November_2013-14a.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "hms-sheffield",
+      "article": "https://en.wikipedia.org/wiki/HMS_Sheffield_(C24)",
+      "pageId": 1624896,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:HMS_Sheffield.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "hms-cossack",
+      "article": "https://en.wikipedia.org/wiki/HMS_Cossack_(F03)",
+      "pageId": 476212,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:HMS_Cossack.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "hms-victorious",
+      "article": "https://en.wikipedia.org/wiki/HMS_Victorious_(R38)",
+      "pageId": 431029,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:HMS_Victorious_(R38)_aerial_c1959.jpeg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "richelieu",
+      "article": "https://en.wikipedia.org/wiki/French_battleship_Richelieu",
+      "pageId": 464776,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:French_battleship_Richelieu_underway_in_the_Atlantic_Ocean_on_26_August_1943_(80-G-78789).jpg",
+      "configuration": "(original configuration)"
+    },
+    {
+      "id": "jean-bart",
+      "article": "https://en.wikipedia.org/wiki/French_battleship_Jean_Bart_(1940)",
+      "pageId": 1105579,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Bart_damaged_01.jpg",
+      "configuration": "(Designed configuration)"
+    },
+    {
+      "id": "dunkerque",
+      "article": "https://en.wikipedia.org/wiki/French_battleship_Dunkerque",
+      "pageId": 2273072,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Dunkerque-1.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "strasbourg",
+      "article": "https://en.wikipedia.org/wiki/French_battleship_Strasbourg",
+      "pageId": 2561917,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Strasbourg-2.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "bretagne",
+      "article": "https://en.wikipedia.org/wiki/French_battleship_Bretagne",
+      "pageId": 7152068,
+      "imageSource": null,
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "provence",
+      "article": "https://en.wikipedia.org/wiki/French_battleship_Provence",
+      "pageId": 7152010,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Provence-1.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "lorraine",
+      "article": "https://en.wikipedia.org/wiki/French_battleship_Lorraine",
+      "pageId": 2316295,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:80-G-202752_French_battleship_Lorraine.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "algerie",
+      "article": "https://en.wikipedia.org/wiki/French_cruiser_Algérie",
+      "pageId": 4294903,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Algerie.png",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "la-galissonniere",
+      "article": "https://en.wikipedia.org/wiki/French_cruiser_La_Galissonnière",
+      "pageId": 4591580,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:LaGalissonniere-1.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "bearn",
+      "article": "https://en.wikipedia.org/wiki/French_aircraft_carrier_Béarn",
+      "pageId": 3125296,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:CV_Bearn_NAN-5-63.jpg",
+      "configuration": "(al completarse)"
+    },
+    {
+      "id": "littorio",
+      "article": "https://en.wikipedia.org/wiki/Italian_battleship_Littorio",
+      "pageId": 1472652,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S54286,_Italien,_Schlachtschiff_%22Littorio%22.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "vittorio-veneto",
+      "article": "https://en.wikipedia.org/wiki/Italian_battleship_Vittorio_Veneto",
+      "pageId": 1338293,
+      "imageSource": null,
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "roma",
+      "article": "https://en.wikipedia.org/wiki/Italian_battleship_Roma_(1940)",
+      "pageId": 25023161,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Battleship_Roma.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "conte-di-cavour",
+      "article": "https://en.wikipedia.org/wiki/Italian_battleship_Conte_di_Cavour",
+      "pageId": 1414071,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:RNConte_di_Cavour-Original.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "giulio-cesare",
+      "article": "https://en.wikipedia.org/wiki/Italian_battleship_Giulio_Cesare",
+      "pageId": 15441,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Battleship_Giulio_Cesare.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "andrea-doria",
+      "article": "https://en.wikipedia.org/wiki/Italian_battleship_Andrea_Doria",
+      "pageId": 7219185,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Italian_battleship_Andrea_Doria.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "zara",
+      "article": "https://en.wikipedia.org/wiki/Italian_cruiser_Zara",
+      "pageId": 1433216,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Italian_cruiser_Zara_NH_111457.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "pola",
+      "article": "https://en.wikipedia.org/wiki/Italian_cruiser_Pola",
+      "pageId": 25815799,
+      "imageSource": null,
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "trento",
+      "article": "https://en.wikipedia.org/wiki/Italian_cruiser_Trento",
+      "pageId": 3011833,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Italian_cruiser_Trento_NH_86592.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "trieste",
+      "article": "https://en.wikipedia.org/wiki/Italian_cruiser_Trieste",
+      "pageId": 3011832,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Italian_cruiser_Trieste_NH_86003.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "marat",
+      "article": "https://en.wikipedia.org/wiki/Russian_battleship_Petropavlovsk_(1911)",
+      "pageId": 5220172,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Petropavlovsk-Helsingfors.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "oktyabrskaya-revolutsiya",
+      "article": "https://en.wikipedia.org/wiki/Russian_battleship_Gangut",
+      "pageId": 2912185,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Gangut_battleship.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "parizhskaya-kommuna",
+      "article": "https://en.wikipedia.org/wiki/Russian_battleship_Sevastopol_(1911)",
+      "pageId": 5220227,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Sevastopol_battleship.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "kirov",
+      "article": "https://en.wikipedia.org/wiki/Soviet_cruiser_Kirov",
+      "pageId": 13717923,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kirov1941-2.jpg",
+      "configuration": "(Proyecto 26)"
+    },
+    {
+      "id": "maxim-gorky",
+      "article": "https://en.wikipedia.org/wiki/Soviet_cruiser_Maxim_Gorky",
+      "pageId": 2912450,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:MaksimGor%27kiy1941.jpg",
+      "configuration": "(Proyecto 26bis)"
+    },
+    {
+      "id": "molotov",
+      "article": "https://en.wikipedia.org/wiki/Soviet_cruiser_Molotov",
+      "pageId": 24036064,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Molotov-1.jpg",
+      "configuration": "(Proyecto 26bis)"
+    },
+    {
+      "id": "krasny-kavkaz",
+      "article": "https://en.wikipedia.org/wiki/Soviet_cruiser_Krasny_Kavkaz",
+      "pageId": 2906223,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:KrasnyyKavkaz1930s1.jpg",
+      "configuration": "(en 1940)"
+    },
+    {
+      "id": "krasny-krym",
+      "article": "https://en.wikipedia.org/wiki/Soviet_cruiser_Krasny_Krym",
+      "pageId": 5208818,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Krasnyy_Krym_01.jpg",
+      "configuration": "(1928)"
+    },
+    {
+      "id": "tashkent",
+      "article": "https://en.wikipedia.org/wiki/Soviet_destroyer_Tashkent",
+      "pageId": 58522341,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Tashkent1937.jpg",
+      "configuration": "(septiembre 1941)"
+    },
+    {
+      "id": "leningrad",
+      "article": "https://en.wikipedia.org/wiki/Soviet_destroyer_Leningrad",
+      "pageId": 58499838,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Leningrad-class_DD_1944_80-G-176369.jpg",
+      "configuration": "(Configuración inicial)"
+    },
+    {
+      "id": "espana-1912",
+      "article": "https://en.wikipedia.org/wiki/Spanish_battleship_España",
+      "pageId": 13108706,
+      "imageSource": null,
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "alfonso-xiii",
+      "article": "https://en.wikipedia.org/wiki/Spanish_battleship_Alfonso_XIII",
+      "pageId": 17648563,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Spanish_battleship_Espa%C3%B1a_underway.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "jaime-i",
+      "article": "https://en.wikipedia.org/wiki/Spanish_battleship_Jaime_I",
+      "pageId": 17648738,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Spanish_battleship_Jaime_I_NH_87928.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "canarias",
+      "article": "https://en.wikipedia.org/wiki/Spanish_cruiser_Canarias",
+      "pageId": 23446583,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Ae_C21.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "baleares",
+      "article": "https://en.wikipedia.org/wiki/Spanish_cruiser_Baleares",
+      "pageId": 23984219,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Cruceiro_Baleares_MuseoNavalFerrol.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "almirante-cervera",
+      "article": "https://en.wikipedia.org/wiki/Spanish_cruiser_Almirante_Cervera",
+      "pageId": 20896851,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Pruebas_de_mar_cervera.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "principe-alfonso",
+      "article": "https://en.wikipedia.org/wiki/Spanish_cruiser_Príncipe_Alfonso",
+      "pageId": 80926351,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Principe_Alfonso.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "miguel-de-cervantes",
+      "article": "https://en.wikipedia.org/wiki/Spanish_cruiser_Miguel_de_Cervantes",
+      "pageId": 64659127,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Miguel_de_Cervantes_Cruiser.jpg",
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    },
+    {
+      "id": "mendez-nunez",
+      "article": "https://en.wikipedia.org/wiki/Spanish_cruiser_Méndez_Núñez",
+      "pageId": 79476155,
+      "imageSource": "https://commons.wikimedia.org/wiki/File:M%C3%A9ndez_N%C3%BA%C3%B1ez_(1924).jpg",
+      "configuration": "(como crucero ligero)"
+    },
+    {
+      "id": "churruca",
+      "article": "https://es.wikipedia.org/wiki/Churruca_(CH)",
+      "pageId": 1457515,
+      "imageSource": null,
+      "configuration": "Configuración de referencia publicada; consultar las fechas de cada cifra"
+    }
+  ],
+  "missingResearch": [],
+  "excludedImage": {
+    "shipId": "kongo",
+    "reason": "La revisión automática bloqueó la publicación por metadatos explícitos de copyright; se utiliza un marcador editorial."
+  },
+  "excludedImages": [
+    "kongo",
+    "mendez-nunez",
+    "miguel-de-cervantes",
+    "oktyabrskaya-revolutsiya",
+    "parizhskaya-kommuna",
+    "prinz-eugen",
+    "strasbourg",
+    "uss-south-dakota",
+    "uss-lexington",
+    "zara",
+    "uss-washington"
+  ]
+}

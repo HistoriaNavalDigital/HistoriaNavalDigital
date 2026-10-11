@@ -17,7 +17,7 @@
       "Batalla del Atlántico",
       "Batalla del Río de la Plata"
     ],
-    "shipCount": 6,
+    "shipCount": 70,
     "sections": [
       {
         "title": "Las rutas y el sostenimiento de la guerra",
@@ -59,7 +59,7 @@
       "Coronel",
       "Falklands"
     ],
-    "shipCount": 0,
+    "shipCount": 12,
     "sections": [
       {
         "title": "Las rutas y el sostenimiento de la guerra",
@@ -78,5 +78,128 @@
         "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-i.html"
       }
     ]
+  },
+  {
+    "id": "guerra-civil-espanola",
+    "name": "Guerra Civil española",
+    "period": "1936–1939",
+    "theaters": [
+      "Mediterráneo",
+      "Cantábrico",
+      "Norte de África"
+    ],
+    "description": "La guerra dividió la flota española. Las operaciones incluyeron bloqueo, escolta, bombardeo costero y combates de superficie; cada ficha distingue la afiliación del buque.",
+    "sections": [],
+    "keyBattles": [],
+    "sources": [
+      {
+        "title": "Spanish battleship Alfonso XIII",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_Alfonso_XIII",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish battleship Jaime I",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_Jaime_I",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Canarias",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Canarias",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Baleares",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Baleares",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Almirante Cervera",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Almirante_Cervera",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Príncipe Alfonso",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Príncipe_Alfonso",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Miguel de Cervantes",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Miguel_de_Cervantes",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Méndez Núñez",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Méndez_Núñez",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Churruca (CH)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://es.wikipedia.org/wiki/Churruca_(CH)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "importBatch": "fleet-80",
+    "shipCount": 9
+  },
+  {
+    "id": "guerra-del-rif",
+    "name": "Guerra del Rif",
+    "period": "1921–1926",
+    "theaters": [
+      "Norte de África"
+    ],
+    "description": "Las fuerzas navales españolas apoyaron las operaciones en el norte de África mediante presencia, transporte y bombardeo costero. El catálogo recoge las unidades documentadas de ese escenario.",
+    "sections": [],
+    "keyBattles": [],
+    "sources": [
+      {
+        "title": "Spanish battleship España",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_España",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish battleship Alfonso XIII",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_Alfonso_XIII",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish battleship Jaime I",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_Jaime_I",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Méndez Núñez",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Méndez_Núñez",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "importBatch": "fleet-80",
+    "shipCount": 4
   }
 ]

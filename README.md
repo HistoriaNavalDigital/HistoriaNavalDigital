@@ -1,6 +1,6 @@
 # Historia Naval Digital
 
-Archivo estático de historia naval en español. HTML, CSS y JavaScript, con contenido organizado en JSON. Versión 0.2.
+Archivo estático de historia naval en español. HTML, CSS y JavaScript, con contenido organizado en JSON. Versión 0.4.
 
 ## Abrir en tu computadora
 
@@ -50,12 +50,12 @@ Favoritos y preferencias se guardan en el navegador mediante `localStorage`. Si 
 La selección de tipo se concentra en un único desplegable dentro del panel de filtros. Se elimina la barra lateral duplicada. Las tarjetas muestran clase, años de servicio y velocidad; las fichas conservan las especificaciones completas y las notas documentales. Naciones usa imágenes y contexto desplegable; tecnología presenta explicaciones compactas y ejemplos con nombres de buques.
 
 ## Archivo editorial 0.3
-Portada con relato protagonista, tres colecciones temáticas, búsqueda general por tipo de contenido, cinco páginas de clases y glosario de doce términos. Las seis fichas incorporan función, importancia y relato por apartados con referencias; los acontecimientos incluyen objetivos, fases y consecuencias. La tecnología contiene ocho temas y el archivo multimedia once piezas, incluidas ilustraciones conceptuales identificadas como tales.
+Portada con relato protagonista, tres colecciones temáticas, búsqueda general por tipo de contenido, páginas de clases y glosario de 24 términos. Las fichas incorporan función, importancia y relato por apartados con referencias; los acontecimientos incluyen objetivos, fases y consecuencias. La tecnología contiene ocho temas y el archivo multimedia 82 piezas, incluidas ilustraciones conceptuales identificadas como tales.
 
 El catálogo mantiene un único filtro por criterio, admite vista de lista y reconoce periodos secundarios (Fletcher aparece en acero y Guerra Fría). Se guardan buques, acontecimientos, imágenes y colecciones en favoritos locales. El mapa filtra escenarios por categoría y año, sin inventar rutas históricas.
 
 ### Edición y generación
-Los contenidos se mantienen en `assets/data`. Ejecutar `python scripts/generate-pages.py` después de modificar buques: genera las seis rutas permanentes `buques/<id>.html` con metadatos y contenido inicial legible sin JavaScript, y el sitemap. La ficha parametrizada anterior sigue disponible. Ejecutar `python scripts/validate.py` y `npm test` antes de subir cambios.
+Los contenidos se mantienen en `assets/data`. Ejecutar `python scripts/generate-pages.py` después de modificar buques: genera las 80 rutas permanentes `buques/<id>.html` con metadatos y contenido inicial legible sin JavaScript, y el sitemap. La ficha parametrizada anterior sigue disponible. Ejecutar `python scripts/validate.py` y `npm test` antes de subir cambios.
 
 ### Alcance de la documentación
 Las clases muestran las unidades disponibles, no un inventario completo. Los datos técnicos heredados mantienen revisión parcial y deben comprobarse por configuración; una actualización editorial no equivale a verificación total. No hay modelos 3D, planos históricos nuevos ni reconstrucciones tácticas animadas. Las imágenes conceptuales no son planos a escala.
@@ -63,4 +63,10 @@ Las clases muestran las unidades disponibles, no un inventario completo. Los dat
 Verificación: pruebas funcionales de DOM y comprobaciones de archivos y relaciones. La revisión visual en navegador no está disponible en este entorno. GitHub Pages requiere estar habilitado para servir el sitio.
 
 ## Redacción técnica y estilo formal
-La sección de tecnología desarrolla ocho capítulos con 32 apartados y 64 párrafos de exposición continua. Los encabezados describen conceptos, arquitectura, funciones y limitaciones; se eliminan las formulaciones interrogativas del texto informativo. Las fuentes se muestran al final de cada capítulo. La búsqueda general indexa también el contenido de estos apartados.
+La sección de tecnología desarrolla ocho capítulos con 32 apartados y 64 párrafos de exposición continua. Los encabezados describen conceptos, arquitectura, funciones y limitaciones; se eliminan las formulaciones interrogativas del texto informativo. Las referencias se reúnen en Fuentes y bibliografía, con enlaces desde los capítulos. La búsqueda general indexa también el contenido de estos apartados.
+
+## Ampliación a ocho armadas
+
+80 buques: diez de Alemania, Japón, Estados Unidos, Reino Unido, Francia, Italia, Unión Soviética y España. Se conservan las seis fichas anteriores y se añaden 74 con referencia enciclopédica individual, cronología, función, trayectoria y características técnicas. Nueve fichas incorporan además referencias institucionales. La ampliación añade 55 fotografías y un documento de vistas y silueta con créditos centrales. Dieciocho fichas mantienen un marcador explícito de fotografía pendiente.
+
+El catálogo pagina doce registros y mantiene filtros, ordenación, favoritos y vista de lista. Las pruebas recorren las 80 fichas y rutas permanentes, las ocho selecciones nacionales y todas las páginas del catálogo. Los cambios de nombre conservan un único registro por casco; las fechas iniciales de los acorazados soviéticos incluyen su etapa imperial y las fichas españolas distinguen afiliaciones durante la Guerra Civil. Las cifras mantienen unidades de la referencia y pueden corresponder a configuraciones diferentes señaladas por fecha; esta ampliación no equivale a un contraste especializado de cada dato.

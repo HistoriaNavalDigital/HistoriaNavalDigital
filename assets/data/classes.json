@@ -47,7 +47,8 @@
     "image": "assets/images/ships/yamato.jpg",
     "summary": "Familia de diseño a la que pertenece Yamato. Consulta cada unidad para sus características y modificaciones.",
     "shipIds": [
-      "yamato"
+      "yamato",
+      "musashi"
     ],
     "note": "Las unidades mostradas son las incorporadas al archivo, no la lista completa de la clase. Las características de una unidad no se aplican automáticamente a todas sus hermanas.",
     "sources": [
@@ -64,6 +65,13 @@
         "author": "",
         "type": "Referencia web",
         "accessed": "2026-10-10"
+      },
+      {
+        "title": "Japanese battleship Musashi",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_battleship_Musashi",
+        "accessed": "2026-10-11"
       }
     ],
     "designNote": "El diseño se estudia aquí a través del Yamato: artillería pesada, gran tamaño y protección. El archivo muestra por ahora una unidad; su historial no resume el servicio de toda la clase.",
@@ -86,7 +94,9 @@
     "image": "assets/images/ships/uss-enterprise.jpg",
     "summary": "Familia de diseño a la que pertenece USS Enterprise (CV-6). Consulta cada unidad para sus características y modificaciones.",
     "shipIds": [
-      "uss-enterprise"
+      "uss-enterprise",
+      "uss-yorktown",
+      "uss-hornet"
     ],
     "note": "Las unidades mostradas son las incorporadas al archivo, no la lista completa de la clase. Las características de una unidad no se aplican automáticamente a todas sus hermanas.",
     "sources": [
@@ -96,6 +106,20 @@
         "type": "Documento web",
         "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html",
         "accessed": "2026-10-10"
+      },
+      {
+        "title": "USS Yorktown (CV-5)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/USS_Yorktown_(CV-5)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "USS Hornet (CV-8)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/USS_Hornet_(CV-8)",
+        "accessed": "2026-10-11"
       }
     ],
     "designNote": "La ficha del Enterprise permite estudiar la combinación de cubierta de vuelo, grupo aéreo y apoyo de flota. Las aeronaves y modificaciones pertenecen a la unidad y al periodo documentados.",
@@ -193,5 +217,1518 @@
         "text": "Pertenecer a una clase identifica un diseño de referencia, pero no garantiza que todas sus unidades llevaran los mismos equipos durante toda su vida. Para comparar armamento, sensores y dotaciones es necesario usar configuraciones de fechas equivalentes. Las modificaciones y las reparaciones pueden explicar diferencias entre fotografías y cifras publicadas."
       }
     ]
+  },
+  {
+    "id": "clase-alemania-scharnhorst",
+    "name": "Clase Scharnhorst",
+    "nation": "alemania",
+    "type": "acorazado",
+    "image": "assets/images/fleet/scharnhorst.jpg",
+    "summary": "Familia de diseño del Scharnhorst.",
+    "shipIds": [
+      "scharnhorst",
+      "gneisenau"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "German battleship Scharnhorst",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Scharnhorst",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "German battleship Gneisenau",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Gneisenau",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-alemania-admiral-hipper",
+    "name": "Clase Admiral Hipper",
+    "nation": "alemania",
+    "type": "crucero",
+    "image": "assets/images/fleet/admiral-hipper.jpg",
+    "summary": "Familia de diseño del Prinz Eugen.",
+    "shipIds": [
+      "prinz-eugen",
+      "admiral-hipper"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "German cruiser Prinz Eugen",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/German_cruiser_Prinz_Eugen",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "German cruiser Admiral Hipper",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Hipper",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-alemania-deutschland",
+    "name": "Clase Deutschland",
+    "nation": "alemania",
+    "type": "crucero",
+    "image": "assets/images/fleet/admiral-scheer.jpg",
+    "summary": "Familia de diseño del Admiral Scheer.",
+    "shipIds": [
+      "admiral-scheer",
+      "admiral-graf-spee"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "German cruiser Admiral Scheer",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Scheer",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "German cruiser Admiral Graf Spee",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Graf_Spee",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-alemania-konigsberg",
+    "name": "Clase Königsberg",
+    "nation": "alemania",
+    "type": "crucero",
+    "image": "assets/images/fleet/koln.jpg",
+    "summary": "Familia de diseño del Köln.",
+    "shipIds": [
+      "koln"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "German cruiser Köln",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/German_cruiser_Köln",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-alemania-tipo-vii-b",
+    "name": "Clase Tipo VII B",
+    "nation": "alemania",
+    "type": "submarino",
+    "image": "assets/images/ship-pending.svg",
+    "summary": "Familia de diseño del U-47.",
+    "shipIds": [
+      "u-47"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "German submarine U-47 (1938)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/German_submarine_U-47_(1938)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La navegación en superficie y en inmersión imponía prestaciones distintas. Su autonomía, velocidad y armamento deben leerse indicando la condición operativa a la que corresponden.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-japon-nagato",
+    "name": "Clase Nagato",
+    "nation": "japon",
+    "type": "acorazado",
+    "image": "assets/images/fleet/nagato.jpg",
+    "summary": "Familia de diseño del Nagato.",
+    "shipIds": [
+      "nagato",
+      "mutsu"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Japanese battleship Nagato",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_battleship_Nagato",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Japanese battleship Mutsu",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_battleship_Mutsu",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-japon-kongo",
+    "name": "Clase Kongō",
+    "nation": "japon",
+    "type": "acorazado",
+    "image": "assets/images/fleet/haruna.jpg",
+    "summary": "Familia de diseño del Kongō.",
+    "shipIds": [
+      "kongo",
+      "haruna"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Japanese battleship Kongō",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_battleship_Kongō",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Japanese battleship Haruna",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_battleship_Haruna",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-japon-akagi",
+    "name": "Clase Akagi",
+    "nation": "japon",
+    "type": "portaviones",
+    "image": "assets/images/fleet/akagi.jpg",
+    "summary": "Familia de diseño del Akagi.",
+    "shipIds": [
+      "akagi"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Japanese aircraft carrier Akagi",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Akagi",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Su capacidad de combate dependía del grupo aéreo, las instalaciones de cubierta y hangar, y la coordinación con las escoltas. La configuración de aeronaves variaba según la misión y el periodo.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-japon-kaga",
+    "name": "Clase Kaga",
+    "nation": "japon",
+    "type": "portaviones",
+    "image": "assets/images/fleet/kaga.jpg",
+    "summary": "Familia de diseño del Kaga.",
+    "shipIds": [
+      "kaga"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Japanese aircraft carrier Kaga",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Kaga",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Su capacidad de combate dependía del grupo aéreo, las instalaciones de cubierta y hangar, y la coordinación con las escoltas. La configuración de aeronaves variaba según la misión y el periodo.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-japon-shokaku",
+    "name": "Clase Shōkaku",
+    "nation": "japon",
+    "type": "portaviones",
+    "image": "assets/images/fleet/shokaku.jpg",
+    "summary": "Familia de diseño del Shōkaku.",
+    "shipIds": [
+      "shokaku",
+      "zuikaku"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Japanese aircraft carrier Shōkaku",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Shōkaku",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Japanese aircraft carrier Zuikaku",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Zuikaku",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Su capacidad de combate dependía del grupo aéreo, las instalaciones de cubierta y hangar, y la coordinación con las escoltas. La configuración de aeronaves variaba según la misión y el periodo.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-estados-unidos-iowa",
+    "name": "Clase Iowa",
+    "nation": "estados-unidos",
+    "type": "acorazado",
+    "image": "assets/images/fleet/uss-iowa.jpg",
+    "summary": "Familia de diseño del USS Iowa (BB-61).",
+    "shipIds": [
+      "uss-iowa",
+      "uss-missouri"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "USS Iowa (BB-61)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/USS_Iowa_(BB-61)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "USS Missouri (BB-63)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/USS_Missouri_(BB-63)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-estados-unidos-north-carolina",
+    "name": "Clase North Carolina",
+    "nation": "estados-unidos",
+    "type": "acorazado",
+    "image": "assets/images/ship-pending.svg",
+    "summary": "Familia de diseño del USS Washington (BB-56).",
+    "shipIds": [
+      "uss-washington"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "USS Washington (BB-56)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/USS_Washington_(BB-56)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-estados-unidos-south-dakota",
+    "name": "Clase South Dakota",
+    "nation": "estados-unidos",
+    "type": "acorazado",
+    "image": "assets/images/ship-pending.svg",
+    "summary": "Familia de diseño del USS South Dakota (BB-57).",
+    "shipIds": [
+      "uss-south-dakota"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "USS South Dakota (BB-57)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/USS_South_Dakota_(BB-57)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-estados-unidos-lexington",
+    "name": "Clase Lexington",
+    "nation": "estados-unidos",
+    "type": "portaviones",
+    "image": "assets/images/fleet/uss-saratoga.jpg",
+    "summary": "Familia de diseño del USS Lexington (CV-2).",
+    "shipIds": [
+      "uss-lexington",
+      "uss-saratoga"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "USS Lexington (CV-2)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/USS_Lexington_(CV-2)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "USS Saratoga (CV-3)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/USS_Saratoga_(CV-3)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Su capacidad de combate dependía del grupo aéreo, las instalaciones de cubierta y hangar, y la coordinación con las escoltas. La configuración de aeronaves variaba según la misión y el periodo.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-reino-unido-queen-elizabeth",
+    "name": "Clase Queen Elizabeth",
+    "nation": "reino-unido",
+    "type": "acorazado",
+    "image": "assets/images/fleet/hms-warspite.jpg",
+    "summary": "Familia de diseño del HMS Warspite.",
+    "shipIds": [
+      "hms-warspite"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "HMS Warspite (03)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_Warspite_(03)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-reino-unido-nelson",
+    "name": "Clase Nelson",
+    "nation": "reino-unido",
+    "type": "acorazado",
+    "image": "assets/images/fleet/hms-rodney.jpg",
+    "summary": "Familia de diseño del HMS Rodney.",
+    "shipIds": [
+      "hms-rodney"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "HMS Rodney (29)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_Rodney_(29)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-reino-unido-king-george-v",
+    "name": "Clase King George V",
+    "nation": "reino-unido",
+    "type": "acorazado",
+    "image": "assets/images/fleet/hms-king-george-v.jpg",
+    "summary": "Familia de diseño del HMS King George V.",
+    "shipIds": [
+      "hms-king-george-v",
+      "hms-prince-of-wales"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "HMS King George V (41)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_King_George_V_(41)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "HMS Prince of Wales (53)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-reino-unido-ark-royal",
+    "name": "Clase Ark Royal",
+    "nation": "reino-unido",
+    "type": "portaviones",
+    "image": "assets/images/fleet/hms-ark-royal.jpg",
+    "summary": "Familia de diseño del HMS Ark Royal (91).",
+    "shipIds": [
+      "hms-ark-royal"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "HMS Ark Royal (91)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_Ark_Royal_(91)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Su capacidad de combate dependía del grupo aéreo, las instalaciones de cubierta y hangar, y la coordinación con las escoltas. La configuración de aeronaves variaba según la misión y el periodo.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-reino-unido-town-edinburgh",
+    "name": "Clase Town · Edinburgh",
+    "nation": "reino-unido",
+    "type": "crucero",
+    "image": "assets/images/fleet/hms-belfast.jpg",
+    "summary": "Familia de diseño del HMS Belfast.",
+    "shipIds": [
+      "hms-belfast"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "HMS Belfast",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_Belfast",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-reino-unido-town-southampton",
+    "name": "Clase Town · Southampton",
+    "nation": "reino-unido",
+    "type": "crucero",
+    "image": "assets/images/fleet/hms-sheffield.jpg",
+    "summary": "Familia de diseño del HMS Sheffield.",
+    "shipIds": [
+      "hms-sheffield"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "HMS Sheffield (C24)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_Sheffield_(C24)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-reino-unido-tribal",
+    "name": "Clase Tribal",
+    "nation": "reino-unido",
+    "type": "destructor",
+    "image": "assets/images/fleet/hms-cossack.jpg",
+    "summary": "Familia de diseño del HMS Cossack.",
+    "shipIds": [
+      "hms-cossack"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "HMS Cossack (F03)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_Cossack_(F03)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Combinaba velocidad y armamento para tareas de escolta y ataque. El empleo de torpedos, artillería y medios de detección variaba con la configuración y la misión.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-reino-unido-illustrious",
+    "name": "Clase Illustrious",
+    "nation": "reino-unido",
+    "type": "portaviones",
+    "image": "assets/images/fleet/hms-victorious.jpeg",
+    "summary": "Familia de diseño del HMS Victorious.",
+    "shipIds": [
+      "hms-victorious"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "HMS Victorious (R38)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/HMS_Victorious_(R38)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Su capacidad de combate dependía del grupo aéreo, las instalaciones de cubierta y hangar, y la coordinación con las escoltas. La configuración de aeronaves variaba según la misión y el periodo.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-francia-richelieu",
+    "name": "Clase Richelieu",
+    "nation": "francia",
+    "type": "acorazado",
+    "image": "assets/images/fleet/richelieu.jpg",
+    "summary": "Familia de diseño del Richelieu.",
+    "shipIds": [
+      "richelieu",
+      "jean-bart"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "French battleship Richelieu",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Richelieu",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Jean Bart (1940)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Jean_Bart_(1940)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-francia-dunkerque",
+    "name": "Clase Dunkerque",
+    "nation": "francia",
+    "type": "acorazado",
+    "image": "assets/images/fleet/dunkerque.jpg",
+    "summary": "Familia de diseño del Dunkerque.",
+    "shipIds": [
+      "dunkerque",
+      "strasbourg"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "French battleship Dunkerque",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Dunkerque",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Strasbourg",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Strasbourg",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-francia-bretagne",
+    "name": "Clase Bretagne",
+    "nation": "francia",
+    "type": "acorazado",
+    "image": "assets/images/fleet/provence.jpg",
+    "summary": "Familia de diseño del Bretagne.",
+    "shipIds": [
+      "bretagne",
+      "provence",
+      "lorraine"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "French battleship Bretagne",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Bretagne",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Provence",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Provence",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Lorraine",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Lorraine",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-francia-algerie",
+    "name": "Clase Algérie",
+    "nation": "francia",
+    "type": "crucero",
+    "image": "assets/images/fleet/algerie.png",
+    "summary": "Familia de diseño del Algérie.",
+    "shipIds": [
+      "algerie"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "French cruiser Algérie",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_cruiser_Algérie",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-francia-la-galissonniere",
+    "name": "Clase La Galissonnière",
+    "nation": "francia",
+    "type": "crucero",
+    "image": "assets/images/fleet/la-galissonniere.jpg",
+    "summary": "Familia de diseño del La Galissonnière.",
+    "shipIds": [
+      "la-galissonniere"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "French cruiser La Galissonnière",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_cruiser_La_Galissonnière",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-francia-bearn",
+    "name": "Clase Béarn",
+    "nation": "francia",
+    "type": "portaviones",
+    "image": "assets/images/fleet/bearn.jpg",
+    "summary": "Familia de diseño del Béarn.",
+    "shipIds": [
+      "bearn"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "French aircraft carrier Béarn",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_aircraft_carrier_Béarn",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Su capacidad de combate dependía del grupo aéreo, las instalaciones de cubierta y hangar, y la coordinación con las escoltas. La configuración de aeronaves variaba según la misión y el periodo.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-italia-littorio",
+    "name": "Clase Littorio",
+    "nation": "italia",
+    "type": "acorazado",
+    "image": "assets/images/fleet/littorio.jpg",
+    "summary": "Familia de diseño del Littorio / Italia.",
+    "shipIds": [
+      "littorio",
+      "vittorio-veneto",
+      "roma"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Italian battleship Littorio",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Littorio",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian battleship Vittorio Veneto",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Vittorio_Veneto",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian battleship Roma (1940)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Roma_(1940)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-italia-conte-di-cavour",
+    "name": "Clase Conte di Cavour",
+    "nation": "italia",
+    "type": "acorazado",
+    "image": "assets/images/fleet/conte-di-cavour.jpg",
+    "summary": "Familia de diseño del Conte di Cavour.",
+    "shipIds": [
+      "conte-di-cavour",
+      "giulio-cesare"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Italian battleship Conte di Cavour",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Conte_di_Cavour",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian battleship Giulio Cesare",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Giulio_Cesare",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-italia-andrea-doria",
+    "name": "Clase Andrea Doria",
+    "nation": "italia",
+    "type": "acorazado",
+    "image": "assets/images/fleet/andrea-doria.jpg",
+    "summary": "Familia de diseño del Andrea Doria.",
+    "shipIds": [
+      "andrea-doria"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Italian battleship Andrea Doria",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Andrea_Doria",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-italia-zara",
+    "name": "Clase Zara",
+    "nation": "italia",
+    "type": "crucero",
+    "image": "assets/images/ship-pending.svg",
+    "summary": "Familia de diseño del Zara.",
+    "shipIds": [
+      "zara",
+      "pola"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Italian cruiser Zara",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_cruiser_Zara",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian cruiser Pola",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_cruiser_Pola",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-italia-trento",
+    "name": "Clase Trento",
+    "nation": "italia",
+    "type": "crucero",
+    "image": "assets/images/fleet/trento.jpg",
+    "summary": "Familia de diseño del Trento.",
+    "shipIds": [
+      "trento",
+      "trieste"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Italian cruiser Trento",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_cruiser_Trento",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian cruiser Trieste",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_cruiser_Trieste",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-union-sovietica-gangut",
+    "name": "Clase Gangut",
+    "nation": "union-sovietica",
+    "type": "acorazado",
+    "image": "assets/images/fleet/marat.jpg",
+    "summary": "Familia de diseño del Marat / Petropavlovsk.",
+    "shipIds": [
+      "marat",
+      "oktyabrskaya-revolutsiya",
+      "parizhskaya-kommuna"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Russian battleship Petropavlovsk (1911)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Russian_battleship_Petropavlovsk_(1911)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Russian battleship Gangut",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Russian_battleship_Gangut",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Russian battleship Sevastopol (1911)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Russian_battleship_Sevastopol_(1911)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-union-sovietica-kirov-proyecto-26",
+    "name": "Clase Kirov · Proyecto 26",
+    "nation": "union-sovietica",
+    "type": "crucero",
+    "image": "assets/images/fleet/kirov.jpg",
+    "summary": "Familia de diseño del Kirov.",
+    "shipIds": [
+      "kirov"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Soviet cruiser Kirov",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Kirov",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-union-sovietica-kirov-proyecto-26-bis",
+    "name": "Clase Kirov · Proyecto 26 bis",
+    "nation": "union-sovietica",
+    "type": "crucero",
+    "image": "assets/images/fleet/maxim-gorky.jpg",
+    "summary": "Familia de diseño del Maxim Gorky.",
+    "shipIds": [
+      "maxim-gorky",
+      "molotov"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Soviet cruiser Maxim Gorky",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Maxim_Gorky",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Soviet cruiser Molotov",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Molotov",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-union-sovietica-admiral-nakhimov-reconstruido",
+    "name": "Clase Admiral Nakhimov · reconstruido",
+    "nation": "union-sovietica",
+    "type": "crucero",
+    "image": "assets/images/fleet/krasny-kavkaz.jpg",
+    "summary": "Familia de diseño del Krasny Kavkaz.",
+    "shipIds": [
+      "krasny-kavkaz"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Soviet cruiser Krasny Kavkaz",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Krasny_Kavkaz",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-union-sovietica-svetlana",
+    "name": "Clase Svetlana",
+    "nation": "union-sovietica",
+    "type": "crucero",
+    "image": "assets/images/fleet/krasny-krym.jpg",
+    "summary": "Familia de diseño del Krasny Krym.",
+    "shipIds": [
+      "krasny-krym"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Soviet cruiser Krasny Krym",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Krasny_Krym",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-union-sovietica-tashkent-proyecto-20",
+    "name": "Clase Tashkent · Proyecto 20",
+    "nation": "union-sovietica",
+    "type": "destructor",
+    "image": "assets/images/fleet/tashkent.jpg",
+    "summary": "Familia de diseño del Tashkent.",
+    "shipIds": [
+      "tashkent"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Soviet destroyer Tashkent",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_destroyer_Tashkent",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Combinaba velocidad y armamento para tareas de escolta y ataque. El empleo de torpedos, artillería y medios de detección variaba con la configuración y la misión.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-union-sovietica-leningrad-proyecto-1",
+    "name": "Clase Leningrad · Proyecto 1",
+    "nation": "union-sovietica",
+    "type": "destructor",
+    "image": "assets/images/fleet/leningrad.jpg",
+    "summary": "Familia de diseño del Leningrad.",
+    "shipIds": [
+      "leningrad"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Soviet destroyer Leningrad",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_destroyer_Leningrad",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Combinaba velocidad y armamento para tareas de escolta y ataque. El empleo de torpedos, artillería y medios de detección variaba con la configuración y la misión.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-espana-espana",
+    "name": "Clase España",
+    "nation": "espana",
+    "type": "acorazado",
+    "image": "assets/images/fleet/alfonso-xiii.jpg",
+    "summary": "Familia de diseño del España (1912).",
+    "shipIds": [
+      "espana-1912",
+      "alfonso-xiii",
+      "jaime-i"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Spanish battleship España",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_España",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish battleship Alfonso XIII",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_Alfonso_XIII",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish battleship Jaime I",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_Jaime_I",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "La artillería pesada, la protección y la propulsión se integraban en un diseño destinado al combate de superficie. Su empleo también podía incluir escolta, presencia naval o bombardeo costero.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-espana-canarias",
+    "name": "Clase Canarias",
+    "nation": "espana",
+    "type": "crucero",
+    "image": "assets/images/fleet/canarias.jpg",
+    "summary": "Familia de diseño del Canarias.",
+    "shipIds": [
+      "canarias",
+      "baleares"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Spanish cruiser Canarias",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Canarias",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Baleares",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Baleares",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-espana-almirante-cervera",
+    "name": "Clase Almirante Cervera",
+    "nation": "espana",
+    "type": "crucero",
+    "image": "assets/images/fleet/almirante-cervera.jpg",
+    "summary": "Familia de diseño del Almirante Cervera.",
+    "shipIds": [
+      "almirante-cervera",
+      "principe-alfonso",
+      "miguel-de-cervantes"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Spanish cruiser Almirante Cervera",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Almirante_Cervera",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Príncipe Alfonso",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Príncipe_Alfonso",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Miguel de Cervantes",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Miguel_de_Cervantes",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-espana-blas-de-lezo",
+    "name": "Clase Blas de Lezo",
+    "nation": "espana",
+    "type": "crucero",
+    "image": "assets/images/ship-pending.svg",
+    "summary": "Familia de diseño del Méndez Núñez (1924).",
+    "shipIds": [
+      "mendez-nunez"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Spanish cruiser Méndez Núñez",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Méndez_Núñez",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Reunía capacidad artillera y movilidad para misiones de superficie. El peso dedicado a protección, armamento y autonomía dependía de la clase y de las restricciones de construcción.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "clase-espana-churruca",
+    "name": "Clase Churruca",
+    "nation": "espana",
+    "type": "destructor",
+    "image": "assets/images/ship-pending.svg",
+    "summary": "Familia de diseño del Churruca (1931).",
+    "shipIds": [
+      "churruca"
+    ],
+    "note": "Las cifras y el equipo pueden variar entre unidades y modernizaciones. El listado reúne las unidades incorporadas al archivo, no todas las construidas.",
+    "sources": [
+      {
+        "title": "Churruca (CH)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://es.wikipedia.org/wiki/Churruca_(CH)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "designNote": "Combinaba velocidad y armamento para tareas de escolta y ataque. El empleo de torpedos, artillería y medios de detección variaba con la configuración y la misión.",
+    "sections": [
+      {
+        "title": "Criterio de comparación",
+        "text": "Para comparar unidades de esta clase deben utilizarse configuraciones equivalentes. La pertenencia a un diseño común no implica que el armamento o los sensores fueran idénticos durante toda su carrera."
+      }
+    ],
+    "importBatch": "fleet-80"
   }
 ]

@@ -10,7 +10,11 @@
     "development": "La inteligencia estadounidense permitió anticipar la operación japonesa. La batalla se desarrolló mediante ataques de aviación embarcada y basada en tierra, con fuertes pérdidas en ambos bandos.",
     "result": "Japón perdió cuatro portaviones; Estados Unidos perdió el Yorktown. La victoria frenó la ofensiva japonesa en el Pacífico.",
     "shipIds": [
-      "uss-enterprise"
+      "uss-enterprise",
+      "uss-yorktown",
+      "uss-hornet",
+      "akagi",
+      "kaga"
     ],
     "map": {
       "lat": 28.2,
@@ -57,7 +61,15 @@
     "result": "La retirada japonesa a comienzos de 1943 consolidó la posición aliada y abrió una nueva fase de la campaña de las Salomón.",
     "shipIds": [
       "uss-enterprise",
-      "uss-fletcher"
+      "uss-fletcher",
+      "uss-washington",
+      "uss-south-dakota",
+      "uss-saratoga",
+      "uss-hornet",
+      "shokaku",
+      "zuikaku",
+      "kongo",
+      "haruna"
     ],
     "map": {
       "lat": -9.5,
@@ -196,7 +208,9 @@
     "result": "El Hood se hundió y el Prince of Wales se retiró. El Bismarck sufrió daños que condicionaron la continuación de su operación.",
     "shipIds": [
       "bismarck",
-      "hms-hood"
+      "hms-hood",
+      "hms-prince-of-wales",
+      "prinz-eugen"
     ],
     "map": {
       "lat": 63.6,

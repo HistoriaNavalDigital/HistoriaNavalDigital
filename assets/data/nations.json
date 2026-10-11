@@ -11,7 +11,7 @@
       "Cruceros pesados",
       "Submarinos U-boat"
     ],
-    "shipCount": 2,
+    "shipCount": 10,
     "sections": [
       {
         "title": "Objetivos y límites",
@@ -43,7 +43,7 @@
       "Acorazados",
       "Cruceros"
     ],
-    "shipCount": 1,
+    "shipCount": 10,
     "sections": [
       {
         "title": "Escenarios del Pacífico",
@@ -76,7 +76,7 @@
       "Destructores",
       "Cruceros"
     ],
-    "shipCount": 2,
+    "shipCount": 10,
     "sections": [
       {
         "title": "Formaciones y cooperación",
@@ -109,7 +109,7 @@
       "Portaviones",
       "Destructores"
     ],
-    "shipCount": 1,
+    "shipCount": 10,
     "sections": [
       {
         "title": "Comunicaciones marítimas",
@@ -128,5 +128,396 @@
         "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/atlantic/overview.html"
       }
     ]
+  },
+  {
+    "id": "francia",
+    "name": "Francia",
+    "flag": "🇫🇷",
+    "navyName": "Marine nationale",
+    "period": "1916–1970",
+    "description": "La flota francesa combinó acorazados modernizados, unidades rápidas y cruceros durante el periodo de entreguerras. La derrota de 1940 dividió el control y el empleo de sus fuerzas navales.",
+    "navalDoctrine": "Protección de comunicaciones y operaciones en el Atlántico y el Mediterráneo.",
+    "keyShipTypes": [
+      "Acorazados",
+      "Cruceros",
+      "Portaviones"
+    ],
+    "sections": [
+      {
+        "title": "Organización y escenarios",
+        "text": "Protección de comunicaciones y operaciones en el Atlántico y el Mediterráneo."
+      },
+      {
+        "title": "Lectura histórica de la flota",
+        "text": "Las fichas distinguen los buques bajo control de Vichy, las unidades incorporadas al esfuerzo aliado y la reorganización de posguerra."
+      }
+    ],
+    "shipCount": 10,
+    "sources": [
+      {
+        "title": "French battleship Richelieu",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Richelieu",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Jean Bart (1940)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Jean_Bart_(1940)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Dunkerque",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Dunkerque",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Strasbourg",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Strasbourg",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Bretagne",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Bretagne",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Provence",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Provence",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French battleship Lorraine",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_battleship_Lorraine",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French cruiser Algérie",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_cruiser_Algérie",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French cruiser La Galissonnière",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_cruiser_La_Galissonnière",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "French aircraft carrier Béarn",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/French_aircraft_carrier_Béarn",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "italia",
+    "name": "Italia",
+    "flag": "🇮🇹",
+    "navyName": "Regia Marina / Marina Militare",
+    "period": "1914–1956",
+    "description": "La Regia Marina operó en el Mediterráneo con acorazados reconstruidos, nuevas unidades de la clase Littorio y fuerzas de cruceros. Los convoyes al norte de África fueron una necesidad estratégica central.",
+    "navalDoctrine": "Control del Mediterráneo y protección de los convoyes de abastecimiento.",
+    "keyShipTypes": [
+      "Acorazados",
+      "Cruceros"
+    ],
+    "sections": [
+      {
+        "title": "Organización y escenarios",
+        "text": "Control del Mediterráneo y protección de los convoyes de abastecimiento."
+      },
+      {
+        "title": "Lectura histórica de la flota",
+        "text": "El armisticio de 1943 cambió la situación de la flota. Algunas unidades sobrevivieron en la Marina de posguerra y otras fueron internadas, transferidas o desguazadas."
+      }
+    ],
+    "shipCount": 10,
+    "sources": [
+      {
+        "title": "Italian battleship Littorio",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Littorio",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian battleship Vittorio Veneto",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Vittorio_Veneto",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian battleship Roma (1940)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Roma_(1940)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian battleship Conte di Cavour",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Conte_di_Cavour",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian battleship Giulio Cesare",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Giulio_Cesare",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian battleship Andrea Doria",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_battleship_Andrea_Doria",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian cruiser Zara",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_cruiser_Zara",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian cruiser Pola",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_cruiser_Pola",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian cruiser Trento",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_cruiser_Trento",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Italian cruiser Trieste",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Italian_cruiser_Trieste",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "union-sovietica",
+    "name": "Unión Soviética",
+    "flag": "★",
+    "navyName": "Armada soviética",
+    "period": "1917–1991",
+    "description": "La Armada soviética utilizó unidades heredadas del Imperio ruso y nuevos proyectos de cruceros y destructores. El Báltico y el mar Negro impusieron condiciones geográficas y operativas diferentes.",
+    "navalDoctrine": "Defensa de costas, apoyo a fuerzas terrestres y operaciones de flota.",
+    "keyShipTypes": [
+      "Acorazados",
+      "Cruceros",
+      "Destructores"
+    ],
+    "sections": [
+      {
+        "title": "Organización y escenarios",
+        "text": "Defensa de costas, apoyo a fuerzas terrestres y operaciones de flota."
+      },
+      {
+        "title": "Lectura histórica de la flota",
+        "text": "Los cambios de nombre no representan barcos distintos. Las fichas conservan la identidad del casco y explican su transición del periodo imperial al soviético."
+      }
+    ],
+    "shipCount": 10,
+    "sources": [
+      {
+        "title": "Russian battleship Petropavlovsk (1911)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Russian_battleship_Petropavlovsk_(1911)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Russian battleship Gangut",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Russian_battleship_Gangut",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Russian battleship Sevastopol (1911)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Russian_battleship_Sevastopol_(1911)",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Soviet cruiser Kirov",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Kirov",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Soviet cruiser Maxim Gorky",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Maxim_Gorky",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Soviet cruiser Molotov",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Molotov",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Soviet cruiser Krasny Kavkaz",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Krasny_Kavkaz",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Soviet cruiser Krasny Krym",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_cruiser_Krasny_Krym",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Soviet destroyer Tashkent",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_destroyer_Tashkent",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Soviet destroyer Leningrad",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Soviet_destroyer_Leningrad",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "espana",
+    "name": "España",
+    "flag": "🇪🇸",
+    "navyName": "Armada española",
+    "period": "1913–1975",
+    "description": "El catálogo reúne acorazados, cruceros y un destructor de la Armada española del siglo XX. La Guerra Civil dividió la flota entre el gobierno republicano y el bando sublevado.",
+    "navalDoctrine": "Presencia naval, protección de comunicaciones y operaciones costeras.",
+    "keyShipTypes": [
+      "Acorazados",
+      "Cruceros",
+      "Destructores"
+    ],
+    "sections": [
+      {
+        "title": "Organización y escenarios",
+        "text": "Presencia naval, protección de comunicaciones y operaciones costeras."
+      },
+      {
+        "title": "Lectura histórica de la flota",
+        "text": "La agrupación por país no implica una única afiliación durante la Guerra Civil: cada ficha identifica el bando y los cambios de nombre pertinentes."
+      }
+    ],
+    "shipCount": 10,
+    "sources": [
+      {
+        "title": "Spanish battleship España",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_España",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish battleship Alfonso XIII",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_Alfonso_XIII",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish battleship Jaime I",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_battleship_Jaime_I",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Canarias",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Canarias",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Baleares",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Baleares",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Almirante Cervera",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Almirante_Cervera",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Príncipe Alfonso",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Príncipe_Alfonso",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Miguel de Cervantes",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Miguel_de_Cervantes",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Spanish cruiser Méndez Núñez",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://en.wikipedia.org/wiki/Spanish_cruiser_Méndez_Núñez",
+        "accessed": "2026-10-11"
+      },
+      {
+        "title": "Churruca (CH)",
+        "author": "Colaboradores de Wikipedia",
+        "type": "Referencia enciclopédica secundaria",
+        "url": "https://es.wikipedia.org/wiki/Churruca_(CH)",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "importBatch": "fleet-80"
   }
 ]

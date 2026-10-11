@@ -416,5 +416,1069 @@
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/US_Navy_060623-N-5367L-003_USS_Constitution_crew_members_stand_by_on_the_ship%27s_bowsprit_prior_to_a_21-gun_salute_to_the_nation.jpg"
     },
     "topic": "patrimonio"
+  },
+  {
+    "id": "fleet-scharnhorst",
+    "title": "Scharnhorst · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1939. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "scharnhorst",
+    "era": "era-acero",
+    "image": "assets/images/fleet/scharnhorst.jpg",
+    "year": "1939",
+    "credit": {
+      "author": "UnknownUnknown",
+      "license": "CC BY-SA 3.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_DVM_10_Bild-23-63-07,_Schlachtschiff_%22Scharnhorst%22.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Bundesarchiv_DVM_10_Bild-23-63-07%2C_Schlachtschiff_%22Scharnhorst%22.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "archiveCredit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project. The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-gneisenau",
+    "title": "Gneisenau · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1939. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "gneisenau",
+    "era": "era-acero",
+    "image": "assets/images/fleet/gneisenau.jpg",
+    "year": "1939",
+    "credit": {
+      "author": "Klein, A.",
+      "license": "CC BY-SA 3.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_DVM_10_Bild-23-63-21,_Schlachtschiff_%22Gneisenau%22.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bundesarchiv_DVM_10_Bild-23-63-21%2C_Schlachtschiff_%22Gneisenau%22.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "archiveCredit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project. The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-admiral-hipper",
+    "title": "Admiral Hipper · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1939. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "admiral-hipper",
+    "era": "era-acero",
+    "image": "assets/images/fleet/admiral-hipper.jpg",
+    "year": "1939",
+    "credit": {
+      "author": "UnknownUnknown",
+      "license": "CC BY-SA 3.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_DVM_10_Bild-23-63-24,_Schwerer_Kreuzer_%22Admiral_Hipper%22.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Bundesarchiv_DVM_10_Bild-23-63-24%2C_Schwerer_Kreuzer_%22Admiral_Hipper%22.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "archiveCredit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project. The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-admiral-scheer",
+    "title": "Admiral Scheer · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: circa 1936. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "admiral-scheer",
+    "era": "era-acero",
+    "image": "assets/images/fleet/admiral-scheer.jpg",
+    "year": "circa 1936",
+    "credit": {
+      "author": "U.S. Navy",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Admiral_Scheer_in_Gibraltar.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Admiral_Scheer_in_Gibraltar.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Official U.S. Navy photo NH 59664 from the U.S. Navy Naval History and Heritage Command"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-admiral-graf-spee",
+    "title": "Admiral Graf Spee · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1936. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "admiral-graf-spee",
+    "era": "era-acero",
+    "image": "assets/images/fleet/admiral-graf-spee.jpg",
+    "year": "1936",
+    "credit": {
+      "author": "UnknownUnknown",
+      "license": "CC BY-SA 3.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_DVM_10_Bild-23-63-06,_Panzerschiff_%22Admiral_Graf_Spee%22.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bundesarchiv_DVM_10_Bild-23-63-06%2C_Panzerschiff_%22Admiral_Graf_Spee%22.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "archiveCredit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project. The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-koln",
+    "title": "Köln · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Década de 1930. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "koln",
+    "era": "era-acero",
+    "image": "assets/images/fleet/koln.jpg",
+    "year": "Década de 1930",
+    "credit": {
+      "author": "USN",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:German_light_cruiser_K%C3%B6ln_underway_during_late_1930s.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/German_light_cruiser_K%C3%B6ln_underway_during_late_1930s.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Official U.S. Navy photo NH 98268 (cropped) from the U.S. Navy Naval History and Heritage Command"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-musashi",
+    "title": "Musashi · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: circa 22 October 1944. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "musashi",
+    "era": "era-acero",
+    "image": "assets/images/fleet/musashi.jpg",
+    "year": "circa 22 October 1944",
+    "credit": {
+      "author": "Lieutenant Tobei Shiraishi",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Japanese_battleship_Musashi_underway_in_1944_(NH_63473)_(cropped).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/be/Japanese_battleship_Musashi_underway_in_1944_%28NH_63473%29_%28cropped%29.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "U.S. Navy photo NH 63473"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-nagato",
+    "title": "Nagato · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1920-09-30. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "nagato",
+    "era": "era-acero",
+    "image": "assets/images/fleet/nagato.jpg",
+    "year": "1920-09-30",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagato01cropped.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Nagato01cropped.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Kure Maritime Museum, (edited by Kazushige Todaka), Japanese Naval Warship Photo Album:  Battleships and Battle Cruisers, p.162"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-mutsu",
+    "title": "Mutsu · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: circa 1921. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "mutsu",
+    "era": "era-acero",
+    "image": "assets/images/fleet/mutsu.jpg",
+    "year": "circa 1921",
+    "credit": {
+      "author": "user:Akagi",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Mutsu20.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mutsu20.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "http://www.bosamar.com/files/nagato03.jpg"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-haruna",
+    "title": "Haruna · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1934-08-28. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "haruna",
+    "era": "era-acero",
+    "image": "assets/images/fleet/haruna.jpg",
+    "year": "1934-08-28",
+    "credit": {
+      "author": "Kure Naval Arsenal Shipbuilding unit",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Haruna_1934.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Haruna_1934.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Kure Maritime Museum, (edited by Kazushige Todaka), Japanese Naval Warship Photo Album:  Battleships and Battle Cruisers, p. 114.; also published in Shizuo Fukui, Nihon No Gunkan: Shashinshu,  published 1970, p.18"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-akagi",
+    "title": "Akagi · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: April 1942. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "akagi",
+    "era": "era-acero",
+    "image": "assets/images/fleet/akagi.jpg",
+    "year": "April 1942",
+    "credit": {
+      "author": "Japanese Navy",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:AkagiDeckApril42.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/AkagiDeckApril42.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Kure Maritime Museum, (edited by Kazushige Todaka), Japanese Naval Warship Photo Album:  Aircraft carrier and Seaplane carrier, p. 24"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-kaga",
+    "title": "Kaga · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1936年(昭和11年). La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "kaga",
+    "era": "era-acero",
+    "image": "assets/images/fleet/kaga.jpg",
+    "year": "1936年(昭和11年)",
+    "credit": {
+      "author": "Mr Fukami",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Japanese_Navy_Aircraft_Carrier_Kaga.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Japanese_Navy_Aircraft_Carrier_Kaga.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Photo is taken from the original exhibit at the Yamato Museum.[1]"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-shokaku",
+    "title": "Shōkaku · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1941年(昭和16年)8月23日. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "shokaku",
+    "era": "era-acero",
+    "image": "assets/images/fleet/shokaku.jpg",
+    "year": "1941年(昭和16年)8月23日",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Japanese_aircraft_carrier_shokaku_1941.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/00/Japanese_aircraft_carrier_shokaku_1941.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "広島県呉市海事歴史科学館所蔵品。(Hiroshima Prefecture Yamato Museum collection)"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-uss-iowa",
+    "title": "USS Iowa (BB-61) · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Taken on 15 August 1984. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "uss-iowa",
+    "era": "era-acero",
+    "image": "assets/images/fleet/uss-iowa.jpg",
+    "year": "Taken on 15 August 1984",
+    "credit": {
+      "author": "PH1 Jeff Hilton",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:BB61_USS_Iowa_BB61_broadside_USN.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ea/BB61_USS_Iowa_BB61_broadside_USN.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "http://www.dodmedia.osd.mil (original source, no longer exists)"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-uss-missouri",
+    "title": "USS Missouri (BB-63) · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "uss-missouri",
+    "era": "era-acero",
+    "image": "assets/images/fleet/uss-missouri.jpg",
+    "year": "",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Missouri_post_refit.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Missouri_post_refit.JPG",
+      "licenseUrl": "",
+      "archiveCredit": ""
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-uss-yorktown",
+    "title": "USS Yorktown (CV-5) · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1937-07-21. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "uss-yorktown",
+    "era": "era-acero",
+    "image": "assets/images/fleet/uss-yorktown.jpg",
+    "year": "1937-07-21",
+    "credit": {
+      "author": "U.S. Navy photo 19-N-17424",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Yorktown_(CV-5)_Jul1937.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/USS_Yorktown_%28CV-5%29_Jul1937.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-uss-hornet",
+    "title": "USS Hornet (CV-8) · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: late 1941. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "uss-hornet",
+    "era": "era-acero",
+    "image": "assets/images/fleet/uss-hornet.jpg",
+    "year": "late 1941",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Aft_view_of_USS_Hornet_(CV-8),_circa_in_late_1941_(NH_81313).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Aft_view_of_USS_Hornet_%28CV-8%29%2C_circa_in_late_1941_%28NH_81313%29.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "U.S. Navy photo NH 81313"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-uss-saratoga",
+    "title": "USS Saratoga (CV-3) · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: circa 1942. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "uss-saratoga",
+    "era": "era-acero",
+    "image": "assets/images/fleet/uss-saratoga.jpg",
+    "year": "circa 1942",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Saratoga_(CV-3)_underway,_circa_in_1942_(80-G-K-459).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7f/USS_Saratoga_%28CV-3%29_underway%2C_circa_in_1942_%2880-G-K-459%29.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-warspite",
+    "title": "HMS Warspite · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1942-07-16. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-warspite",
+    "era": "era-acero",
+    "image": "assets/images/fleet/hms-warspite.jpg",
+    "year": "1942-07-16",
+    "credit": {
+      "author": "Oulds, D C (Lt) Royal Navy official photographer",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Warspite,_Indian_Ocean_1942.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c0/HMS_Warspite%2C_Indian_Ocean_1942.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "This photograph A 11787 comes from the collections of the Imperial War Museums(collection no. 4700-01)"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-rodney",
+    "title": "HMS Rodney · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1942-05-04. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-rodney",
+    "era": "era-acero",
+    "image": "assets/images/fleet/hms-rodney.jpg",
+    "year": "1942-05-04",
+    "credit": {
+      "author": "Official photographer, Tomlin H W (Lt)",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Rodney_after_refitting_at_Liverpool.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/HMS_Rodney_after_refitting_at_Liverpool.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "This photograph A 9607 comes from the collections of the Imperial War Museums(collection no. 4700-01)"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-king-george-v",
+    "title": "HMS King George V · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1945. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-king-george-v",
+    "era": "era-acero",
+    "image": "assets/images/fleet/hms-king-george-v.jpg",
+    "year": "1945",
+    "credit": {
+      "author": "USN",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:King_George_V_class_battleship_1945.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c8/King_George_V_class_battleship_1945.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Official U.S. Navy photograph 80-G-328942 and [1]."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-prince-of-wales",
+    "title": "HMS Prince of Wales · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1941-12-04. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-prince-of-wales",
+    "era": "era-acero",
+    "image": "assets/images/fleet/hms-prince-of-wales.jpg",
+    "year": "1941-12-04",
+    "credit": {
+      "author": "Abrahams, H J (Lt), Royal Navy official photographer.\n\nPost-Work: User:W.wolny",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Prince_Of_Wales_in_Singapore.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f9/HMS_Prince_Of_Wales_in_Singapore.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "This photograph A 6786 comes from the collections of the Imperial War Museums."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-ark-royal",
+    "title": "HMS Ark Royal (91) · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: circa 1939. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-ark-royal",
+    "era": "era-acero",
+    "image": "assets/images/fleet/hms-ark-royal.jpg",
+    "year": "circa 1939",
+    "credit": {
+      "author": "US Navy",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Ark_Royal_h79167.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/HMS_Ark_Royal_h79167.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Official U.S. Navy photo NH 79167 from the U.S. Navy Naval History and Heritage Command"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-belfast",
+    "title": "HMS Belfast · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 2013-11-28 10:32:23. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-belfast",
+    "era": "guerra-fria",
+    "image": "assets/images/fleet/hms-belfast.jpg",
+    "year": "2013-11-28 10:32:23",
+    "credit": {
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:London_November_2013-14a.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/London_November_2013-14a.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "archiveCredit": "Own work"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-sheffield",
+    "title": "HMS Sheffield · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1944. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-sheffield",
+    "era": "era-acero",
+    "image": "assets/images/fleet/hms-sheffield.jpg",
+    "year": "1944",
+    "credit": {
+      "author": "Royal Navy official photographer",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Sheffield.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3e/HMS_Sheffield.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "This photograph FL 1938 comes from the collections of the Imperial War Museums(collection no. 8308-29)"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-cossack",
+    "title": "HMS Cossack · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1938. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-cossack",
+    "era": "era-acero",
+    "image": "assets/images/fleet/hms-cossack.jpg",
+    "year": "1938",
+    "credit": {
+      "author": "Royal Navy official photographer",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Cossack.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/HMS_Cossack.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "This photograph FL 1657 comes from the collections of the Imperial War Museums(collection no. 8308-29 [1])"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-hms-victorious",
+    "title": "HMS Victorious · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: circa 1958-1960. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "hms-victorious",
+    "era": "era-acero",
+    "image": "assets/images/fleet/hms-victorious.jpeg",
+    "year": "circa 1958-1960",
+    "credit": {
+      "author": "U.S. Navy",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Victorious_(R38)_aerial_c1959.jpeg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4b/HMS_Victorious_%28R38%29_aerial_c1959.jpeg",
+      "licenseUrl": "",
+      "archiveCredit": "U.S. Navy National Museum of Naval Aviation photo No. 1996.488.037.041"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-richelieu",
+    "title": "Richelieu · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1943-08-26. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "richelieu",
+    "era": "era-acero",
+    "image": "assets/images/fleet/richelieu.jpg",
+    "year": "1943-08-26",
+    "credit": {
+      "author": "U.S. Navy photo 80-G-78789",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:French_battleship_Richelieu_underway_in_the_Atlantic_Ocean_on_26_August_1943_(80-G-78789).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/French_battleship_Richelieu_underway_in_the_Atlantic_Ocean_on_26_August_1943_%2880-G-78789%29.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-jean-bart",
+    "title": "Jean Bart (1940) · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1942-11. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "jean-bart",
+    "era": "era-acero",
+    "image": "assets/images/fleet/jean-bart.jpg",
+    "year": "1942-11",
+    "credit": {
+      "author": "Unknown US Navy pilot (US Navy official photograph)",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Jean_Bart_damaged_01.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jean_Bart_damaged_01.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "80-G-32402: Naval Battle of Casablanca, November 1942. history.navy.mil. Naval History & Heritage Command. Retrieved on 30 July 2019."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-dunkerque",
+    "title": "Dunkerque · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "dunkerque",
+    "era": "era-acero",
+    "image": "assets/images/fleet/dunkerque.jpg",
+    "year": "",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Dunkerque-1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Dunkerque-1.jpg",
+      "licenseUrl": "",
+      "archiveCredit": ""
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-provence",
+    "title": "Provence · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1942-11-09. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "provence",
+    "era": "era-acero",
+    "image": "assets/images/fleet/provence.jpg",
+    "year": "1942-11-09",
+    "credit": {
+      "author": "Division of Naval Inteligence of the Navy Department of the United States",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Provence-1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Provence-1.jpg",
+      "licenseUrl": "",
+      "archiveCredit": ""
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-lorraine",
+    "title": "Lorraine · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 2017-04-04 10:37:24. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "lorraine",
+    "era": "guerra-fria",
+    "image": "assets/images/fleet/lorraine.jpg",
+    "year": "2017-04-04 10:37:24",
+    "credit": {
+      "author": "National Museum of the U.S. Navy",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:80-G-202752_French_battleship_Lorraine.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/80-G-202752_French_battleship_Lorraine.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "https://www.flickr.com/photos/national_museum_of_the_us_navy/33687455352/"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-algerie",
+    "title": "Algérie · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1999-09-15. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "algerie",
+    "era": "era-acero",
+    "image": "assets/images/fleet/algerie.png",
+    "year": "1999-09-15",
+    "credit": {
+      "author": "Marine Nationale",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Algerie.png",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Algerie.png",
+      "licenseUrl": "",
+      "archiveCredit": "Le croiseur Algerie, Jean Moulin & Patrick Maurand, 1999 ISBN 2-909675-55-6 (SHM Vincennes)"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-la-galissonniere",
+    "title": "La Galissonnière · vistas y silueta",
+    "description": "Documento gráfico que reúne vistas y silueta del crucero. Permite reconocer la distribución exterior; no constituye un plano de construcción ni una fotografía histórica.",
+    "type": "plano",
+    "shipId": "la-galissonniere",
+    "era": "era-acero",
+    "image": "assets/images/fleet/la-galissonniere.jpg",
+    "year": "",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:LaGalissonniere-1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/LaGalissonniere-1.jpg",
+      "licenseUrl": "",
+      "archiveCredit": ""
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-bearn",
+    "title": "Béarn · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Unknown date. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "bearn",
+    "era": "era-acero",
+    "image": "assets/images/fleet/bearn.jpg",
+    "year": "Unknown date",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:CV_Bearn_NAN-5-63.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8b/CV_Bearn_NAN-5-63.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "U.S. Navy Naval Aviation News May 1963 [1]"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-littorio",
+    "title": "Littorio / Italia · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: November 1939. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "littorio",
+    "era": "era-acero",
+    "image": "assets/images/fleet/littorio.jpg",
+    "year": "November 1939",
+    "credit": {
+      "author": "UnknownUnknown",
+      "license": "CC BY-SA 3.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S54286,_Italien,_Schlachtschiff_%22Littorio%22.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/13/Bundesarchiv_Bild_183-S54286%2C_Italien%2C_Schlachtschiff_%22Littorio%22.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "archiveCredit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project. The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-roma",
+    "title": "Roma · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: c. August 1942 – September 1943. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "roma",
+    "era": "era-acero",
+    "image": "assets/images/fleet/roma.jpg",
+    "year": "c. August 1942 – September 1943",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Battleship_Roma.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Battleship_Roma.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "ANSA"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-conte-di-cavour",
+    "title": "Conte di Cavour · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1914. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "conte-di-cavour",
+    "era": "era-acero",
+    "image": "assets/images/fleet/conte-di-cavour.jpg",
+    "year": "1914",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:RNConte_di_Cavour-Original.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/RNConte_di_Cavour-Original.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "http://www.marina.difesa.it/storiacultura/storia/almanacco/PublishingImages/corazzate%20navi%20battaglia/cavour04.jpg"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-giulio-cesare",
+    "title": "Giulio Cesare · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: circa 1938. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "giulio-cesare",
+    "era": "era-acero",
+    "image": "assets/images/fleet/giulio-cesare.jpg",
+    "year": "circa 1938",
+    "credit": {
+      "author": "An unknown serviceman of the Regia Marina",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Battleship_Giulio_Cesare.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/40/Battleship_Giulio_Cesare.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Ministero Della Difesa-Marina"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-andrea-doria",
+    "title": "Andrea Doria · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1943. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "andrea-doria",
+    "era": "era-acero",
+    "image": "assets/images/fleet/andrea-doria.jpg",
+    "year": "1943",
+    "credit": {
+      "author": "unattributed, credited as an IWM photo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Italian_battleship_Andrea_Doria.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/Italian_battleship_Andrea_Doria.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Whitley, M. J. (1998)       Battleships of World War II, Annapolis:  Naval Institute Press  ISBN:  1-55750-184-X."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-trento",
+    "title": "Trento · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Unknown date, c. 1930–1939. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "trento",
+    "era": "era-acero",
+    "image": "assets/images/fleet/trento.jpg",
+    "year": "Unknown date, c. 1930–1939",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Italian_cruiser_Trento_NH_86592.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Italian_cruiser_Trento_NH_86592.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "history.navy.mil"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-trieste",
+    "title": "Trieste · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Unknown, c. 1930. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "trieste",
+    "era": "era-acero",
+    "image": "assets/images/fleet/trieste.jpg",
+    "year": "Unknown, c. 1930",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Italian_cruiser_Trieste_NH_86003.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Italian_cruiser_Trieste_NH_86003.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "history.navy.mil"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-marat",
+    "title": "Marat / Petropavlovsk · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Дореволюционные годы.. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "marat",
+    "era": "era-acero",
+    "image": "assets/images/fleet/marat.jpg",
+    "year": "Дореволюционные годы.",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Petropavlovsk-Helsingfors.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Petropavlovsk-Helsingfors.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Архив фотографий кораблей русского и советского ВМФ."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-kirov",
+    "title": "Kirov · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1941. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "kirov",
+    "era": "era-acero",
+    "image": "assets/images/fleet/kirov.jpg",
+    "year": "1941",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirov1941-2.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kirov1941-2.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Архив фотографий кораблей русского и советского ВМФ."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-maxim-gorky",
+    "title": "Maxim Gorky · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1941. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "maxim-gorky",
+    "era": "era-acero",
+    "image": "assets/images/fleet/maxim-gorky.jpg",
+    "year": "1941",
+    "credit": {
+      "author": "Ivan Dranysh",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:MaksimGor%27kiy1941.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/MaksimGor%27kiy1941.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Архив фотографий кораблей русского и советского ВМФ."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-molotov",
+    "title": "Molotov / Slava · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Unknown date. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "molotov",
+    "era": "era-acero",
+    "image": "assets/images/fleet/molotov.jpg",
+    "year": "Unknown date",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Molotov-1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Molotov-1.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Архив фотографий кораблей русского и советского ВМФ."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-krasny-kavkaz",
+    "title": "Krasny Kavkaz · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Década de 1930. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "krasny-kavkaz",
+    "era": "era-acero",
+    "image": "assets/images/fleet/krasny-kavkaz.jpg",
+    "year": "Década de 1930",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:KrasnyyKavkaz1930s1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/53/KrasnyyKavkaz1930s1.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Архив фотографий кораблей русского и советского ВМФ."
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-krasny-krym",
+    "title": "Krasny Krym · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1943. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "krasny-krym",
+    "era": "era-acero",
+    "image": "assets/images/fleet/krasny-krym.jpg",
+    "year": "1943",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Krasnyy_Krym_01.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Krasnyy_Krym_01.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "flot.sevastopol.info"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-tashkent",
+    "title": "Tashkent · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1937. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "tashkent",
+    "era": "era-acero",
+    "image": "assets/images/fleet/tashkent.jpg",
+    "year": "1937",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Tashkent1937.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Tashkent1937.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Afonsin, Nikolay N. (2008). Lider \"Tashkent\" [Leader \"Tashkent\"]. Midel-frame (in Russian). 15. Saint Petersburg: Gangut. ISBN 5-85875-070-2, p. 36"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-leningrad",
+    "title": "Leningrad · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: June 1944. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "leningrad",
+    "era": "era-acero",
+    "image": "assets/images/fleet/leningrad.jpg",
+    "year": "June 1944",
+    "credit": {
+      "author": "Unknown naval attaché",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Leningrad-class_DD_1944_80-G-176369.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Leningrad-class_DD_1944_80-G-176369.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "[1]"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-alfonso-xiii",
+    "title": "Alfonso XIII / España · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: circa 1933. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "alfonso-xiii",
+    "era": "era-acero",
+    "image": "assets/images/fleet/alfonso-xiii.jpg",
+    "year": "circa 1933",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Spanish_battleship_Espa%C3%B1a_underway.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/06/Spanish_battleship_Espa%C3%B1a_underway.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "history.navy.mil"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-jaime-i",
+    "title": "Jaime I · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: c. 1933. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "jaime-i",
+    "era": "era-acero",
+    "image": "assets/images/fleet/jaime-i.jpg",
+    "year": "c. 1933",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Spanish_battleship_Jaime_I_NH_87928.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Spanish_battleship_Jaime_I_NH_87928.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "history.navy.mil"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-canarias",
+    "title": "Canarias · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: sconosciuta (caricata sul sito losbarcosdeeugenio.com il 2004-01-10 17:32:00). La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "canarias",
+    "era": "era-acero",
+    "image": "assets/images/fleet/canarias.jpg",
+    "year": "sconosciuta (caricata sul sito losbarcosdeeugenio.com il 2004-01-10 17:32:00)",
+    "credit": {
+      "author": "Jose María Gonzalez",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ae_C21.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ae_C21.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "archiveCredit": "http://www.losbarcosdeeugenio.com/barcos/es/es/ae_C21.html"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-baleares",
+    "title": "Baleares · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: before 1938. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "baleares",
+    "era": "era-acero",
+    "image": "assets/images/fleet/baleares.jpg",
+    "year": "before 1938",
+    "credit": {
+      "author": "Oilisab",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cruceiro_Baleares_MuseoNavalFerrol.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Cruceiro_Baleares_MuseoNavalFerrol.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "archiveCredit": "Own work"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-almirante-cervera",
+    "title": "Almirante Cervera · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: Verano de 1927. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "almirante-cervera",
+    "era": "era-acero",
+    "image": "assets/images/fleet/almirante-cervera.jpg",
+    "year": "Verano de 1927",
+    "credit": {
+      "author": "Armada Española (persona jurídica)",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Pruebas_de_mar_cervera.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Pruebas_de_mar_cervera.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Museo Naval"
+    },
+    "importBatch": "fleet-80"
+  },
+  {
+    "id": "fleet-principe-alfonso",
+    "title": "Príncipe Alfonso / Libertad · documento visual",
+    "description": "Fotografía del buque identificado en el archivo de procedencia. Fecha o periodo indicado por el archivo: 1927. La configuración visible debe distinguirse de la fecha de construcción y de las características iniciales.",
+    "type": "fotografia",
+    "shipId": "principe-alfonso",
+    "era": "era-acero",
+    "image": "assets/images/fleet/principe-alfonso.jpg",
+    "year": "1927",
+    "credit": {
+      "author": "Autor no identificado por el archivo",
+      "license": "Dominio público",
+      "source": "https://commons.wikimedia.org/wiki/File:Principe_Alfonso.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Principe_Alfonso.jpg",
+      "licenseUrl": "",
+      "archiveCredit": "Revista General de la Marina"
+    },
+    "importBatch": "fleet-80"
   }
 ]

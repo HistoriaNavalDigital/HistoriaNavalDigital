@@ -46,6 +46,7 @@ const HND = {
 
   shipStatuses: {
     hundido: "Hundido",
+    desaparecido: "Desaparecido",
     activo: "Activo",
     retirado: "Retirado",
     desguazado: "Desguazado",
