@@ -17,7 +17,7 @@ for ship in ships:
     text=text.replace('</head>','<link rel="canonical" href="'+SITE+'buques/'+ship['id']+'.html">\n</head>')
     article='<article><h1>'+escape(ship['name'])+'</h1><p>'+escape(ship['summary'])+'</p><img src="../'+ship['image']+'" alt="'+escape(ship['name'])+'">'
     article+=''.join('<section><h2>'+escape(s['title'])+'</h2><p>'+escape(s['text'])+'</p></section>' for s in ship.get('historySections',[]))
-    article+='<section><h2>Fuentes</h2><ul>'+''.join('<li><a href="'+escape(s['url'],quote=True)+'">'+escape(s['title'])+'</a></li>' for s in ship['sources'] if s.get('url'))+'</ul></section><p><a href="../buques.html">Explorar catálogo</a></p></article>'
+    article+='<section><h2>Documentación</h2><p><a href="../fuentes.html#buque-'+escape(ship['id'])+'">Consultar fuentes y bibliografía</a></p></section><p><a href="../buques.html">Explorar catálogo</a></p></article>'
     text=text.replace('<div id="ship-content"></div>','<div id="ship-content">'+article+'</div>')
     (ROOT/'buques'/f'{ship["id"]}.html').write_text(text)
 files=[p.relative_to(ROOT).as_posix() for p in ROOT.glob('*.html') if p.name not in ['buque.html','batalla.html','clase.html','coleccion.html','favoritos.html','comparar.html','buscar.html']]

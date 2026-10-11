@@ -1,16 +1,18 @@
 [
   {
     "id": "img-bismarck-01",
-    "title": "Bismarck en alta mar",
+    "title": "Bismarck en el Grimstadfjord",
     "type": "fotografia",
     "shipId": "bismarck",
     "era": "era-acero",
-    "image": "assets/images/multimedia/bismarck_01.jpg",
-    "description": "Fotografía histórica del acorazado alemán Bismarck durante operaciones en el Atlántico Norte.",
+    "image": "assets/images/archive/bismarck-archive-2.jpg",
+    "description": "El Bismarck en un fondeadero noruego durante la operación Rheinübung. La fotografía documenta el buque antes de su salida hacia el Atlántico.",
     "year": "1941",
     "credit": {
-      "author": "Autor pendiente de identificar",
-      "license": "Procedencia y licencia pendientes de verificar"
+      "author": "Paul S. Schmalenbach",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:German_Battleship_Bismarck_in_the_Grimstadfjord.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/German_Battleship_Bismarck_in_the_Grimstadfjord.jpg"
     }
   },
   {
@@ -159,5 +161,260 @@
       "author": "Historia Naval Digital",
       "license": "Ilustración didáctica de elaboración propia; no es documentación histórica"
     }
+  },
+  {
+    "id": "yamato-archive-0",
+    "title": "Yamato bajo ataque, 7 de abril de 1945",
+    "description": "Fotografía aérea del Yamato dañado durante su última operación. Permite situar la pérdida del buque en el contexto de los ataques de la aviación embarcada.",
+    "type": "fotografia",
+    "shipId": "yamato",
+    "era": "era-acero",
+    "image": "assets/images/archive/yamato-archive-0.jpg",
+    "year": "1945",
+    "credit": {
+      "author": "Autor no identificado; archivo indicado en procedencia",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Damaged_Japanese_battleship_Yamato_underway,_7_April_1945_(NH_62580).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Damaged_Japanese_battleship_Yamato_underway%2C_7_April_1945_%28NH_62580%29.jpg"
+    },
+    "topic": "yamato"
+  },
+  {
+    "id": "uss-enterprise-archive-0",
+    "title": "USS Enterprise, abril de 1939",
+    "description": "Vista del Enterprise antes de la entrada de Estados Unidos en la Segunda Guerra Mundial. Puede compararse con las imágenes de 1944 y 1945 para estudiar su evolución.",
+    "type": "fotografia",
+    "shipId": "uss-enterprise",
+    "era": "era-acero",
+    "image": "assets/images/archive/uss-enterprise-archive-0.jpg",
+    "year": "1939",
+    "credit": {
+      "author": "USN (official U.S. Navy photo 80-G-463246)",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(April_1939).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/USS_Enterprise_%28April_1939%29.jpg"
+    },
+    "topic": "uss-enterprise"
+  },
+  {
+    "id": "uss-enterprise-archive-1",
+    "title": "USS Enterprise fondeado frente a Saipán",
+    "description": "Vista del portaviones frente a Saipán, hacia mediados de 1944. Se aprecian la cubierta de vuelo y la superestructura lateral.",
+    "type": "fotografia",
+    "shipId": "uss-enterprise",
+    "era": "era-acero",
+    "image": "assets/images/archive/uss-enterprise-archive-1.jpg",
+    "year": "1944",
+    "credit": {
+      "author": "Autor no identificado; archivo indicado en procedencia",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(CV-6)_anchored_off_Saipan,_circa_mid-1944_(NH_97266).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/USS_Enterprise_%28CV-6%29_anchored_off_Saipan%2C_circa_mid-1944_%28NH_97266%29.jpg"
+    },
+    "topic": "uss-enterprise"
+  },
+  {
+    "id": "uss-enterprise-archive-3",
+    "title": "USS Enterprise en Puget Sound, 13 de septiembre de 1945",
+    "description": "Vista del portaviones al final de la guerra. La fecha identifica una configuración tardía y evita confundirla con la del buque en Midway.",
+    "type": "fotografia",
+    "shipId": "uss-enterprise",
+    "era": "era-acero",
+    "image": "assets/images/archive/uss-enterprise-archive-3.jpg",
+    "year": "1945",
+    "credit": {
+      "author": "Autor no identificado; archivo indicado en procedencia",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(CV-6)_underway_in_Puget_Sound,_13_September_1945_(19-N-89185).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/USS_Enterprise_%28CV-6%29_underway_in_Puget_Sound%2C_13_September_1945_%2819-N-89185%29.jpg"
+    },
+    "topic": "uss-enterprise"
+  },
+  {
+    "id": "uss-enterprise-archive-4",
+    "title": "USS Enterprise rumbo al canal de Panamá",
+    "description": "El Enterprise navegando hacia el canal de Panamá el 10 de octubre de 1945. Documento de su actividad inmediatamente posterior a la guerra.",
+    "type": "fotografia",
+    "shipId": "uss-enterprise",
+    "era": "era-acero",
+    "image": "assets/images/archive/uss-enterprise-archive-4.jpg",
+    "year": "1945",
+    "credit": {
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(CV-6)_underway_towards_the_Panama_Canal_on_10_October_1945_(80-G-701166).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/df/USS_Enterprise_%28CV-6%29_underway_towards_the_Panama_Canal_on_10_October_1945_%2880-G-701166%29.jpg"
+    },
+    "topic": "uss-enterprise"
+  },
+  {
+    "id": "hms-hood-archive-0",
+    "title": "HMS Hood hacia 1932",
+    "description": "Fotografía del crucero de batalla durante el periodo de entreguerras. Muestra su perfil y la distribución general de sus torretas.",
+    "type": "fotografia",
+    "shipId": "hms-hood",
+    "era": "era-acero",
+    "image": "assets/images/archive/hms-hood-archive-0.jpg",
+    "year": "Hacia 1932",
+    "credit": {
+      "author": "Unknown photographer (Wright & Logan)",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:British_Battlecruiser_HMS_Hood_circa_1932.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/ff/British_Battlecruiser_HMS_Hood_circa_1932.jpg"
+    },
+    "topic": "hms-hood"
+  },
+  {
+    "id": "hms-hood-archive-2",
+    "title": "HMS Hood en el puerto de Vancouver",
+    "description": "El Hood durante una visita a Vancouver. La escena documenta también la función de presencia y representación naval de las grandes unidades.",
+    "type": "fotografia",
+    "shipId": "hms-hood",
+    "era": "era-acero",
+    "image": "assets/images/archive/hms-hood-archive-2.jpg",
+    "year": "",
+    "credit": {
+      "author": "not stated",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Hood_in_Vancouver_Harbour.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/HMS_Hood_in_Vancouver_Harbour.jpg"
+    },
+    "topic": "hms-hood"
+  },
+  {
+    "id": "uss-fletcher-archive-1",
+    "title": "USS Fletcher en Purvis Bay, 26 de marzo de 1943",
+    "description": "El destructor fondeado en las islas Salomón. La imagen sitúa al Fletcher en el escenario de sus operaciones del Pacífico.",
+    "type": "fotografia",
+    "shipId": "uss-fletcher",
+    "era": "era-acero",
+    "image": "assets/images/archive/uss-fletcher-archive-1.jpg",
+    "year": "1943",
+    "credit": {
+      "author": "Autor no identificado; archivo indicado en procedencia",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Fletcher_(DD-445)_at_anchor_in_Purvis_Bay,_Florida_Island,_Solomon_Islands,_on_26_March_1943_(NH_53916).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8e/USS_Fletcher_%28DD-445%29_at_anchor_in_Purvis_Bay%2C_Florida_Island%2C_Solomon_Islands%2C_on_26_March_1943_%28NH_53916%29.jpg"
+    },
+    "topic": "uss-fletcher"
+  },
+  {
+    "id": "uss-fletcher-archive-3",
+    "title": "USS Fletcher durante la década de 1960",
+    "description": "Vista del destructor en una etapa posterior de su carrera. Debe compararse con las fotografías de guerra teniendo en cuenta sus modificaciones.",
+    "type": "fotografia",
+    "shipId": "uss-fletcher",
+    "era": "guerra-fria",
+    "image": "assets/images/archive/uss-fletcher-archive-3.jpg",
+    "year": "Década de 1960",
+    "credit": {
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Fletcher_(DD-445)_underway_at_sea,_circa_the_1960s_(NH_68912).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/06/USS_Fletcher_%28DD-445%29_underway_at_sea%2C_circa_the_1960s_%28NH_68912%29.jpg"
+    },
+    "topic": "uss-fletcher"
+  },
+  {
+    "id": "uss-fletcher-archive-4",
+    "title": "USS Fletcher navegando en 1967",
+    "description": "Fotografía de una configuración tardía del Fletcher. Su larga trayectoria permite estudiar la adaptación de una unidad de guerra a nuevas misiones.",
+    "type": "fotografia",
+    "shipId": "uss-fletcher",
+    "era": "guerra-fria",
+    "image": "assets/images/archive/uss-fletcher-archive-4.jpg",
+    "year": "1967",
+    "credit": {
+      "author": "Autor no identificado; archivo indicado en procedencia",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Fletcher_(DD-445)_underway_at_sea_in_1967_(NH_68915).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c4/USS_Fletcher_%28DD-445%29_underway_at_sea_in_1967_%28NH_68915%29.jpg"
+    },
+    "topic": "uss-fletcher"
+  },
+  {
+    "id": "midway-archive-2",
+    "title": "Midway: ataques de la aviación basada en tierra",
+    "description": "Mapa de los ataques de aviones basados en Midway el 4 de junio de 1942. Es una reconstrucción cartográfica de las operaciones, no una carta de navegación contemporánea.",
+    "type": "mapa",
+    "shipId": null,
+    "era": "era-acero",
+    "image": "assets/images/archive/midway-archive-2.png",
+    "year": "Hechos de 1942",
+    "credit": {
+      "author": "U.S. Navy",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Midway_map_-_attacks_of_Midway_based_aircraft_on_4_June_1942.png",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Battle_of_Midway_map_-_attacks_of_Midway_based_aircraft_on_4_June_1942.png"
+    },
+    "topic": "midway"
+  },
+  {
+    "id": "belfast-archive-3",
+    "title": "HMS Belfast bombardeando posiciones en Normandía",
+    "description": "Fotografía del crucero británico prestando apoyo artillero a operaciones terrestres. Ilustra una función de los buques de superficie distinta del combate contra otra flota.",
+    "type": "fotografia",
+    "shipId": null,
+    "era": "era-acero",
+    "image": "assets/images/archive/belfast-archive-3.jpg",
+    "year": "1944",
+    "credit": {
+      "author": "Lt. C.H. Parnall\n\nPost-Work: User:W.wolny",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:The_cruiser_HMS_Belfast_bombarding_German_positions_in_Normandy.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/24/The_cruiser_HMS_Belfast_bombarding_German_positions_in_Normandy.jpg"
+    },
+    "topic": "belfast"
+  },
+  {
+    "id": "monitor-archive-3",
+    "title": "Pecio del USS Monitor, hacia 1974",
+    "description": "Fotografía submarina del pecio del Monitor. Documenta el patrimonio arqueológico de la transición al blindaje y a la artillería en torreta.",
+    "type": "fotografia",
+    "shipId": null,
+    "era": "transicion-vapor",
+    "image": "assets/images/archive/monitor-archive-3.jpg",
+    "year": "Hacia 1974",
+    "credit": {
+      "author": "U.S. Navy",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Monitor_wreck_underwater_photo_c1974.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c0/USS_Monitor_wreck_underwater_photo_c1974.jpg"
+    },
+    "topic": "monitor"
+  },
+  {
+    "id": "monitor-archive-4",
+    "title": "Recuperación de la torreta del USS Monitor",
+    "description": "La torreta del Monitor durante la operación de recuperación de 2002. La conservación de restos permite estudiar construcción, maquinaria y protección con evidencia material.",
+    "type": "fotografia",
+    "shipId": null,
+    "era": "transicion-vapor",
+    "image": "assets/images/archive/monitor-archive-4.jpg",
+    "year": "2002",
+    "credit": {
+      "author": "U.S. Navy photo by Photographer’s Mate 1st Class Martin Maddock.",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_020805-N-0872M-503_USS_Monitor_gun_turret_pulled_from_the_water_during_salvage_operation.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/US_Navy_020805-N-0872M-503_USS_Monitor_gun_turret_pulled_from_the_water_during_salvage_operation.jpg"
+    },
+    "topic": "monitor"
+  },
+  {
+    "id": "constitution-heritage",
+    "title": "Dotación del USS Constitution junto al bauprés",
+    "description": "La tripulación del USS Constitution durante una ceremonia en 2006. Fotografía moderna de un buque conservado: documenta su continuidad patrimonial, no una escena de su servicio en el siglo XIX.",
+    "type": "fotografia",
+    "shipId": null,
+    "era": "era-vela",
+    "image": "assets/images/archive/constitution-heritage.jpg",
+    "year": "2006",
+    "credit": {
+      "author": "U.S. Navy photo by Airman Nick Lyman",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_060623-N-5367L-003_USS_Constitution_crew_members_stand_by_on_the_ship%27s_bowsprit_prior_to_a_21-gun_salute_to_the_nation.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/US_Navy_060623-N-5367L-003_USS_Constitution_crew_members_stand_by_on_the_ship%27s_bowsprit_prior_to_a_21-gun_salute_to_the_nation.jpg"
+    },
+    "topic": "patrimonio"
   }
 ]

@@ -3,7 +3,7 @@
     "id": "atlantico-1941",
     "name": "La salida del Bismarck",
     "summary": "Un recorrido por el combate del Estrecho de Dinamarca, los buques implicados y su tecnología.",
-    "image": "assets/images/ships/bismarck.jpg",
+    "image": "assets/images/archive/bismarck-archive-2.jpg",
     "shipIds": [
       "bismarck",
       "hms-hood"
@@ -16,7 +16,66 @@
       "blindaje",
       "propulsion"
     ],
-    "intro": "Empieza por el enfrentamiento, conoce a sus protagonistas y examina los sistemas que condicionaban el combate."
+    "intro": "Empieza por el enfrentamiento, conoce a sus protagonistas y examina los sistemas que condicionaban el combate.",
+    "sections": [
+      {
+        "title": "De la salida al Atlántico a la persecución",
+        "text": "Este recorrido sigue el empleo del Bismarck y el Hood en una campaña corta de consecuencias amplias. La comparación de sus diseños ayuda a situar el combate del estrecho de Dinamarca, mientras que la persecución posterior muestra el peso del reconocimiento y de la aviación embarcada."
+      },
+      {
+        "title": "Lectura conjunta de los documentos",
+        "text": "La cronología del acontecimiento, las especificaciones fechadas y las fotografías responden a preguntas diferentes. Conviene usar la cronología para ordenar los hechos y las fichas para comprender las capacidades disponibles, evitando deducir el resultado exclusivamente del tamaño de los buques."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bismarck: datos técnicos y documentos",
+        "author": "José M. Rico",
+        "type": "Documento web",
+        "url": "https://www.kbismarck.com/genedata.html",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de Bismarck",
+        "url": "https://kbismarck.com/histoperi.html",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "HMS Hood: especificaciones y armamento",
+        "author": "HMS Hood Association",
+        "type": "Documento web",
+        "url": "https://www.hmshood.org.uk/ship/index.htm",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Hood Wreck Site",
+        "author": "HMS Hood Association",
+        "type": "Archivo del proyecto de exploración",
+        "url": "https://hmshood.org.uk/hoodtoday/2001expedition/hood/encrypt.htm"
+      },
+      {
+        "title": "Historial de HMS Hood",
+        "url": "https://www.hmshood.org.uk/history/",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Hood: dotación y alojamiento",
+        "url": "https://www.hmshood.org.uk/ship/hoodspecs6.htm",
+        "author": "HMS Hood Association",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Report on the Loss of H.M.S. Hood (ADM 116/4351)",
+        "author": "Admiralty / HMS Hood Association",
+        "type": "Documento de archivo",
+        "url": "https://hmshood.org.uk/reference/official/adm116/adm116-4351_to59.htm"
+      }
+    ]
   },
   {
     "id": "pacifico",
@@ -37,7 +96,74 @@
       "aviacion-naval",
       "armamento"
     ],
-    "intro": "Compara funciones navales y sigue los acontecimientos disponibles desde Midway hasta la última salida del Yamato."
+    "intro": "Compara funciones navales y sigue los acontecimientos disponibles desde Midway hasta la última salida del Yamato.",
+    "sections": [
+      {
+        "title": "Control del aire y abastecimiento",
+        "text": "Midway, Guadalcanal y Ten-Gō muestran situaciones operativas distintas: un enfrentamiento entre fuerzas aeronavales, una campaña por sostener posiciones terrestres y la última operación de un gran acorazado. Su lectura conjunta permite estudiar la relación entre información, aviación y medios de superficie."
+      },
+      {
+        "title": "Funciones complementarias",
+        "text": "El Enterprise, el Fletcher y el Yamato no eran plataformas intercambiables. Un portaviones proyectaba fuerza con su grupo aéreo; un destructor combinaba escolta y ataque; un acorazado concentraba potencia artillera y protección. El contexto de la misión es imprescindible para comparar su utilidad."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Death of Battleship Yamato",
+        "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-044/h-044-3.html",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de Yamato",
+        "url": "https://www.combinedfleet.com/yamato.htm",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Enterprise VII (CV-6)",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Beans, Bullets, and Black Oil",
+        "author": "Worrall Reed Carter · US Navy",
+        "year": "1953",
+        "type": "Historia logística",
+        "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/beans-bullets-black-oil.html"
+      },
+      {
+        "title": "Fletcher (DD-445)",
+        "author": "Naval History and Heritage Command",
+        "type": "Historia institucional",
+        "url": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html"
+      },
+      {
+        "title": "Historial de USS Fletcher (DD-445)",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/f/fletcher.html",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Battle of Midway",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/midway.html",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Solomons Campaign: Guadalcanal",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/guadalcanal.html",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
   },
   {
     "id": "gigantes",
@@ -58,6 +184,53 @@
       "blindaje",
       "armamento"
     ],
-    "intro": "Lee primero cómo funcionan los sistemas y después consulta las fichas. Las cifras requieren comparar unidades y configuraciones equivalentes."
+    "intro": "Lee primero cómo funcionan los sistemas y después consulta las fichas. Las cifras requieren comparar unidades y configuraciones equivalentes.",
+    "sections": [
+      {
+        "title": "Potencia artillera y disponibilidad",
+        "text": "La comparación de las grandes unidades exige leer los datos de armamento junto a la protección, la propulsión y la autonomía. Un mayor calibre no permite por sí solo determinar el resultado de un enfrentamiento: la detección, la distancia, la maniobra y el control del aire también condicionan la acción."
+      },
+      {
+        "title": "Amenaza y empleo real",
+        "text": "El efecto estratégico de un acorazado podía ir más allá de los combates en los que participó. Mantener una fuerza capaz de interceptarlo consumía recursos del adversario. El Tirpitz permite estudiar ese efecto de amenaza, mientras que el Yamato ilustra los límites del diseño ante un entorno aeronaval diferente."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bismarck: datos técnicos y documentos",
+        "author": "José M. Rico",
+        "type": "Documento web",
+        "url": "https://www.kbismarck.com/genedata.html",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de Bismarck",
+        "url": "https://kbismarck.com/histoperi.html",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Death of Battleship Yamato",
+        "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-044/h-044-3.html",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de Yamato",
+        "url": "https://www.combinedfleet.com/yamato.htm",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Tirpitz: historial de servicio",
+        "url": "https://www.kbismarck.com/tirpitz.html",
+        "author": "José M. Rico",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
   }
 ]

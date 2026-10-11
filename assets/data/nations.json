@@ -6,8 +6,30 @@
     "period": "1939–1945",
     "description": "La Kriegsmarine alemana desplegó una flota de superficie limitada pero tecnológicamente avanzada, centrada en acorazados, cruceros pesados y la guerra de convoyes con U-boats.",
     "navalDoctrine": "Guerra comercial contra convoyes aliados y operaciones de superficie de alto impacto.",
-    "keyShipTypes": ["Acorazados", "Cruceros pesados", "Submarinos U-boat"],
-    "shipCount": 2
+    "keyShipTypes": [
+      "Acorazados",
+      "Cruceros pesados",
+      "Submarinos U-boat"
+    ],
+    "shipCount": 2,
+    "sections": [
+      {
+        "title": "Objetivos y límites",
+        "text": "La guerra contra las comunicaciones marítimas fue una prioridad alemana. Las unidades de superficie y los submarinos planteaban problemas distintos a la protección aliada: los primeros podían obligar a desplegar fuerzas pesadas, mientras que los segundos atacaban las rutas comerciales de forma sostenida."
+      },
+      {
+        "title": "Respuesta de los convoyes",
+        "text": "La escolta, el reconocimiento aéreo y los medios de detección redujeron la libertad de acción de los atacantes. La eficacia de radar y sonar dependió del entrenamiento y de la coordinación de las dotaciones, además de las prestaciones de los equipos."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Battle of the Atlantic: Overview",
+        "author": "Naval History and Heritage Command",
+        "type": "Historia institucional",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/atlantic/overview.html"
+      }
+    ]
   },
   {
     "id": "japon",
@@ -16,8 +38,31 @@
     "period": "1939–1945",
     "description": "La Armada Imperial Japonesa fue una de las más poderosas del Pacífico, pionera en aviación naval y operaciones anfibias a gran escala.",
     "navalDoctrine": "Dominio del Pacífico occidental mediante fuerzas de portaviones y acorazados superpesados.",
-    "keyShipTypes": ["Portaviones", "Acorazados", "Cruceros"],
-    "shipCount": 1
+    "keyShipTypes": [
+      "Portaviones",
+      "Acorazados",
+      "Cruceros"
+    ],
+    "shipCount": 1,
+    "sections": [
+      {
+        "title": "Escenarios del Pacífico",
+        "text": "Las campañas del Pacífico relacionaron operaciones aéreas, combates de superficie y desembarcos. Guadalcanal fue un escenario en el que abastecer a las fuerzas terrestres resultó inseparable de la disputa por las aguas y por el espacio aéreo de las islas."
+      },
+      {
+        "title": "Diseño y empleo",
+        "text": "Los acorazados y los portaviones respondían a funciones diferentes. El Yamato ilustra una solución centrada en el combate artillero pesado, mientras que la guerra aeronaval exigía grupos aéreos, información sobre el enemigo y una red de bases y abastecimiento."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Beans, Bullets, and Black Oil",
+        "author": "Worrall Reed Carter · US Navy",
+        "year": "1953",
+        "type": "Historia logística",
+        "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/beans-bullets-black-oil.html"
+      }
+    ]
   },
   {
     "id": "estados-unidos",
@@ -26,8 +71,31 @@
     "period": "1941–1945",
     "description": "La US Navy se convirtió en la flota más grande del mundo durante la Segunda Guerra Mundial, liderando la guerra en el Pacífico con portaviones y producción industrial masiva.",
     "navalDoctrine": "Guerra de anfibios, dominio aéreo desde portaviones y superioridad industrial.",
-    "keyShipTypes": ["Portaviones", "Destructores", "Cruceros"],
-    "shipCount": 2
+    "keyShipTypes": [
+      "Portaviones",
+      "Destructores",
+      "Cruceros"
+    ],
+    "shipCount": 2,
+    "sections": [
+      {
+        "title": "Formaciones y cooperación",
+        "text": "Las fuerzas estadounidenses combinaron portaviones, escoltas, buques de apoyo y unidades anfibias. La acción de los grupos aéreos necesitaba protección naval y una organización logística que mantuviera disponibles los barcos durante campañas largas."
+      },
+      {
+        "title": "Abastecimiento y reparación",
+        "text": "El avance a través del Pacífico dependió de transportar combustible, munición, alimentos y equipos. Los petroleros, transportes y servicios de reparación permitieron sostener operaciones lejos de los grandes arsenales; el número de buques de combate no explica por sí solo esa capacidad."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Beans, Bullets, and Black Oil",
+        "author": "Worrall Reed Carter · US Navy",
+        "year": "1953",
+        "type": "Historia logística",
+        "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/beans-bullets-black-oil.html"
+      }
+    ]
   },
   {
     "id": "reino-unido",
@@ -36,7 +104,29 @@
     "period": "1939–1945",
     "description": "La Royal Navy mantuvo el control de las rutas marítimas vitales, protegiendo convoyes y combatiendo la amenaza de superficie y submarina alemana.",
     "navalDoctrine": "Protección de convoyes, bloqueo naval y persecución de unidades de superficie enemigas.",
-    "keyShipTypes": ["Cruceros de batalla", "Portaviones", "Destructores"],
-    "shipCount": 1
+    "keyShipTypes": [
+      "Cruceros de batalla",
+      "Portaviones",
+      "Destructores"
+    ],
+    "shipCount": 1,
+    "sections": [
+      {
+        "title": "Comunicaciones marítimas",
+        "text": "La protección de las rutas de abastecimiento fue una tarea central de la Royal Navy. El sistema de convoyes concentraba los mercantes y organizaba su defensa, con relevos de escoltas y fuerzas de cobertura para afrontar amenazas distintas."
+      },
+      {
+        "title": "Cooperación y medios",
+        "text": "El esfuerzo del Atlántico fue multinacional. Escoltas, aeronaves y servicios de información contribuyeron a proteger el tráfico; la disponibilidad de equipos de detección debía acompañarse de procedimientos, entrenamiento y coordinación entre fuerzas."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Battle of the Atlantic: Overview",
+        "author": "Naval History and Heritage Command",
+        "type": "Historia institucional",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/atlantic/overview.html"
+      }
+    ]
   }
 ]

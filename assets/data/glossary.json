@@ -58,5 +58,65 @@
     "id": "sonar",
     "name": "Sonar",
     "definition": "Sistemas acústicos para detectar o localizar objetos bajo el agua, mediante escucha o emisión de sonido."
+  },
+  {
+    "id": "proa",
+    "name": "Proa",
+    "definition": "Extremo delantero del casco, definido según el sentido habitual de avance."
+  },
+  {
+    "id": "popa",
+    "name": "Popa",
+    "definition": "Extremo posterior del casco. Puede albergar hélices y elementos del sistema de gobierno."
+  },
+  {
+    "id": "babor",
+    "name": "Babor",
+    "definition": "Costado izquierdo del buque cuando se mira hacia la proa."
+  },
+  {
+    "id": "estribor",
+    "name": "Estribor",
+    "definition": "Costado derecho del buque cuando se mira hacia la proa."
+  },
+  {
+    "id": "obra-viva",
+    "name": "Obra viva",
+    "definition": "Parte del casco situada por debajo de la línea de flotación en una condición de carga determinada."
+  },
+  {
+    "id": "francobordo",
+    "name": "Francobordo",
+    "definition": "Distancia vertical entre una línea de flotación de referencia y la cubierta o línea establecida para su medición."
+  },
+  {
+    "id": "autonomia",
+    "name": "Autonomía",
+    "definition": "Capacidad de operar sin reabastecimiento. Una distancia de autonomía debe indicar la velocidad y las condiciones empleadas para calcularla."
+  },
+  {
+    "id": "torreta",
+    "name": "Torreta",
+    "definition": "Montaje giratorio protegido que permite orientar una o varias piezas de artillería."
+  },
+  {
+    "id": "ciudadela",
+    "name": "Ciudadela blindada",
+    "definition": "Zona protegida que reúne espacios vitales, como maquinaria y pañoles de munición, según el diseño del buque."
+  },
+  {
+    "id": "convoy",
+    "name": "Convoy",
+    "definition": "Conjunto de buques que navegan organizados para facilitar el control del tráfico y, cuando corresponde, su protección."
+  },
+  {
+    "id": "pantalla-escolta",
+    "name": "Pantalla de escolta",
+    "definition": "Disposición de unidades alrededor de una fuerza o convoy para detectar amenazas y contribuir a su defensa."
+  },
+  {
+    "id": "grupo-aereo",
+    "name": "Grupo aéreo embarcado",
+    "definition": "Conjunto organizado de aeronaves y personal asociado que opera desde un portaviones. Su composición varía con la misión y el periodo."
   }
 ]

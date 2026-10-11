@@ -18,8 +18,8 @@
     "decommissioned": "1941-05-27",
     "featured": true,
     "summary": "Acorazado alemán de la clase Bismarck, famoso por hundir al HMS Hood y por su persecución y destrucción en el Atlántico Norte en mayo de 1941.",
-    "image": "assets/images/ships/bismarck.jpg",
-    "imageDetail": "assets/images/ships/bismarck1.jpg",
+    "image": "assets/images/archive/bismarck-archive-2.jpg",
+    "imageDetail": "assets/images/archive/bismarck-archive-2.jpg",
     "description": "El Bismarck fue el buque insignia de la Kriegsmarine alemana y uno de los acorazados más temidos de la Segunda Guerra Mundial. Con un desplazamiento de más de 50.000 toneladas y armamento principal de ocho cañones de 380 mm, representaba la cúspide del diseño naval alemán de la era. Su breve pero intensa carrera operativa culminó con la Operación Rheinübung y su hundimiento tras un intenso combate contra la Royal Navy.",
     "specs": {
       "desplazamiento": "50.900 t (plena carga)",
@@ -85,8 +85,10 @@
     "reviewNote": "Revisión parcial del 10 de octubre de 2026. Las referencias originales sin identificación bibliográfica confirmada se han retirado; los datos técnicos requieren consultar su configuración y fecha.",
     "specsNote": "Ficha de síntesis. Las cifras de tripulación, desplazamiento y armamento no representan necesariamente la misma configuración; revisar la fuente enlazada.",
     "imageCredit": {
-      "author": "Autor pendiente de identificar",
-      "license": "Procedencia y licencia de los archivos originales pendientes de verificar"
+      "author": "Paul S. Schmalenbach",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:German_Battleship_Bismarck_in_the_Grimstadfjord.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/German_Battleship_Bismarck_in_the_Grimstadfjord.jpg"
     },
     "role": "Interdicción del tráfico marítimo en el Atlántico",
     "importance": "Su salida de mayo de 1941 reunió combate de superficie, reconocimiento aéreo y persecución oceánica. Permite estudiar las limitaciones de un gran acorazado cuando pierde libertad de maniobra.",
@@ -105,9 +107,17 @@
         "title": "Destino final",
         "text": "El 27 de mayo de 1941 quedó fuera de combate y se hundió. Las fuentes discuten la contribución relativa de los daños enemigos y del autohundimiento.",
         "sourceUrl": "https://kbismarck.com/histoperi.html"
+      },
+      {
+        "title": "Misión y empleo operativo",
+        "text": "El Bismarck fue empleado contra el tráfico mercante aliado durante la operación Rheinübung. Su capacidad artillera debía permitirle enfrentarse a escoltas pesadas, pero la misión dependía también de la autonomía, de la discreción y del abastecimiento en el mar. Su importancia no se explica únicamente por el calibre de sus cañones: obligó a concentrar fuerzas británicas para impedir su acceso a las rutas del Atlántico."
+      },
+      {
+        "title": "Averías y pérdida de movilidad",
+        "text": "Los daños sufridos durante la operación alteraron las posibilidades de continuar la misión. El ataque aéreo que afectó al gobierno del buque hizo especialmente difícil recuperar una ruta segura. La persecución muestra la relación entre reconocimiento, aviación embarcada y combate de superficie; una plataforma de gran potencia podía quedar comprometida al perder la capacidad de maniobrar."
       }
     ],
-    "editorialUpdated": "2026-10-10",
+    "editorialUpdated": "2026-10-11",
     "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
     "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
     "eraIds": [
@@ -243,9 +253,17 @@
         "title": "Última operación",
         "text": "La salida hacia Okinawa terminó el 7 de abril de 1945. Los ataques aéreos estadounidenses hundieron el Yamato y varias de sus escoltas.",
         "sourceUrl": "https://www.combinedfleet.com/yamato.htm"
+      },
+      {
+        "title": "Diseño y doctrina",
+        "text": "La clase Yamato se concibió alrededor de una batería principal de extraordinario calibre y una protección destinada al combate contra otras unidades pesadas. Ese diseño respondía a la expectativa de una confrontación decisiva entre flotas. El aumento de peso dedicado a protección y armamento tenía implicaciones para los astilleros, los puertos y el mantenimiento, además de para las prestaciones del propio buque."
+      },
+      {
+        "title": "Vulnerabilidad y operación final",
+        "text": "La operación Ten-Gō expuso al Yamato a ataques aéreos de una fuerza de portaviones. La protección concebida para intercambios artilleros no equivalía a inmunidad frente a bombas y torpedos. La pérdida del buque permite estudiar la diferencia entre resistencia estructural, defensa antiaérea y capacidad de una formación para disputar el control del aire."
       }
     ],
-    "editorialUpdated": "2026-10-10",
+    "editorialUpdated": "2026-10-11",
     "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
     "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
     "eraIds": [
@@ -346,6 +364,13 @@
         "type": "Documento web",
         "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html",
         "accessed": "2026-10-10"
+      },
+      {
+        "title": "Beans, Bullets, and Black Oil",
+        "author": "Worrall Reed Carter · US Navy",
+        "year": "1953",
+        "type": "Historia logística",
+        "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/beans-bullets-black-oil.html"
       }
     ],
     "imageColor": "#1e4d6b",
@@ -377,9 +402,17 @@
         "title": "Reconocimiento y posguerra",
         "text": "Recibió veinte estrellas de batalla por su servicio en la Segunda Guerra Mundial. Tras la guerra ayudó al regreso de militares a Estados Unidos.",
         "sourceUrl": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html"
+      },
+      {
+        "title": "El portaviones como sistema operativo",
+        "text": "La capacidad militar del Enterprise dependía de sus aviones, de las tripulaciones aéreas y de la organización de la cubierta de vuelo. Recuperar aeronaves, rearmarlas y preparar nuevas salidas exigía coordinación con los hangares y los talleres. Los buques de escolta proporcionaban protección y contribuían a las operaciones de la formación; el portaviones no actuaba como una unidad autosuficiente."
+      },
+      {
+        "title": "Sostenimiento de las operaciones",
+        "text": "Las campañas del Pacífico exigían combustible, munición, repuestos y reparaciones a distancias enormes de las bases principales. La disponibilidad de una cubierta de vuelo dependía también de la conservación de sus instalaciones y de la recuperación tras sufrir daños. La trayectoria del Enterprise permite relacionar la acción de combate con el esfuerzo de los equipos de mantenimiento y de la red logística."
       }
     ],
-    "editorialUpdated": "2026-10-10",
+    "editorialUpdated": "2026-10-11",
     "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
     "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
     "eraIds": [
@@ -527,9 +560,17 @@
         "title": "Tripulación y vida a bordo",
         "text": "La dotación cambiaba entre paz y guerra. Los espacios de la marinería servían para comer y dormir, mientras que los oficiales disponían de camarotes. Cocinas, panadería y ventilación formaban parte de la infraestructura necesaria para sostener la vida diaria.",
         "sourceUrl": "https://www.hmshood.org.uk/ship/hoodspecs6.htm"
+      },
+      {
+        "title": "Función del crucero de batalla",
+        "text": "El Hood combinaba artillería pesada y velocidad para realizar misiones de presencia naval, reconocimiento y combate de superficie. La denominación de crucero de batalla debe leerse dentro de la evolución del diseño británico: la velocidad, la distribución de la protección y la capacidad de combatir a grandes distancias formaban parte de un mismo compromiso de ingeniería."
+      },
+      {
+        "title": "Interpretación de su pérdida",
+        "text": "La destrucción del Hood en el estrecho de Dinamarca ha generado investigaciones y discusiones técnicas. La pérdida catastrófica de un buque no permite reconstruir por sí sola el recorrido exacto de un proyectil. Conviene distinguir la cronología conocida del combate de las hipótesis sobre penetración, incendios y explosiones internas, y consultar los estudios indicados en la bibliografía central."
       }
     ],
-    "editorialUpdated": "2026-10-10",
+    "editorialUpdated": "2026-10-11",
     "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
     "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
     "eraIds": [
@@ -638,6 +679,12 @@
         "author": "",
         "type": "Referencia web",
         "accessed": "2026-10-10"
+      },
+      {
+        "title": "Fletcher (DD-445)",
+        "author": "Naval History and Heritage Command",
+        "type": "Historia institucional",
+        "url": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html"
       }
     ],
     "imageColor": "#2a5a7a",
@@ -669,9 +716,17 @@
         "title": "Servicio posterior",
         "text": "Su carrera incluyó servicio como DDE-445. Fue retirado en agosto de 1969 y vendido para desguace en febrero de 1972.",
         "sourceUrl": "https://www.history.navy.mil/research/histories/ship-histories/danfs/f/fletcher.html"
+      },
+      {
+        "title": "Un destructor de empleo múltiple",
+        "text": "El Fletcher debía combinar protección de fuerzas mayores, ataque con torpedos, defensa antiaérea y tareas de patrulla. Esas funciones exigían armamento diverso y una organización capaz de reaccionar a amenazas diferentes. En las aguas de Guadalcanal, las misiones de escolta y el combate nocturno hicieron del destructor un elemento esencial del dispositivo naval."
+      },
+      {
+        "title": "Evolución a lo largo del servicio",
+        "text": "Un buque con una carrera prolongada no conserva necesariamente su configuración inicial. Los equipos de detección y las capacidades antisubmarinas cambiaron durante el servicio del Fletcher. Las fotografías de 1942, 1943 y la década de 1960 permiten observar etapas distintas; las cifras de la ficha deben consultarse con la fecha y las condiciones de configuración que las acompañan."
       }
     ],
-    "editorialUpdated": "2026-10-10",
+    "editorialUpdated": "2026-10-11",
     "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
     "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
     "eraIds": [
@@ -801,9 +856,17 @@
         "title": "Ataque final",
         "text": "El 12 de noviembre de 1944 bombarderos Lancaster atacaron el buque cerca de Tromsø con bombas Tallboy. El Tirpitz volcó y se hundió.",
         "sourceUrl": "https://www.kbismarck.com/tirpitz.html"
+      },
+      {
+        "title": "Efecto estratégico de una flota en potencia",
+        "text": "El Tirpitz podía influir sobre las decisiones británicas aunque permaneciera en un fondeadero noruego. La posibilidad de una salida contra las rutas de convoyes obligaba a mantener vigilancia y fuerzas de cobertura. Esta relación entre amenaza potencial y asignación de recursos explica por qué su historia incluye operaciones destinadas a neutralizarlo antes de un combate convencional."
+      },
+      {
+        "title": "Fondeaderos, protección y ataques",
+        "text": "La presencia del buque en Noruega hizo importantes el reconocimiento de sus posiciones, la defensa local y las posibilidades de reparación. Su neutralización requirió operaciones sucesivas y medios diferentes. La operación Catechism constituye el episodio final de esa campaña, y debe situarse dentro de los intentos previos de limitar su disponibilidad operativa."
       }
     ],
-    "editorialUpdated": "2026-10-10",
+    "editorialUpdated": "2026-10-11",
     "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
     "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
     "eraIds": [

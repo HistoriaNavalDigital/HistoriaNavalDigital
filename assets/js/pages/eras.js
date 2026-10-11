@@ -52,9 +52,10 @@ const ErasPage = {
     alt="${Utils.escapeHtml(era.name)}"
   >
 </div>
+            <p class="image-credit">${Utils.escapeHtml(era.imageCaption||era.name)}</p>${Features.credit(era.credit)}
             <h3>${Utils.escapeHtml(era.name)}</h3>
             <p><strong>${Utils.escapeHtml(era.period)}</strong></p>
-            <p>${Utils.escapeHtml(era.description)}</p>
+            <p>${Utils.escapeHtml(era.description)}</p>${Features.prose(era.sections)}${Features.reference('era-'+era.id)}
             <p style="font-size: var(--text-sm);"><strong>${eraShips.length}</strong> buque(s) en el registro</p>
             ${!eraShips.length?'<p class="pending-note">Esta era está pendiente de incorporar buques documentados.</p>':""}
             ${shipLinks ? `<p style="margin-top: var(--space-3);">${shipLinks}</p>` : ""}
@@ -78,7 +79,7 @@ const ErasPage = {
             <div class="info-card-icon"><img src="assets/images/icons/eras.svg" width="40" height="40" alt=""></div>
             <h3>${Utils.escapeHtml(conflict.name)}</h3>
             <p><strong>${Utils.escapeHtml(conflict.period)}</strong> · Teatros: ${conflict.theaters.map(Utils.escapeHtml).join(", ")}</p>
-            <p>${Utils.escapeHtml(conflict.description)}</p>
+            <p>${Utils.escapeHtml(conflict.description)}</p>${Features.prose(conflict.sections)}${Features.reference('conflicto-'+conflict.id)}
             <p style="font-size: var(--text-sm); margin-top: var(--space-3);"><strong>Batallas clave:</strong> ${this.battles.filter(b=>b.conflict===conflict.id).map(b=>`<a href="batalla.html?id=${b.id}">${Utils.escapeHtml(b.name)}</a>`).join(", ")||"Todavía no hay acontecimientos incorporados"}</p>
             <p style="font-size: var(--text-sm);"><strong>${conflictShips.length}</strong> buque(s) registrado(s)</p>
             <a href="batallas.html?conflicto=${conflict.id}" class="btn btn-outline">Explorar batallas →</a>

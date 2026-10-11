@@ -5,7 +5,8 @@ const TechnologyPage = {
     document.getElementById('breadcrumbs').innerHTML=Components.renderBreadcrumbs([{label:'Inicio',href:'index.html'},{label:'Tecnología y construcción'}]);
     Features.loading(document.getElementById('technology-sections'));
     try {
-      const [items,ships]=await Promise.all([DataLoader.getTechnology(),DataLoader.getShips()]);
+      const [items,ships,media]=await Promise.all([DataLoader.getTechnology(),DataLoader.getShips(),DataLoader.getMultimedia()]);
+      this.media=media;
       this.renderTechnology(items,ships);
       window.addEventListener('hashchange',()=>this.openTarget());
       this.openTarget();
@@ -23,9 +24,9 @@ const TechnologyPage = {
         <div id="tech-${item.id}" class="tech-body" style="display:${expanded?'block':'none'}">
           <p class="tech-intro">${Utils.escapeHtml(item.description)}</p>
           <div class="tech-explainer tech-document">${(item.sections||[]).map(section=>`<section class="tech-document-section" id="${Utils.escapeHtml(section.id)}"><h3>${Utils.escapeHtml(section.title)}</h3>${section.paragraphs.map(text=>`<p>${Utils.escapeHtml(text)}</p>`).join('')}</section>`).join('')}</div>
-          <p class="tech-scope">${Utils.escapeHtml(item.scopeNote)}</p>
+          ${this.visuals(item)}<p class="tech-scope">${Utils.escapeHtml(item.scopeNote)}</p>
           ${examples.length?`<section class="tech-examples"><h3>Buques relacionados</h3><div>${examples.map(ship=>`<a class="example-ship" href="buques/${encodeURIComponent(ship.id)}.html">${Features.image(ship.image,ship.name)}<span>${Utils.escapeHtml(ship.name)}<small>${Utils.escapeHtml(ship.className||ship.typeName)}</small></span><span aria-hidden="true">↗</span></a>`).join('')}</div></section>`:''}
-          <section class="tech-references"><h3>Fuentes y bibliografía</h3>${Features.sources(item.sources)}<p><a href="glosario.html">Glosario de términos navales →</a></p></section>
+          <section class="tech-references"><h3>Fuentes y bibliografía</h3>${Features.reference('tecnologia-'+item.id)}<p><a href="glosario.html">Glosario de términos navales →</a></p></section>
         </div>
       </article>`;
     }).join('');
@@ -33,6 +34,11 @@ const TechnologyPage = {
       header.addEventListener('click',()=>this.toggleSection(header));
       header.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();this.toggleSection(header);}});
     });
+  },
+  visuals(item) {
+    const ids={propulsion:['uss-fletcher-archive-4'],armamento:['belfast-archive-3'],blindaje:['monitor-archive-4'],'aviacion-naval':['uss-enterprise-archive-1'],radar:['uss-fletcher-archive-3']};
+    const images=(this.media||[]).filter(m=>(ids[item.id]||[]).includes(m.id));
+    return images.length?`<section class="content-section"><h3>Documentación visual</h3><div class="gallery-grid">${Features.gallery(images)}</div></section>`:'';
   },
   openTarget() {
     const body=document.getElementById(location.hash.slice(1));

@@ -3,7 +3,7 @@
     "id": "era-vela",
     "name": "Era de la Vela",
     "period": "Siglos XVI–XIX",
-    "image": "assets/images/eras/era_vela_01.png",
+    "image": "assets/images/archive/constitution-heritage.jpg",
     "description": "Período dominado por la navegación a vela, los galeones, los navíos de línea y las grandes batallas navales de la era clásica.",
     "conflicts": [
       "Guerras Napoleónicas",
@@ -15,15 +15,36 @@
     ],
     "shipCount": 0,
     "credit": {
-      "author": "Autor pendiente de identificar",
-      "license": "Ilustración del proyecto; procedencia y condiciones de uso pendientes de documentar"
-    }
+      "author": "U.S. Navy photo by Airman Nick Lyman",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_060623-N-5367L-003_USS_Constitution_crew_members_stand_by_on_the_ship%27s_bowsprit_prior_to_a_21-gun_salute_to_the_nation.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/US_Navy_060623-N-5367L-003_USS_Constitution_crew_members_stand_by_on_the_ship%27s_bowsprit_prior_to_a_21-gun_salute_to_the_nation.jpg"
+    },
+    "sections": [
+      {
+        "title": "Propulsión y maniobra",
+        "text": "La disponibilidad de viento y el estado de la mar condicionaban el movimiento de los barcos. El aparejo y la preparación de la dotación determinaban cómo aprovechar las condiciones meteorológicas. Navegar, conservar el casco y mantener las provisiones eran actividades esenciales para sostener un viaje."
+      },
+      {
+        "title": "Transición gradual",
+        "text": "La llegada del vapor no supuso la desaparición inmediata de la vela. Las primeras instalaciones motrices tenían limitaciones de consumo y fiabilidad, y la posibilidad de continuar navegando a vela seguía teniendo utilidad en recorridos largos."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sail to steam: a history of maritime change",
+        "author": "Royal Museums Greenwich",
+        "type": "Historia de la navegación",
+        "url": "https://www.rmg.co.uk/stories/ocean/sailing-ships-steam-power-how-industrial-revolution-changed-life-sea-forever"
+      }
+    ],
+    "imageCaption": "Dotación del USS Constitution junto al bauprés · 2006"
   },
   {
     "id": "transicion-vapor",
     "name": "Transición al Vapor",
     "period": "Siglo XIX",
-    "image": "assets/images/eras/transicion_vapor_01.png",
+    "image": "assets/images/archive/monitor-archive-3.jpg",
     "description": "Era de hibridación entre propulsión a vela y máquinas de vapor, con la aparición de los primeros acorazados y blindajes.",
     "conflicts": [
       "Guerra de Secesión",
@@ -35,15 +56,36 @@
     ],
     "shipCount": 0,
     "credit": {
-      "author": "Autor pendiente de identificar",
-      "license": "Ilustración del proyecto; procedencia y condiciones de uso pendientes de documentar"
-    }
+      "author": "U.S. Navy",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Monitor_wreck_underwater_photo_c1974.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c0/USS_Monitor_wreck_underwater_photo_c1974.jpg"
+    },
+    "sections": [
+      {
+        "title": "Máquinas y abastecimiento",
+        "text": "Las máquinas de vapor hicieron posible propulsar el barco sin depender exclusivamente del viento. A cambio, el combustible y el mantenimiento de calderas introdujeron nuevas necesidades. La existencia de estaciones de carbón condicionaba qué rutas podía cubrir una flota."
+      },
+      {
+        "title": "Construcción y transformación",
+        "text": "La introducción de estructuras de hierro y la combinación de vela y vapor produjeron diseños diversos. La transición fue desigual: la economía, los arsenales y las rutas disponibles influyeron sobre la velocidad con que las marinas adoptaron las nuevas soluciones."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sail to steam: a history of maritime change",
+        "author": "Royal Museums Greenwich",
+        "type": "Historia de la navegación",
+        "url": "https://www.rmg.co.uk/stories/ocean/sailing-ships-steam-power-how-industrial-revolution-changed-life-sea-forever"
+      }
+    ],
+    "imageCaption": "Pecio del USS Monitor, hacia 1974 · Hacia 1974"
   },
   {
     "id": "era-acero",
     "name": "Era del Acero",
     "period": "1900–1945",
-    "image": "assets/images/eras/era_acero_01.png",
+    "image": "assets/images/archive/uss-enterprise-archive-0.jpg",
     "description": "La revolución del acero, la turbina de vapor y el acorazado dreadnought transformaron la guerra naval. Incluye ambas guerras mundiales.",
     "conflicts": [
       "Primera Guerra Mundial",
@@ -56,15 +98,36 @@
     ],
     "shipCount": 6,
     "credit": {
-      "author": "Autor pendiente de identificar",
-      "license": "Ilustración del proyecto; procedencia y condiciones de uso pendientes de documentar"
-    }
+      "author": "USN (official U.S. Navy photo 80-G-463246)",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(April_1939).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/USS_Enterprise_%28April_1939%29.jpg"
+    },
+    "sections": [
+      {
+        "title": "La revolución del acorazado",
+        "text": "La evolución de la artillería, la protección y la propulsión dio lugar a cambios en el diseño de las grandes unidades. El HMS Dreadnought de 1906 se convirtió en un referente de esa transformación al combinar una batería principal uniforme con turbinas de vapor."
+      },
+      {
+        "title": "Diversificación de la flota",
+        "text": "La guerra naval de la primera mitad del siglo XX no se limitó a los acorazados. Submarinos, destructores y portaviones hicieron necesarias nuevas formas de escolta y reconocimiento. Las fichas de este archivo muestran ejemplos de varias funciones dentro de una formación naval."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dreadnought (1906)",
+        "author": "Royal Museums Greenwich",
+        "type": "Ficha de colección",
+        "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-67323"
+      }
+    ],
+    "imageCaption": "USS Enterprise, abril de 1939 · 1939"
   },
   {
     "id": "guerra-fria",
     "name": "Guerra Fría y Era Moderna",
     "period": "1945–presente",
-    "image": "assets/images/eras/era_moderna_01.png",
+    "image": "assets/images/archive/uss-fletcher-archive-4.jpg",
     "description": "Era de portaviones nucleares, submarinos de propulsión nuclear, misiles guiados y dominio tecnológico en alta mar.",
     "conflicts": [
       "Guerra Fría",
@@ -77,8 +140,43 @@
     ],
     "shipCount": 1,
     "credit": {
-      "author": "Autor pendiente de identificar",
-      "license": "Ilustración del proyecto; procedencia y condiciones de uso pendientes de documentar"
-    }
+      "author": "Autor no identificado; archivo indicado en procedencia",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Fletcher_(DD-445)_underway_at_sea_in_1967_(NH_68915).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c4/USS_Fletcher_%28DD-445%29_underway_at_sea_in_1967_%28NH_68915%29.jpg"
+    },
+    "sections": [
+      {
+        "title": "Continuidad y modernización",
+        "text": "La posguerra combinó buques heredados de conflictos anteriores con nuevas generaciones de plataformas y equipos. Una misma unidad podía recibir modificaciones para seguir cumpliendo funciones de escolta, detección o guerra antisubmarina."
+      },
+      {
+        "title": "Lectura de las configuraciones",
+        "text": "Comparar buques de periodos distintos exige precisar qué versión se describe. Sensores y armamento podían cambiar durante una modernización. Las fotografías de distintas fechas son documentos útiles para estudiar esa evolución, pero no sustituyen una ficha técnica fechada."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fletcher (DD-445)",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "url": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de USS Fletcher (DD-445)",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/f/fletcher.html",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Fletcher (DD-445)",
+        "author": "Naval History and Heritage Command",
+        "type": "Historia institucional",
+        "url": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html"
+      }
+    ],
+    "imageCaption": "USS Fletcher navegando en 1967 · 1967"
   }
 ]

@@ -116,7 +116,7 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
       </div>
 
       <section class="content-section" id="descripcion">
-        <h2>Historia del buque</h2><aside class="importance-note"><h3>Relevancia histórica</h3><p>${Utils.escapeHtml(ship.importance)}</p></aside><div class="reading-body">${(ship.historySections||[{title:'Descripción',text:ship.description}]).map(s=>`<section><h3>${Utils.escapeHtml(s.title)}</h3><p>${Utils.escapeHtml(s.text)}</p>${s.sourceUrl?`<a class="section-source" href="${Utils.escapeHtml(s.sourceUrl)}" target="_blank" rel="noopener noreferrer">Referencia de este apartado ↗</a>`:''}</section>`).join('')}</div>
+        <h2>Historia del buque</h2><aside class="importance-note"><h3>Relevancia histórica</h3><p>${Utils.escapeHtml(ship.importance)}</p></aside><div class="reading-body">${(ship.historySections||[{title:'Descripción',text:ship.description}]).map(s=>`<section><h3>${Utils.escapeHtml(s.title)}</h3><p>${Utils.escapeHtml(s.text)}</p></section>`).join('')}</div>
       </section>
 
       <section class="content-section" id="especificaciones">
@@ -137,7 +137,7 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
       </section>
 ${gallery}
 ${Archive.related(ship,this.relatedData.battles,this.relatedData.technology,this.relatedData.collections)}
-<section class="content-section" id="fuentes"><h2>Fuentes y documentación</h2><p class="editor-note">Actualización editorial: ${Utils.formatDate(ship.editorialUpdated)} · ${Utils.escapeHtml(ship.reviewStatus)}.</p>${Features.sources(ship.sources)}<details class="review-details"><summary>Notas de documentación</summary><p>${Utils.escapeHtml(ship.reviewNote||"Revisión documental parcial. Consulta las referencias y la fecha de configuración de cada dato técnico.")}</p></details></section>
+<section class="content-section" id="fuentes"><h2>Fuentes y documentación</h2><p class="editor-note">Actualización editorial: ${Utils.formatDate(ship.editorialUpdated)} · ${Utils.escapeHtml(ship.reviewStatus)}.</p>${Features.reference('buque-'+ship.id)}<details class="review-details"><summary>Notas de documentación</summary><p>${Utils.escapeHtml(ship.reviewNote||"Revisión documental parcial. Consulta las referencias y la fecha de configuración de cada dato técnico.")}</p></details></section>
 
 ${
   sisterShips.length

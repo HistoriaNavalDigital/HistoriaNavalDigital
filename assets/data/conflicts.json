@@ -17,7 +17,32 @@
       "Batalla del Atlántico",
       "Batalla del Río de la Plata"
     ],
-    "shipCount": 6
+    "shipCount": 6,
+    "sections": [
+      {
+        "title": "Las rutas y el sostenimiento de la guerra",
+        "text": "El control del mar incluía proteger el transporte de suministros, mantener las comunicaciones y dificultar el abastecimiento del adversario. El resultado de las operaciones dependía también de bases, reparación y disponibilidad de tripulaciones; las batallas constituyen una parte de ese esfuerzo más amplio."
+      },
+      {
+        "title": "Escenarios y fuerzas navales",
+        "text": "Cada teatro imponía condiciones geográficas y operativas diferentes. La distancia a los puertos, la meteorología y el acceso a información sobre el enemigo influían en el empleo de las fuerzas. Por ello, las fichas de acontecimientos deben leerse junto con las características y las misiones de los buques participantes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Battle of the Atlantic: Overview",
+        "author": "Naval History and Heritage Command",
+        "type": "Historia institucional",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/atlantic/overview.html"
+      },
+      {
+        "title": "Beans, Bullets, and Black Oil",
+        "author": "Worrall Reed Carter · US Navy",
+        "year": "1953",
+        "type": "Historia logística",
+        "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/beans-bullets-black-oil.html"
+      }
+    ]
   },
   {
     "id": "primera-guerra-mundial",
@@ -34,6 +59,24 @@
       "Coronel",
       "Falklands"
     ],
-    "shipCount": 0
+    "shipCount": 0,
+    "sections": [
+      {
+        "title": "Las rutas y el sostenimiento de la guerra",
+        "text": "El control del mar incluía proteger el transporte de suministros, mantener las comunicaciones y dificultar el abastecimiento del adversario. El resultado de las operaciones dependía también de bases, reparación y disponibilidad de tripulaciones; las batallas constituyen una parte de ese esfuerzo más amplio."
+      },
+      {
+        "title": "Escenarios y fuerzas navales",
+        "text": "Cada teatro imponía condiciones geográficas y operativas diferentes. La distancia a los puertos, la meteorología y el acceso a información sobre el enemigo influían en el empleo de las fuerzas. Por ello, las fichas de acontecimientos deben leerse junto con las características y las misiones de los buques participantes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "World War I",
+        "author": "Naval History and Heritage Command",
+        "type": "Archivo institucional",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-i.html"
+      }
+    ]
   }
 ]

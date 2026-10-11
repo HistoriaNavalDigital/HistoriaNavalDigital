@@ -4,7 +4,7 @@
     "name": "Clase Bismarck",
     "nation": "alemania",
     "type": "acorazado",
-    "image": "assets/images/ships/bismarck.jpg",
+    "image": "assets/images/archive/bismarck-archive-2.jpg",
     "summary": "Familia de diseño a la que pertenece Bismarck. Consulta cada unidad para sus características y modificaciones.",
     "shipIds": [
       "bismarck",
@@ -27,7 +27,17 @@
         "accessed": "2026-10-10"
       }
     ],
-    "designNote": "Bismarck y Tirpitz permiten observar cómo dos buques de un diseño común tuvieron carreras y cambios de equipamiento diferentes. Utiliza el comparador para examinar las fichas disponibles, teniendo en cuenta sus fechas."
+    "designNote": "Bismarck y Tirpitz permiten observar cómo dos buques de un diseño común tuvieron carreras y cambios de equipamiento diferentes. Utiliza el comparador para examinar las fichas disponibles, teniendo en cuenta sus fechas.",
+    "sections": [
+      {
+        "title": "Función operativa",
+        "text": "Interdicción del tráfico marítimo en el Atlántico Su salida de mayo de 1941 reunió combate de superficie, reconocimiento aéreo y persecución oceánica. Permite estudiar las limitaciones de un gran acorazado cuando pierde libertad de maniobra."
+      },
+      {
+        "title": "Diferencias entre unidades y periodos",
+        "text": "Pertenecer a una clase identifica un diseño de referencia, pero no garantiza que todas sus unidades llevaran los mismos equipos durante toda su vida. Para comparar armamento, sensores y dotaciones es necesario usar configuraciones de fechas equivalentes. Las modificaciones y las reparaciones pueden explicar diferencias entre fotografías y cifras publicadas."
+      }
+    ]
   },
   {
     "id": "clase-yamato",
@@ -56,7 +66,17 @@
         "accessed": "2026-10-10"
       }
     ],
-    "designNote": "El diseño se estudia aquí a través del Yamato: artillería pesada, gran tamaño y protección. El archivo muestra por ahora una unidad; su historial no resume el servicio de toda la clase."
+    "designNote": "El diseño se estudia aquí a través del Yamato: artillería pesada, gran tamaño y protección. El archivo muestra por ahora una unidad; su historial no resume el servicio de toda la clase.",
+    "sections": [
+      {
+        "title": "Función operativa",
+        "text": "Combate de superficie con artillería pesada Su historia permite contrastar la apuesta por el acorazado de gran tamaño con el alcance de la aviación embarcada."
+      },
+      {
+        "title": "Diferencias entre unidades y periodos",
+        "text": "Pertenecer a una clase identifica un diseño de referencia, pero no garantiza que todas sus unidades llevaran los mismos equipos durante toda su vida. Para comparar armamento, sensores y dotaciones es necesario usar configuraciones de fechas equivalentes. Las modificaciones y las reparaciones pueden explicar diferencias entre fotografías y cifras publicadas."
+      }
+    ]
   },
   {
     "id": "clase-yorktown",
@@ -78,7 +98,17 @@
         "accessed": "2026-10-10"
       }
     ],
-    "designNote": "La ficha del Enterprise permite estudiar la combinación de cubierta de vuelo, grupo aéreo y apoyo de flota. Las aeronaves y modificaciones pertenecen a la unidad y al periodo documentados."
+    "designNote": "La ficha del Enterprise permite estudiar la combinación de cubierta de vuelo, grupo aéreo y apoyo de flota. Las aeronaves y modificaciones pertenecen a la unidad y al periodo documentados.",
+    "sections": [
+      {
+        "title": "Función operativa",
+        "text": "Operaciones de aviación embarcada Su carrera permite seguir el papel de los portaviones en las campañas del Pacífico y la continuidad de operaciones pese a los daños."
+      },
+      {
+        "title": "Diferencias entre unidades y periodos",
+        "text": "Pertenecer a una clase identifica un diseño de referencia, pero no garantiza que todas sus unidades llevaran los mismos equipos durante toda su vida. Para comparar armamento, sensores y dotaciones es necesario usar configuraciones de fechas equivalentes. Las modificaciones y las reparaciones pueden explicar diferencias entre fotografías y cifras publicadas."
+      }
+    ]
   },
   {
     "id": "clase-admiral",
@@ -113,7 +143,17 @@
         "accessed": "2026-10-10"
       }
     ],
-    "designNote": "El Hood permite explorar el concepto de crucero de batalla y los compromisos entre velocidad, artillería y protección. Su página técnica y su historial deben leerse conjuntamente."
+    "designNote": "El Hood permite explorar el concepto de crucero de batalla y los compromisos entre velocidad, artillería y protección. Su página técnica y su historial deben leerse conjuntamente.",
+    "sections": [
+      {
+        "title": "Función operativa",
+        "text": "Servicio de flota como crucero de batalla Fue un símbolo de la Royal Navy entre guerras. Su pérdida en 1941 convirtió su historia en un vínculo entre evolución del diseño naval y memoria de la tripulación."
+      },
+      {
+        "title": "Diferencias entre unidades y periodos",
+        "text": "Pertenecer a una clase identifica un diseño de referencia, pero no garantiza que todas sus unidades llevaran los mismos equipos durante toda su vida. Para comparar armamento, sensores y dotaciones es necesario usar configuraciones de fechas equivalentes. Las modificaciones y las reparaciones pueden explicar diferencias entre fotografías y cifras publicadas."
+      }
+    ]
   },
   {
     "id": "clase-fletcher",
@@ -142,6 +182,16 @@
         "accessed": "2026-10-10"
       }
     ],
-    "designNote": "El Fletcher dio nombre a una clase de 175 destructores. Su trayectoria atraviesa guerra y posguerra, por lo que conviene distinguir el diseño original de sus modificaciones posteriores."
+    "designNote": "El Fletcher dio nombre a una clase de 175 destructores. Su trayectoria atraviesa guerra y posguerra, por lo que conviene distinguir el diseño original de sus modificaciones posteriores.",
+    "sections": [
+      {
+        "title": "Función operativa",
+        "text": "Escolta y operaciones de superficie Como cabeza de clase, ofrece una entrada a la función de los destructores y a la evolución del servicio naval desde la Segunda Guerra Mundial hasta la posguerra."
+      },
+      {
+        "title": "Diferencias entre unidades y periodos",
+        "text": "Pertenecer a una clase identifica un diseño de referencia, pero no garantiza que todas sus unidades llevaran los mismos equipos durante toda su vida. Para comparar armamento, sensores y dotaciones es necesario usar configuraciones de fechas equivalentes. Las modificaciones y las reparaciones pueden explicar diferencias entre fotografías y cifras publicadas."
+      }
+    ]
   }
 ]

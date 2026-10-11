@@ -14,7 +14,7 @@ const NationsPage = {
         <div class="nation-banner">${photo?Features.image(photo.image,photo.name):''}<span class="nation-period">${Utils.escapeHtml(nation.period)}</span></div>
         <div class="nation-body"><header class="nation-heading"><img class="nation-flag" src="${HND.getAssetPath('assets/images/flags/'+nation.id+'.svg')}" width="60" height="36" alt=""><div><h2>${Utils.escapeHtml(nation.name)}</h2><p class="nation-navy">${Utils.escapeHtml(navy)}</p></div><span class="nation-count">${records.length}<small>buques</small></span></header>
         <p class="nation-summary">${Utils.escapeHtml(nation.navalDoctrine)}</p>
-        <details class="nation-context"><summary>Contexto histórico</summary><p>${Utils.escapeHtml(nation.description)}</p><p><strong>Tipos principales:</strong> ${nation.keyShipTypes.map(t=>Utils.escapeHtml(t)).join(', ')}.</p></details>
+        <details class="nation-context"><summary>Contexto histórico</summary><p>${Utils.escapeHtml(nation.description)}</p>${Features.prose(nation.sections)}${Features.reference('nacion-'+nation.id)}<p><strong>Tipos principales:</strong> ${nation.keyShipTypes.map(t=>Utils.escapeHtml(t)).join(', ')}.</p></details>
         <div class="nation-ships"><span class="eyebrow">En el archivo</span><div>${records.map(s=>`<a href="${HND.getAssetPath('buque.html')}?id=${encodeURIComponent(s.id)}">${Utils.escapeHtml(s.name)} <span aria-hidden="true">↗</span></a>`).join('')}</div></div>
         <a href="${HND.getAssetPath('buques.html')}?nacion=${encodeURIComponent(nation.id)}" class="btn btn-outline nation-catalog">Explorar ${records.length} buque${records.length===1?'':'s'} →</a></div>
       </article>`;
