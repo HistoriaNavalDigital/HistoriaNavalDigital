@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
     const media=await DataLoader.getMultimedia();
     const images=[...datasets[0].map(s=>({id:'portada-'+s.id,title:s.name,credit:s.imageCredit})),...media,...datasets[3].map(e=>({id:'periodo-'+e.id,title:e.name,credit:e.credit}))];
     document.getElementById('image-sources').innerHTML=images.map(i=>`<article class="source-item" id="imagen-${i.id}"><h3>${Utils.escapeHtml(i.title)}</h3>${Features.credit(i.credit||{author:'Autor pendiente de identificar',license:'Procedencia pendiente de verificar'},true)}</article>`).join('');
+    const search=document.createElement('input');search.type='search';search.className='archive-input';search.placeholder='Buscar un buque, tema, autor o referencia…';search.setAttribute('aria-label','Buscar en la bibliografía');document.getElementById('all-sources').prepend(search);search.oninput=()=>{const q=Utils.normalize(search.value);document.querySelectorAll('.bibliography-record').forEach(record=>record.hidden=!Utils.normalize(record.textContent).includes(q));document.querySelectorAll('.bibliography-group').forEach(group=>group.hidden=![...group.querySelectorAll('.bibliography-record')].some(record=>!record.hidden));};
     const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));target?.scrollIntoView?.({block:'start'});
   }catch{Features.error(document.getElementById('all-sources'));}
 });

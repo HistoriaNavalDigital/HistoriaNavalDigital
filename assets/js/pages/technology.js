@@ -13,8 +13,8 @@ const TechnologyPage = {
     } catch {Features.error(document.getElementById('technology-sections'));}
   },
   renderTechnology(items,ships) {
-    document.getElementById('technology-sections').innerHTML=items.map((item,index)=>{
-      const expanded=location.hash?'#tech-'+item.id===location.hash:index===0;
+    document.getElementById('technology-sections').innerHTML='<nav class="chapter-index" aria-label="Capítulos de tecnología">'+items.map(item=>`<a href="#tech-${item.id}">${Utils.escapeHtml(item.name)}</a>`).join('')+'</nav>'+items.map((item,index)=>{
+      const expanded=true;
       const examples=(item.shipIds||[]).map(id=>ships.find(s=>s.id===id)).filter(Boolean);
       return `<article class="tech-section" id="topic-${item.id}">
         <div class="tech-header" role="button" tabindex="0" aria-expanded="${expanded}" aria-controls="tech-${item.id}" data-tech-id="${item.id}">

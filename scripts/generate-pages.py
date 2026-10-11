@@ -20,7 +20,7 @@ for ship in ships:
     article+='<section><h2>Documentación</h2><p><a href="../fuentes.html#buque-'+escape(ship['id'])+'">Consultar fuentes y bibliografía</a></p></section><p><a href="../buques.html">Explorar catálogo</a></p></article>'
     text=text.replace('<div id="ship-content"></div>','<div id="ship-content">'+article+'</div>')
     (ROOT/'buques'/f'{ship["id"]}.html').write_text(text)
-files=[p.relative_to(ROOT).as_posix() for p in ROOT.glob('*.html') if p.name not in ['buque.html','batalla.html','clase.html','coleccion.html','favoritos.html','comparar.html','buscar.html']]
+files=[p.relative_to(ROOT).as_posix() for p in ROOT.glob('*.html') if p.name not in ['buque.html','batalla.html','clase.html','coleccion.html','favoritos.html','comparar.html','buscar.html','periodo.html','armada.html','conflicto.html']]
 files += ['buques/'+s['id']+'.html' for s in ships]
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>'+SITE+f+'</loc></url>\n' for f in files)+'</urlset>\n')
 print(f'Generadas {len(ships)} fichas permanentes y sitemap.')

@@ -10,11 +10,11 @@ const NationsPage = {
     document.getElementById('nations-grid').innerHTML = nations.map(nation => {
       const records=ships.filter(s=>s.nation===nation.id),photo=records.find(s=>s.image);
       const navy={'alemania':'Kriegsmarine','japon':'Armada Imperial Japonesa','estados-unidos':'United States Navy','reino-unido':'Royal Navy'}[nation.id]||'Armada';
-      return `<article class="nation-card">
+      return `<article class="nation-card" id="${nation.id}">
         <div class="nation-banner">${photo?Features.image(photo.image,photo.name):''}<span class="nation-period">${Utils.escapeHtml(nation.period)}</span></div>
         <div class="nation-body"><header class="nation-heading"><img class="nation-flag" src="${HND.getAssetPath('assets/images/flags/'+nation.id+'.svg')}" width="60" height="36" alt=""><div><h2>${Utils.escapeHtml(nation.name)}</h2><p class="nation-navy">${Utils.escapeHtml(navy)}</p></div><span class="nation-count">${records.length}<small>buques</small></span></header>
         <p class="nation-summary">${Utils.escapeHtml(nation.navalDoctrine)}</p>
-        <details class="nation-context"><summary>Contexto histórico</summary><p>${Utils.escapeHtml(nation.description)}</p>${Features.prose(nation.sections)}${Features.reference('nacion-'+nation.id)}<p><strong>Tipos principales:</strong> ${nation.keyShipTypes.map(t=>Utils.escapeHtml(t)).join(', ')}.</p></details>
+        <p class="nation-context"><a href="armada.html?id=${nation.id}">Conocer su historia y estrategia →</a></p>
         <div class="nation-ships"><span class="eyebrow">En el archivo</span><div>${records.map(s=>`<a href="${HND.getAssetPath('buque.html')}?id=${encodeURIComponent(s.id)}">${Utils.escapeHtml(s.name)} <span aria-hidden="true">↗</span></a>`).join('')}</div></div>
         <a href="${HND.getAssetPath('buques.html')}?nacion=${encodeURIComponent(nation.id)}" class="btn btn-outline nation-catalog">Explorar ${records.length} buque${records.length===1?'':'s'} →</a></div>
       </article>`;

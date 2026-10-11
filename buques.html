@@ -27,18 +27,18 @@
         <header class="page-header">
           <h1>Registro de Buques</h1>
           <p>Explora cada buque por su historia, clase y características. Filtra el archivo para encontrar lo que buscas.</p>
-        </header>
+        <p class="catalog-help"><a href="explorar.html#tipos-buque">Guía de tipos de buque</a> · <a href="glosario.html">Glosario naval</a></p></header>
 
-        <section class="catalog-filters" aria-labelledby="filter-title">
+        <label class="search-field"><span class="sr-only">Buscar buques</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6" /><path d="m15 15 5 5" /></svg><input type="search" id="search-input" placeholder="Nombre, nación, clase o palabra clave…"></label><details class="catalog-disclosure" open><summary>Filtros del catálogo</summary><section class="catalog-filters" aria-labelledby="filter-title">
           <div class="filter-heading"><h2 id="filter-title">Encuentra un buque</h2><button id="clear-filters" class="text-button">Restablecer filtros</button></div>
-          <label class="search-field"><span class="sr-only">Buscar buques</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input type="search" id="search-input" placeholder="Nombre, nación, clase o palabra clave…"></label>
+          
           <div class="catalog-filter-grid">
             <label class="field-label">Tipo de buque<select id="filter-type" class="filter-select"><option value="">Todos los tipos</option></select></label>
             <label class="field-label">Nación<select id="filter-nation" class="filter-select"><option value="">Todas las naciones</option></select></label>
             <label class="field-label">Era histórica<select id="filter-era" class="filter-select"></select></label>
             <label class="field-label">Estado final<select id="filter-status" class="filter-select"><option value="">Todos los estados</option></select></label>
           </div>
-        </section>
+        </section></details>
         <div class="catalog-toolbar result-toolbar"><p id="results-count" class="results-count" aria-live="polite"></p><div class="result-options"><button id="catalog-view" class="text-button" type="button" aria-pressed="false">Vista de lista</button><label class="favorite-filter"><input type="checkbox" id="favorites-only"> Solo favoritos</label><label class="sort-label">Ordenar<select id="sort-ships" class="filter-select"><option value="nombre">Nombre A–Z</option><option value="fecha">Más antiguos primero</option><option value="fecha-desc">Más recientes primero</option></select></label></div></div>
         <div id="filter-indicators" class="filter-indicators" aria-label="Filtros activos"></div>
         <div id="ships-grid" class="grid grid-3"></div>

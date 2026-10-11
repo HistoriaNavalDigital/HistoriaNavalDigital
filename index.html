@@ -21,66 +21,22 @@
 
   <main id="main-content" class="site-main">
     <div class="page-layout page-layout--full">
-      <div class="page-content">
-        <header class="editorial-hero">
-          <div class="editorial-hero-copy"><span class="hero-kicker">Historia Naval Digital · Archivo y relatos</span><h1>Un océano de historias por descubrir.</h1><p>Conoce los buques, sigue sus operaciones y comprende la tecnología que transformó la guerra en el mar.</p><div class="hero-actions"><a href="colecciones.html" class="btn btn-primary">Elegir un recorrido →</a><a href="buques.html" class="btn btn-outline">Explorar buques</a></div></div>
+      <div class="page-content"><header class="editorial-hero">
+          <div class="editorial-hero-copy"><span class="hero-kicker">Historia Naval Digital · Archivo y relatos</span><h1>Explora la historia de los buques y sus operaciones.</h1><p>Conoce los buques, sigue sus operaciones y comprende la tecnología que transformó la guerra en el mar.</p><form class="home-search" action="buscar.html"><label for="home-query">Buscar en el archivo</label><div><input id="home-query" name="q" type="search" placeholder="Bismarck, Midway, radar…" required><button class="btn btn-primary">Buscar</button></div></form><div class="hero-actions"><a href="colecciones.html" class="btn btn-primary">Elegir un recorrido →</a><a href="buques.html" class="btn btn-outline">Explorar buques</a></div></div>
           <figure class="editorial-hero-photo"><img src="assets/images/ships/uss-enterprise.jpg" alt="USS Enterprise, visto desde el aire" fetchpriority="high"><figcaption>USS Enterprise · <a href="buque.html?id=uss-enterprise">Conoce su historia →</a></figcaption></figure>
-        </header>
-        <section class="story-spotlight" aria-labelledby="spotlight-title"><div><span class="eyebrow">Historia protagonista · Atlántico, 1941</span><h2 id="spotlight-title">El encuentro que cambió la salida del Bismarck.</h2><p>Dos formaciones se encuentran entre Islandia y Groenlandia. Sigue el combate, sus protagonistas y las decisiones que condicionaron la operación.</p><a href="coleccion.html?id=atlantico-1941">Seguir este recorrido →</a></div><a href="batalla.html?id=estrecho-dinamarca" class="spotlight-event"><span>24 MAY 1941</span><strong>Estrecho de Dinamarca</strong><small>Leer el acontecimiento →</small></a></section>
-        <section class="content-section" aria-labelledby="collections-title"><div class="section-heading"><h2 id="collections-title">Historias conectadas</h2><a href="colecciones.html">Todas las colecciones →</a></div><div id="home-collections" class="collection-grid"></div></section>
-        <div id="stats-bar" class="stats-bar" aria-label="Estadísticas del proyecto"></div>
-
-        <section aria-labelledby="featured-title">
+        </header><section class="story-spotlight" aria-labelledby="spotlight-title"><div><span class="eyebrow">Historia protagonista · Atlántico, 1941</span><h2 id="spotlight-title">El encuentro que cambió la salida del Bismarck.</h2><p>Dos formaciones se encuentran entre Islandia y Groenlandia. Sigue el combate, sus protagonistas y las decisiones que condicionaron la operación.</p><a href="coleccion.html?id=atlantico-1941">Seguir este recorrido →</a></div><a href="batalla.html?id=estrecho-dinamarca" class="spotlight-event"><span>24 MAY 1941</span><strong>Estrecho de Dinamarca</strong><small>Leer el acontecimiento →</small></a></section><section aria-labelledby="starting-title" class="content-section"><h2 id="starting-title">Elige por dónde empezar</h2><div class="entry-grid"><a class="entry-card" href="buques.html"><h3>Conocer un buque</h3><p>Explora barcos por nombre, tipo, nación y periodo.</p><span>Explorar →</span></a><a class="entry-card" href="historia.html"><h3>Recorrer la historia</h3><p>Sitúa armadas, conflictos y batallas en su contexto.</p><span>Explorar →</span></a><a class="entry-card" href="tecnologia.html"><h3>Comprender la tecnología</h3><p>Descubre cómo funcionan y evolucionan los buques.</p><span>Explorar →</span></a></div></section><section aria-label="Selección del archivo" class="home-selection"><section class="content-section" aria-labelledby="collections-title"><div class="section-heading"><h2 id="collections-title">Historias conectadas</h2><a href="colecciones.html">Todas las colecciones →</a></div><div id="home-collections" class="collection-grid"></div></section><section aria-labelledby="featured-title">
           <h2 id="featured-title" class="section-title">Buques destacados</h2>
-          <div id="featured-ships" class="grid grid-3"></div>
+          <div id="featured-ships" class="grid grid-4"></div>
           <p style="text-align: center; margin-top: var(--space-6);">
             <a href="buques.html" class="btn btn-primary">Ver catálogo completo</a>
           </p>
-        </section>
-
-        <section aria-labelledby="quick-links-title" style="margin-top: var(--space-12);">
-          <h2 id="quick-links-title" class="section-title">Explorar la plataforma</h2>
-          <div class="grid grid-2">
-            <a href="eras.html" class="quick-link-card">
-              <span class="quick-link-icon" aria-hidden="true"><img src="assets/images/icons/eras.svg" width="36" height="36" alt=""></span>
-              <div class="quick-link-text">
-                <h3>Eras y Conflictos</h3>
-                <p>Desde la era de la vela hasta la guerra fría</p>
-              </div>
-            </a>
-            <a href="naciones.html" class="quick-link-card">
-              <span class="quick-link-icon" aria-hidden="true"><img src="assets/images/icons/naciones.svg" width="36" height="36" alt=""></span>
-              <div class="quick-link-text">
-                <h3>Naciones y armadas</h3>
-                <p>Potencias navales y sus flotas</p>
-              </div>
-            </a>
-            <a href="tecnologia.html" class="quick-link-card">
-              <span class="quick-link-icon" aria-hidden="true"><img src="assets/images/icons/tecnologia.svg" width="36" height="36" alt=""></span>
-              <div class="quick-link-text">
-                <h3>Tecnología y Construcción</h3>
-                <p>Propulsión, armamento e ingeniería naval</p>
-              </div>
-            </a>
-            <a href="multimedia.html" class="quick-link-card">
-              <span class="quick-link-icon" aria-hidden="true"><img src="assets/images/icons/multimedia.svg" width="36" height="36" alt=""></span>
-              <div class="quick-link-text">
-                <h3>Archivo Multimedia</h3>
-                <p>Fotografías históricas e ilustraciones explicadas</p>
-              </div>
-            </a>
-          </div>
-        </section>
-
-        <section class="content-section"><h2>Lo más reciente del archivo</h2><div id="recent-content" class="recent-content"></div></section>
-        <nav class="explore-tools" aria-label="Herramientas del archivo"><a href="comparar.html">Comparar buques →</a><a href="mapa.html">Explorar el mapa →</a><a href="favoritos.html">Mis favoritos →</a></nav>
-        <section aria-labelledby="ephemerides-title" style="margin-top: var(--space-12);">
+        </section></section><section class="content-section"><h2>Lo más reciente del archivo</h2><div id="recent-content" class="recent-content"></div><details class="home-secondary"><summary>Cifras del archivo</summary><div id="stats-bar" class="stats-bar" aria-label="Estadísticas del proyecto"></div></details><details class="home-secondary"><summary>Herramientas para explorar</summary><nav class="explore-tools" aria-label="Herramientas del archivo"><a href="comparar.html">Comparar buques →</a><a href="mapa.html">Explorar el mapa →</a><a href="favoritos.html">Mis favoritos →</a></nav></details><details class="home-secondary"><summary>Efemérides navales</summary><section aria-labelledby="ephemerides-title" style="margin-top: var(--space-12);">
           <h2 id="ephemerides-title" class="section-title">Efemérides navales</h2>
           <div class="card">
             <ul id="ephemerides" class="ephemeris-list"></ul>
           </div>
         </section>
-      </div>
+        </details></section></div>
     </div>
   </main>
 

@@ -76,7 +76,7 @@ const sisterShips = ship.class
     const locationText = ship.location.description || "Ubicación no disponible";
 const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h2>Galería multimedia</h2><div class="gallery-grid">${Features.gallery(shipMedia)}</div></section>`:"";
     container.innerHTML = `
-      <nav class="section-index" aria-label="Secciones de la ficha"><a href="#descripcion" aria-current="location">Historia</a><a href="#especificaciones">Especificaciones</a><a href="#historial">Servicio</a><a href="#ubicacion">Localización</a>${shipMedia.length?'<a href="#galeria">Galería</a>':''}<a href="#conexiones">Explorar</a><a href="#fuentes">Fuentes</a></nav>
+      <details class="reading-index" open><summary>En esta página</summary><nav class="section-index" aria-label="Secciones de la ficha"><a href="#descripcion" aria-current="location">Historia</a><a href="#especificaciones">Especificaciones</a><a href="#historial">Servicio</a><a href="#ubicacion">Localización</a>${shipMedia.length?'<a href="#galeria">Galería</a>':''}<a href="#conexiones">Explorar</a><a href="#fuentes">Fuentes</a></nav></details>
       <div class="ship-hero">
         <div class="ship-hero-image">
   ${Features.image(ship.imageDetail || ship.image,ship.name,ship.imageCredit,true)}
@@ -84,9 +84,9 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
 </div>
         <div class="ship-hero-info">
           <div class="card-meta" style="margin-bottom: var(--space-4);">
-            <span class="badge badge-nation">${Utils.escapeHtml(ship.nationName)}</span>
+            
             <span class="badge badge-type">${Utils.escapeHtml(ship.typeName)}</span>
-            <span class="badge badge-status ${statusClass}">${Utils.escapeHtml(ship.statusName)}</span>
+            
           </div>
           <h1>${Utils.escapeHtml(ship.name)}</h1>
           <p class="ship-summary">${Utils.escapeHtml(ship.summary)}</p><p class="ship-role"><strong>Función:</strong> ${Utils.escapeHtml(ship.role)}</p>
@@ -110,7 +110,7 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
           </div>
           <p><strong>Clase:</strong> <a href="${HND.getAssetPath('clase.html')}?id=${encodeURIComponent(ship.class)}">${Utils.escapeHtml(ship.className||'Pendiente de documentar')}</a> · <a href="${HND.getAssetPath('buques.html')}?era=${encodeURIComponent(ship.era)}">Explorar su era</a></p>
           <p><strong>Conflictos:</strong> ${ship.conflicts.map(c=>`<a href="${HND.getAssetPath('batallas.html')}?conflicto=${encodeURIComponent(c)}">${Utils.escapeHtml(this.relatedData.conflicts.find(x=>x.id===c)?.name||c)}</a>`).join(' · ')}</p>
-          <p><a href="${HND.getAssetPath('buques/'+ship.id+'.html')}">Enlace permanente de esta ficha ↗</a></p><ul class="tags-list">${tags}</ul><div class="hero-actions"><button class="btn btn-outline" data-favorite="${ship.id}" aria-pressed="${Features.isFavorite(ship.id)}">${Features.isFavorite(ship.id)?'♥ Guardado':'♡ Guardar'}</button><a class="btn btn-outline" href="${HND.getAssetPath('comparar.html')}?ids=${ship.id}">Comparar buque</a></div>
+          <details class="record-context"><summary>Identificación y temas relacionados</summary><ul class="tags-list">${tags}</ul><p><a href="${HND.getAssetPath('buques/'+ship.id+'.html')}">Enlace permanente</a></p></details><div class="hero-actions"><button class="btn btn-outline" data-share="${HND.getAssetPath('buques/'+ship.id+'.html')}">Compartir ficha</button><button class="btn btn-outline" data-favorite="${ship.id}" aria-pressed="${Features.isFavorite(ship.id)}">${Features.isFavorite(ship.id)?'♥ Guardado':'♡ Guardar'}</button><a class="btn btn-outline" href="${HND.getAssetPath('comparar.html')}?ids=${ship.id}">Comparar buque</a></div>
           ${Features.credit(ship.imageCredit)}
         </div>
       </div>
@@ -159,6 +159,7 @@ ${
   <a href="${HND.getAssetPath('buques.html')}" class="btn btn-outline">← Volver al catálogo</a>
 </div>
 `;
+    if(window.innerWidth<=800)container.querySelector('.reading-index').removeAttribute('open');
     Features.syncFavorites();
     const links = [...document.querySelectorAll('.section-index a')];
     const activate = id => links.forEach(link => {

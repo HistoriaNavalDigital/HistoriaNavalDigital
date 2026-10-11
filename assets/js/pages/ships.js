@@ -1,5 +1,5 @@
 const ShipsPage={
- async init(){Components.mountLayout('buques');Features.loading(document.getElementById('ships-grid'));document.getElementById('breadcrumbs').innerHTML=Components.renderBreadcrumbs([{label:'Inicio',href:'index.html'},{label:'Registro de Buques'}]);
+ async init(){Components.mountLayout('buques');if(window.innerWidth<=600)document.querySelector('.catalog-disclosure').removeAttribute('open');Features.loading(document.getElementById('ships-grid'));document.getElementById('breadcrumbs').innerHTML=Components.renderBreadcrumbs([{label:'Inicio',href:'index.html'},{label:'Registro de Buques'}]);
  try{const [ships,eras]=await Promise.all([DataLoader.getShips(),DataLoader.getEras()]);this.ships=ships;this.eras=eras;this.setup();this.render();}catch(e){Features.error(document.getElementById('ships-grid'),'No se pudo cargar el catálogo.');}},
  setup(){const saved=Features.read('hnd-catalog','');if(!location.search&&typeof saved==='string'&&saved){history.replaceState(null,'',`?${saved}`);}
  const current=new URLSearchParams(location.search);const opt=(value,label)=>`<option value="${Utils.escapeHtml(value)}">${Utils.escapeHtml(label)}</option>`;

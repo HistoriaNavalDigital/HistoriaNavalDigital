@@ -3,6 +3,7 @@
  */
 const Components = {
   renderHeader(activePage = "") {
+    if(["eras","naciones","batallas"].includes(activePage))activePage="historia";
     const base = document.querySelector('meta[name="base-path"]')?.content || "";
     const navLinks = HND.navItems
       .map(
