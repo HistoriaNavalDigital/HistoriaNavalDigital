@@ -107,5 +107,57 @@
       "license": "Elaboración propia",
       "source": "https://www.kbismarck.com/genedata.html"
     }
+  },
+  {
+    "id": "concepto-propulsion",
+    "title": "Del vapor a la hélice",
+    "description": "Esquema didáctico de la transmisión de movimiento en una planta de vapor. No representa la maquinaria de un buque concreto.",
+    "type": "ilustracion",
+    "image": "assets/images/diagrams/propulsion.svg",
+    "era": "era-acero",
+    "shipId": null,
+    "credit": {
+      "author": "Historia Naval Digital",
+      "license": "Ilustración didáctica de elaboración propia; no es documentación histórica"
+    }
+  },
+  {
+    "id": "concepto-blindaje",
+    "title": "Protección de espacios vitales",
+    "description": "Esquema conceptual de la distribución de protección. No es un plano histórico ni está a escala.",
+    "type": "ilustracion",
+    "image": "assets/images/diagrams/blindaje.svg",
+    "era": "era-acero",
+    "shipId": null,
+    "credit": {
+      "author": "Historia Naval Digital",
+      "license": "Ilustración didáctica de elaboración propia; no es documentación histórica"
+    }
+  },
+  {
+    "id": "concepto-armamento",
+    "title": "Funciones del armamento naval",
+    "description": "Ilustración didáctica sobre sistemas de armamento. Su disposición no representa un buque específico.",
+    "type": "ilustracion",
+    "image": "assets/images/diagrams/armamento.svg",
+    "era": "era-acero",
+    "shipId": null,
+    "credit": {
+      "author": "Historia Naval Digital",
+      "license": "Ilustración didáctica de elaboración propia; no es documentación histórica"
+    }
+  },
+  {
+    "id": "concepto-aviacion-naval",
+    "title": "El ciclo de la aviación embarcada",
+    "description": "Esquema conceptual de operaciones aéreas. No reproduce procedimientos de una configuración histórica concreta.",
+    "type": "ilustracion",
+    "image": "assets/images/diagrams/aviacion-naval.svg",
+    "era": "era-acero",
+    "shipId": "uss-enterprise",
+    "credit": {
+      "author": "Historia Naval Digital",
+      "license": "Ilustración didáctica de elaboración propia; no es documentación histórica"
+    }
   }
 ]

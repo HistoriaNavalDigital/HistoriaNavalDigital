@@ -1,0 +1,147 @@
+[
+  {
+    "id": "clase-bismarck",
+    "name": "Clase Bismarck",
+    "nation": "alemania",
+    "type": "acorazado",
+    "image": "assets/images/ships/bismarck.jpg",
+    "summary": "Familia de diseño a la que pertenece Bismarck. Consulta cada unidad para sus características y modificaciones.",
+    "shipIds": [
+      "bismarck",
+      "tirpitz"
+    ],
+    "note": "Las unidades mostradas son las incorporadas al archivo, no la lista completa de la clase. Las características de una unidad no se aplican automáticamente a todas sus hermanas.",
+    "sources": [
+      {
+        "title": "Bismarck: datos técnicos y documentos",
+        "author": "José M. Rico",
+        "type": "Documento web",
+        "url": "https://www.kbismarck.com/genedata.html",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de Bismarck",
+        "url": "https://kbismarck.com/histoperi.html",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      }
+    ],
+    "designNote": "Bismarck y Tirpitz permiten observar cómo dos buques de un diseño común tuvieron carreras y cambios de equipamiento diferentes. Utiliza el comparador para examinar las fichas disponibles, teniendo en cuenta sus fechas."
+  },
+  {
+    "id": "clase-yamato",
+    "name": "Clase Yamato",
+    "nation": "japon",
+    "type": "acorazado",
+    "image": "assets/images/ships/yamato.jpg",
+    "summary": "Familia de diseño a la que pertenece Yamato. Consulta cada unidad para sus características y modificaciones.",
+    "shipIds": [
+      "yamato"
+    ],
+    "note": "Las unidades mostradas son las incorporadas al archivo, no la lista completa de la clase. Las características de una unidad no se aplican automáticamente a todas sus hermanas.",
+    "sources": [
+      {
+        "title": "H-044-3: Death of Battleship Yamato",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-044/h-044-3.html",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de Yamato",
+        "url": "https://www.combinedfleet.com/yamato.htm",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      }
+    ],
+    "designNote": "El diseño se estudia aquí a través del Yamato: artillería pesada, gran tamaño y protección. El archivo muestra por ahora una unidad; su historial no resume el servicio de toda la clase."
+  },
+  {
+    "id": "clase-yorktown",
+    "name": "Clase Yorktown",
+    "nation": "estados-unidos",
+    "type": "portaviones",
+    "image": "assets/images/ships/uss-enterprise.jpg",
+    "summary": "Familia de diseño a la que pertenece USS Enterprise (CV-6). Consulta cada unidad para sus características y modificaciones.",
+    "shipIds": [
+      "uss-enterprise"
+    ],
+    "note": "Las unidades mostradas son las incorporadas al archivo, no la lista completa de la clase. Las características de una unidad no se aplican automáticamente a todas sus hermanas.",
+    "sources": [
+      {
+        "title": "Enterprise VII (CV-6)",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html",
+        "accessed": "2026-10-10"
+      }
+    ],
+    "designNote": "La ficha del Enterprise permite estudiar la combinación de cubierta de vuelo, grupo aéreo y apoyo de flota. Las aeronaves y modificaciones pertenecen a la unidad y al periodo documentados."
+  },
+  {
+    "id": "clase-admiral",
+    "name": "Clase Admiral",
+    "nation": "reino-unido",
+    "type": "crucero-batalla",
+    "image": "assets/images/ships/hms-hood.jpg",
+    "summary": "Familia de diseño a la que pertenece HMS Hood. Consulta cada unidad para sus características y modificaciones.",
+    "shipIds": [
+      "hms-hood"
+    ],
+    "note": "Las unidades mostradas son las incorporadas al archivo, no la lista completa de la clase. Las características de una unidad no se aplican automáticamente a todas sus hermanas.",
+    "sources": [
+      {
+        "title": "HMS Hood: especificaciones y armamento",
+        "author": "HMS Hood Association",
+        "type": "Documento web",
+        "url": "https://www.hmshood.org.uk/ship/index.htm",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Hood Wreck Site",
+        "author": "HMS Hood Association",
+        "type": "Archivo del proyecto de exploración",
+        "url": "https://hmshood.org.uk/hoodtoday/2001expedition/hood/encrypt.htm"
+      },
+      {
+        "title": "Historial de HMS Hood",
+        "url": "https://www.hmshood.org.uk/history/",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      }
+    ],
+    "designNote": "El Hood permite explorar el concepto de crucero de batalla y los compromisos entre velocidad, artillería y protección. Su página técnica y su historial deben leerse conjuntamente."
+  },
+  {
+    "id": "clase-fletcher",
+    "name": "Clase Fletcher",
+    "nation": "estados-unidos",
+    "type": "destructor",
+    "image": "assets/images/ships/uss-fletcher.jpg",
+    "summary": "Familia de diseño a la que pertenece USS Fletcher (DD-445). Consulta cada unidad para sus características y modificaciones.",
+    "shipIds": [
+      "uss-fletcher"
+    ],
+    "note": "Las unidades mostradas son las incorporadas al archivo, no la lista completa de la clase. Las características de una unidad no se aplican automáticamente a todas sus hermanas.",
+    "sources": [
+      {
+        "title": "Fletcher (DD-445)",
+        "author": "Naval History and Heritage Command",
+        "type": "Documento web",
+        "url": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de USS Fletcher (DD-445)",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/f/fletcher.html",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      }
+    ],
+    "designNote": "El Fletcher dio nombre a una clase de 175 destructores. Su trayectoria atraviesa guerra y posguerra, por lo que conviene distinguir el diseño original de sus modificaciones posteriores."
+  }
+]

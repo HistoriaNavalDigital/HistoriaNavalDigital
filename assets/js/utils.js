@@ -94,7 +94,7 @@ const Utils = {
 
   return `
     <article class="card ship-card">
-      <a href="${base}buque.html?id=${ship.id}" class="card-link">
+      <a href="${base}buques/${ship.id}.html" class="card-link">
         <div class="card-image">
          <div class="card-image-placeholder has-photo" style="background: linear-gradient(135deg, ${ship.imageColor || "#1a3a5c"} 0%, ${ship.imageColor || "#1a3a5c"}99 100%);">
          ${imageContent}

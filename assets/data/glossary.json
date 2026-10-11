@@ -1,0 +1,62 @@
+[
+  {
+    "id": "desplazamiento",
+    "name": "Desplazamiento",
+    "definition": "Masa del agua desplazada por el buque. Cambia con la carga; distinguir desplazamiento estándar y a plena carga."
+  },
+  {
+    "id": "eslora",
+    "name": "Eslora",
+    "definition": "Longitud del buque. La eslora total y la medida en la flotación pueden ser diferentes."
+  },
+  {
+    "id": "manga",
+    "name": "Manga",
+    "definition": "Anchura del buque, cuya referencia de medición debe indicarse cuando sea relevante."
+  },
+  {
+    "id": "calado",
+    "name": "Calado",
+    "definition": "Distancia vertical entre la superficie del agua y la parte inferior del casco. Varía con la carga."
+  },
+  {
+    "id": "nudo",
+    "name": "Nudo",
+    "definition": "Unidad de velocidad: una milla náutica por hora, equivalente a 1,852 kilómetros por hora."
+  },
+  {
+    "id": "calibre",
+    "name": "Calibre",
+    "definition": "Diámetro interior del tubo de un arma; en la artillería naval se expresa habitualmente en milímetros o pulgadas."
+  },
+  {
+    "id": "cinturon",
+    "name": "Cinturón blindado",
+    "definition": "Protección de los costados destinada a resguardar partes vitales del buque."
+  },
+  {
+    "id": "direccion-tiro",
+    "name": "Dirección de tiro",
+    "definition": "Sistemas y procedimientos para estimar la posición del blanco y orientar el armamento."
+  },
+  {
+    "id": "clase",
+    "name": "Clase de buques",
+    "definition": "Grupo construido conforme a un diseño común. Sus unidades pueden presentar diferencias y modificaciones."
+  },
+  {
+    "id": "dotacion",
+    "name": "Dotación",
+    "definition": "Personal asignado al servicio del buque. La cifra puede variar con su misión y periodo."
+  },
+  {
+    "id": "radar",
+    "name": "Radar",
+    "definition": "Sistema que utiliza ondas de radio y sus ecos para detectar objetos y estimar su posición."
+  },
+  {
+    "id": "sonar",
+    "name": "Sonar",
+    "definition": "Sistemas acústicos para detectar o localizar objetos bajo el agua, mediante escucha o emisión de sonido."
+  }
+]

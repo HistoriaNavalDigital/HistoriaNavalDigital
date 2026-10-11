@@ -4,25 +4,31 @@
 const HND = {
   siteName: "HistoriaNavalDigital",
   siteTagline: "Historia naval al alcance de todos",
-  version: "0.2",
+  version: "0.3",
 
   navItems: [
     { id: "inicio", label: "Inicio", href: "index.html", icon: "🏠" },
     { id: "buques", label: "Buques", href: "buques.html", icon: "🚢" },
-    { id: "eras", label: "Eras y Conflictos", href: "eras.html", icon: "⚔️" },
+    { id: "batallas", label: "Batallas", href: "batallas.html", icon: "⚔️" },
+    { id: "eras", label: "Eras", href: "eras.html", icon: "⚔️" },
     { id: "naciones", label: "Naciones", href: "naciones.html", icon: "🌍" },
     { id: "tecnologia", label: "Tecnología", href: "tecnologia.html", icon: "⚙️" },
     { id: "multimedia", label: "Multimedia", href: "multimedia.html", icon: "🖼️" },
+    { id: "explorar", label: "Explorar", href: "explorar.html", icon: "↗" },
   ],
 
   footerLinks: {
     explore: [
+      { label: "Colecciones temáticas", href: "colecciones.html" },
+      { label: "Batallas", href: "batallas.html" },
       { label: "Registro de Buques", href: "buques.html" },
       { label: "Eras y Conflictos", href: "eras.html" },
       { label: "Naciones", href: "naciones.html" },
       { label: "Tecnología", href: "tecnologia.html" },
     ],
     info: [
+      { label: "Buscar en el archivo", href: "buscar.html" },
+      { label: "Glosario naval", href: "glosario.html" },
       { label: "Comparar buques", href: "comparar.html" },
       { label: "Mapa naval", href: "mapa.html" },
       { label: "Favoritos", href: "favoritos.html" },

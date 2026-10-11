@@ -8,7 +8,7 @@
       {
         "title": "Turbinas de vapor",
         "period": "1900–1945",
-        "detail": "Las turbinas Parsons revolucionaron la velocidad naval, permitiendo acorazados de más de 30 nudos."
+        "detail": "El vapor generado en las calderas hace girar turbinas que transmiten movimiento a las hélices. Potencia, consumo y velocidad deben estudiarse juntos."
       },
       {
         "title": "Propulsión diésel-eléctrica",
@@ -20,7 +20,15 @@
       "bismarck",
       "tirpitz"
     ],
-    "diagramAlt": "Esquema conceptual, no plano técnico: Caldera → turbina → eje → hélice"
+    "diagramAlt": "Esquema conceptual, no plano técnico: Caldera → turbina → eje → hélice",
+    "sources": [
+      {
+        "title": "Documentación para Propulsión Naval",
+        "url": "https://www.kbismarck.com/technical.html",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
   },
   {
     "id": "armamento",
@@ -43,7 +51,15 @@
       "bismarck",
       "yamato"
     ],
-    "diagramAlt": "Esquema conceptual, no plano técnico: Artillería principal y defensa antiaérea"
+    "diagramAlt": "Esquema conceptual, no plano técnico: Artillería principal y defensa antiaérea",
+    "sources": [
+      {
+        "title": "Documentación para Armamento Naval",
+        "url": "https://www.kbismarck.com/technical.html",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
   },
   {
     "id": "blindaje",
@@ -65,7 +81,15 @@
     "shipIds": [
       "bismarck"
     ],
-    "diagramAlt": "Esquema conceptual, no plano técnico: Protección de espacios vitales"
+    "diagramAlt": "Esquema conceptual, no plano técnico: Protección de espacios vitales",
+    "sources": [
+      {
+        "title": "Documentación para Blindaje y Protección",
+        "url": "https://www.hmshood.org.uk/ship/hoodspecs2.htm",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
   },
   {
     "id": "aviacion-naval",
@@ -76,7 +100,7 @@
       {
         "title": "Portaviones de flota",
         "period": "1920–1945",
-        "detail": "Embarcaciones capaces de transportar más de 80 aeronaves, como el USS Enterprise (CV-6)."
+        "detail": "El buque proporciona cubierta, hangares y apoyo para un grupo aéreo. El número y tipo de aeronaves cambia según el periodo y la misión."
       },
       {
         "title": "Operaciones combinadas",
@@ -87,6 +111,211 @@
     "shipIds": [
       "uss-enterprise"
     ],
-    "diagramAlt": "Esquema conceptual, no plano técnico: Ciclo operativo de aviación embarcada"
+    "diagramAlt": "Esquema conceptual, no plano técnico: Ciclo operativo de aviación embarcada",
+    "sources": [
+      {
+        "title": "Documentación para Aviación Naval",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "radar",
+    "name": "Radar y dirección de tiro",
+    "category": "Detección",
+    "description": "Detectar un objetivo y dirigir el fuego son tareas relacionadas, pero distintas. El radar puede aportar mediciones para la vigilancia y el control de tiro.",
+    "explainer": {
+      "title": "Cómo se relacionan sus elementos",
+      "steps": [
+        [
+          "Emisión",
+          "La antena emite ondas de radio."
+        ],
+        [
+          "Eco",
+          "La señal reflejada permite detectar objetos."
+        ],
+        [
+          "Seguimiento",
+          "Se estiman posiciones y movimientos."
+        ],
+        [
+          "Dirección de tiro",
+          "Las mediciones apoyan la solución de tiro."
+        ]
+      ]
+    },
+    "topics": [
+      {
+        "title": "Vigilancia",
+        "period": "Conceptos y evolución",
+        "detail": "Detectar contactos no equivale a identificarlos con certeza."
+      },
+      {
+        "title": "Control de tiro",
+        "period": "Conceptos y evolución",
+        "detail": "La integración del radar ayudó a medir distancias en condiciones de baja visibilidad."
+      }
+    ],
+    "shipIds": [
+      "bismarck",
+      "hms-hood"
+    ],
+    "sources": [
+      {
+        "title": "Radar y dirección de tiro",
+        "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/e/evolution-of-naval-weapons.html",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "sonar",
+    "name": "Sonar y escucha submarina",
+    "category": "Acústica",
+    "description": "Bajo el agua, los sistemas acústicos permiten escuchar señales o buscar ecos. El sonar activo y el pasivo emplean procedimientos diferentes.",
+    "explainer": {
+      "title": "Cómo se relacionan sus elementos",
+      "steps": [
+        [
+          "Escucha pasiva",
+          "Recibe sonidos sin emitir una señal propia."
+        ],
+        [
+          "Emisión activa",
+          "Envía un pulso acústico."
+        ],
+        [
+          "Recepción",
+          "Recoge el eco reflejado."
+        ],
+        [
+          "Interpretación",
+          "Analiza la información recibida."
+        ]
+      ]
+    },
+    "topics": [
+      {
+        "title": "Dos procedimientos",
+        "period": "Conceptos y evolución",
+        "detail": "El sonar pasivo escucha; el activo utiliza emisiones y ecos."
+      },
+      {
+        "title": "Aplicaciones",
+        "period": "Conceptos y evolución",
+        "detail": "La acústica también permite estudiar el fondo y localizar objetos sumergidos."
+      }
+    ],
+    "shipIds": [],
+    "sources": [
+      {
+        "title": "Sonar y escucha submarina",
+        "url": "https://oceanexplorer.noaa.gov/technology/sonar/",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "torpedos",
+    "name": "Torpedos y ataque submarino",
+    "category": "Armamento",
+    "description": "Armas autopropulsadas bajo el agua. Su empleo depende del sistema de lanzamiento, del control del rumbo y del funcionamiento de la espoleta.",
+    "explainer": {
+      "title": "Cómo se relacionan sus elementos",
+      "steps": [
+        [
+          "Lanzamiento",
+          "Desde el sistema diseñado para el arma."
+        ],
+        [
+          "Propulsión",
+          "Avance bajo la superficie."
+        ],
+        [
+          "Trayectoria",
+          "Rumbo y profundidad establecidos."
+        ],
+        [
+          "Espoleta",
+          "Activación de la carga según su diseño."
+        ]
+      ]
+    },
+    "topics": [
+      {
+        "title": "Sistemas de lanzamiento",
+        "period": "Conceptos y evolución",
+        "detail": "En la Segunda Guerra Mundial hubo torpedos lanzados por aviones, submarinos y buques de superficie."
+      },
+      {
+        "title": "Fiabilidad y pruebas",
+        "period": "Conceptos y evolución",
+        "detail": "Los problemas del Mark 14 estadounidense muestran la importancia de ensayos realistas."
+      }
+    ],
+    "shipIds": [],
+    "sources": [
+      {
+        "title": "Torpedos y ataque submarino",
+        "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-008/h-008-3.html",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "proteccion-submarina",
+    "name": "Protección bajo la flotación",
+    "category": "Construcción",
+    "description": "La protección del casco y la compartimentación intentan reducir la extensión de daños e inundaciones. Ningún sistema garantiza resistir todos los ataques.",
+    "explainer": {
+      "title": "Cómo se relacionan sus elementos",
+      "steps": [
+        [
+          "Casco",
+          "Primera estructura expuesta al daño."
+        ],
+        [
+          "Espacios internos",
+          "Distribución de volúmenes de protección."
+        ],
+        [
+          "Mamparos",
+          "Separan compartimentos."
+        ],
+        [
+          "Control de averías",
+          "Busca conservar estabilidad y flotabilidad."
+        ]
+      ]
+    },
+    "topics": [
+      {
+        "title": "Diseño y compromiso",
+        "period": "Conceptos y evolución",
+        "detail": "La protección requiere espacio y peso, que compiten con otras necesidades del buque."
+      },
+      {
+        "title": "Evaluar una avería",
+        "period": "Conceptos y evolución",
+        "detail": "Importan la posición del impacto, la carga y la extensión de la inundación."
+      }
+    ],
+    "shipIds": [
+      "hms-hood"
+    ],
+    "sources": [
+      {
+        "title": "Protección bajo la flotación",
+        "url": "https://www.hmshood.org.uk/ship/hoodspecs2.htm",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
+      }
+    ]
   }
 ]

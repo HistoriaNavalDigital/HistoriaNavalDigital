@@ -73,7 +73,7 @@ const DataLoader = {
 
   async getShipsByEra(eraId) {
     const ships = await this.getShips();
-    return ships.filter((s) => s.era === eraId);
+    return ships.filter((s) => (s.eraIds||[s.era]).includes(eraId));
   },
 
   async getShipsByConflict(conflictId) {

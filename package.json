@@ -1,9 +1,10 @@
 {
   "name": "historia-naval-digital",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
-    "test": "node tests/functional.cjs"
+    "test": "node tests/functional.cjs",
+    "generate": "python scripts/generate-pages.py"
   },
   "devDependencies": {
     "linkedom": "^0.18.12"

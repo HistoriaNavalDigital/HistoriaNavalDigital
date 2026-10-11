@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "researchedOn": "2026-10-11",
+  "purpose": "Registro de fuentes para ampliar HistoriaNavalDigital. No representa importación de sus colecciones ni verificación completa de las fichas existentes.",
+  "sources": [
+    {
+      "id": "nhhc-danfs",
+      "name": "Naval History and Heritage Command — DANFS",
+      "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/.html",
+      "kind": "institucional",
+      "topics": [
+        "buques estadounidenses",
+        "historial de servicio",
+        "clasificaciones"
+      ],
+      "relatedExistingIds": [
+        "enterprise",
+        "fletcher"
+      ],
+      "editorialNote": "Consulta de historias individuales; el índice no respalda por sí solo todos los datos de una ficha.",
+      "status": "identified-for-research"
+    },
+    {
+      "id": "rmg-collections",
+      "name": "Royal Museums Greenwich — Colecciones",
+      "url": "https://www.rmg.co.uk/collections",
+      "kind": "museo",
+      "topics": [
+        "fotografías",
+        "mapas",
+        "modelos",
+        "documentos"
+      ],
+      "relatedExistingIds": [
+        "multimedia",
+        "eras"
+      ],
+      "editorialNote": "Registrar el identificador del objeto y los derechos de cada pieza.",
+      "status": "identified-for-research"
+    },
+    {
+      "id": "rmg-plans",
+      "name": "Royal Museums Greenwich — Planos de buques",
+      "url": "https://www.rmg.co.uk/collections/our-collections-ship-plans-collection",
+      "kind": "museo",
+      "topics": [
+        "planos",
+        "construcción",
+        "formas del casco"
+      ],
+      "relatedExistingIds": [
+        "technology",
+        "multimedia"
+      ],
+      "editorialNote": "Los planos pueden corresponder a distintas versiones; comprobar fecha y buque.",
+      "status": "identified-for-research"
+    },
+    {
+      "id": "iwm-collections",
+      "name": "Imperial War Museums — Archivo fotográfico",
+      "url": "https://www.iwm.org.uk/collections/search?filters%5BcollectionString%5D%5BIMPERIAL+WAR+MUSEUM+PHOTOGRAPH+ARCHIVE+COLLECTION%5D=on",
+      "kind": "museo",
+      "topics": [
+        "fotografías de guerra",
+        "pies de foto",
+        "contexto de operaciones"
+      ],
+      "relatedExistingIds": [
+        "multimedia",
+        "battles"
+      ],
+      "editorialNote": "Resultados identificados mediante búsqueda; comprobar la ficha individual antes de utilizar imágenes.",
+      "status": "identified-for-research"
+    },
+    {
+      "id": "museo-naval",
+      "name": "Museo Naval de Madrid — Colecciones",
+      "url": "https://patrimoniocultural.defensa.gob.es/es/node/895",
+      "kind": "institucional",
+      "topics": [
+        "modelos",
+        "patrimonio naval español",
+        "colecciones históricas"
+      ],
+      "relatedExistingIds": [
+        "nations",
+        "eras"
+      ],
+      "editorialNote": "Fuente para ampliar cobertura de España; verificar cada objeto o documento utilizado.",
+      "status": "identified-for-research"
+    },
+    {
+      "id": "archivo-armada",
+      "name": "Archivo Histórico de la Armada — Colecciones JSE",
+      "url": "https://patrimoniocultural.defensa.gob.es/en/centros/archivo-historico-armada-jse/colecciones",
+      "kind": "archivo",
+      "topics": [
+        "documentos de marina",
+        "hidrografía",
+        "fondos históricos"
+      ],
+      "relatedExistingIds": [
+        "eras",
+        "conflicts"
+      ],
+      "editorialNote": "Catálogo documental; extraer hechos solo tras consultar el documento correspondiente.",
+      "status": "identified-for-research"
+    },
+    {
+      "id": "kbismarck",
+      "name": "KBismarck — Índice técnico",
+      "url": "https://www.kbismarck.com/technical.html",
+      "kind": "especializada",
+      "topics": [
+        "armamento",
+        "protección",
+        "propulsión",
+        "dirección de tiro"
+      ],
+      "relatedExistingIds": [
+        "bismarck",
+        "tirpitz"
+      ],
+      "editorialNote": "Contrastar cifras y configuraciones; no trasladar automáticamente datos de Bismarck a Tirpitz.",
+      "status": "identified-for-research"
+    },
+    {
+      "id": "hood-association",
+      "name": "HMS Hood Association — Información técnica",
+      "url": "https://www.hmshood.org.uk/ship/index.htm",
+      "kind": "especializada",
+      "topics": [
+        "maquinaria",
+        "armamento",
+        "habitabilidad",
+        "prestaciones"
+      ],
+      "relatedExistingIds": [
+        "hood"
+      ],
+      "editorialNote": "Comprobar la fecha de configuración de cada dato técnico.",
+      "status": "identified-for-research"
+    }
+  ],
+  "coverageBaseline": {
+    "ships": 6,
+    "battles": 5,
+    "technologyTopics": 4,
+    "nations": 4
+  },
+  "expansionPriorities": [
+    "Completar fuentes específicas y configuración técnica de los seis buques actuales.",
+    "Crear registros de clases y vincularlos con unidades individuales.",
+    "Ampliar operaciones y batallas con participantes y cronología documentados.",
+    "Ampliar eras y armadas con contenido disponible, incluyendo fuentes en español.",
+    "Documentar imágenes y planos con identificador, fecha, autor y derechos."
+  ],
+  "requiredEvidenceFields": [
+    "sourceUrl",
+    "sourceTitle",
+    "locatorOrObjectId",
+    "accessedDate",
+    "supportedFields",
+    "configurationDateWhenApplicable",
+    "verificationStatus"
+  ],
+  "reuseRule": "Redactar síntesis propias. La consulta pública de una colección no implica permiso para reutilizar todos sus textos o imágenes."
+}

@@ -17,6 +17,9 @@ const HomePage = {
       ]);
 
       this.renderStats(allShips, nations, eras, conflicts);
+      const collections=await DataLoader.load("collections.json");
+      document.getElementById("home-collections").innerHTML=collections.map(c=>Archive.collectionCard(c)).join("");
+      document.getElementById("recent-content").innerHTML=allShips.filter(s=>s.editorialUpdated).slice(0,3).map(s=>`<a href="buque.html?id=${s.id}"><span class="eyebrow">Ficha ampliada · ${Utils.formatDate(s.editorialUpdated)}</span><strong>${Utils.escapeHtml(s.name)}</strong><span>${Utils.escapeHtml(s.role)} →</span></a>`).join("");
       this.renderFeaturedShips(featured);
       this.renderEphemerides(ephemerides);
     } catch (err) {
@@ -38,12 +41,12 @@ const HomePage = {
         <div class="stat-label">Naciones</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">${eras.length}</div>
-        <div class="stat-label">Eras históricas</div>
+        <div class="stat-number">${eras.filter(e=>allShips.some(s=>Archive.eraMatches(s,e.id))).length}</div>
+        <div class="stat-label">Eras con buques</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">${conflicts.length}</div>
-        <div class="stat-label">Conflictos</div>
+        <div class="stat-number">${conflicts.filter(c=>allShips.some(s=>s.conflicts.includes(c.id))).length}</div>
+        <div class="stat-label">Conflictos con buques</div>
       </div>
     `;
   },

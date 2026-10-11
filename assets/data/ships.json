@@ -72,6 +72,13 @@
         "type": "Documento web",
         "url": "https://www.kbismarck.com/genedata.html",
         "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de Bismarck",
+        "url": "https://kbismarck.com/histoperi.html",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
       }
     ],
     "imageColor": "#1a3a5c",
@@ -80,7 +87,58 @@
     "imageCredit": {
       "author": "Autor pendiente de identificar",
       "license": "Procedencia y licencia de los archivos originales pendientes de verificar"
-    }
+    },
+    "role": "Interdicción del tráfico marítimo en el Atlántico",
+    "importance": "Su salida de mayo de 1941 reunió combate de superficie, reconocimiento aéreo y persecución oceánica. Permite estudiar las limitaciones de un gran acorazado cuando pierde libertad de maniobra.",
+    "historySections": [
+      {
+        "title": "Diseño y misión",
+        "text": "Formaba con el Tirpitz una clase de acorazados alemanes de artillería pesada. Su misión atlántica buscaba amenazar el tráfico marítimo británico.",
+        "sourceUrl": "https://kbismarck.com/histoperi.html"
+      },
+      {
+        "title": "Operación Rheinübung",
+        "text": "Navegó con el Prinz Eugen. Tras el combate del Estrecho de Dinamarca, los daños y la persecución británica condicionaron su regreso a puerto.",
+        "sourceUrl": "https://kbismarck.com/histoperi.html"
+      },
+      {
+        "title": "Destino final",
+        "text": "El 27 de mayo de 1941 quedó fuera de combate y se hundió. Las fuentes discuten la contribución relativa de los daños enemigos y del autohundimiento.",
+        "sourceUrl": "https://kbismarck.com/histoperi.html"
+      }
+    ],
+    "editorialUpdated": "2026-10-10",
+    "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
+    "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
+    "eraIds": [
+      "era-acero"
+    ],
+    "specGroups": [
+      {
+        "title": "Dimensiones y desplazamiento",
+        "keys": [
+          "desplazamiento",
+          "eslora",
+          "manga",
+          "calado"
+        ]
+      },
+      {
+        "title": "Propulsión y prestaciones",
+        "keys": [
+          "propulsión",
+          "potencia",
+          "velocidad"
+        ]
+      },
+      {
+        "title": "Armamento y dotación",
+        "keys": [
+          "armamento",
+          "tripulación"
+        ]
+      }
+    ]
   },
   {
     "id": "yamato",
@@ -147,6 +205,13 @@
         "type": "Documento web",
         "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-044/h-044-3.html",
         "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de Yamato",
+        "url": "https://www.combinedfleet.com/yamato.htm",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
       }
     ],
     "imageColor": "#2d4a3e",
@@ -160,7 +225,58 @@
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/File:Japanese_battleship_Yamato_running_trials_off_Bungo_Strait,_20_October_1941.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Japanese_battleship_Yamato_running_trials_off_Bungo_Strait%2C_20_October_1941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "role": "Combate de superficie con artillería pesada",
+    "importance": "Su historia permite contrastar la apuesta por el acorazado de gran tamaño con el alcance de la aviación embarcada.",
+    "historySections": [
+      {
+        "title": "Diseño y construcción",
+        "text": "Construido en Kure, montaba nueve cañones de 460 mm en tres torres. Entró en servicio en diciembre de 1941.",
+        "sourceUrl": "https://www.combinedfleet.com/yamato.htm"
+      },
+      {
+        "title": "Trayectoria operativa",
+        "text": "Actuó como buque insignia y participó en movimientos de la Flota Combinada. Su historial incluye periodos de entrenamiento, desplazamientos y reparaciones.",
+        "sourceUrl": "https://www.combinedfleet.com/yamato.htm"
+      },
+      {
+        "title": "Última operación",
+        "text": "La salida hacia Okinawa terminó el 7 de abril de 1945. Los ataques aéreos estadounidenses hundieron el Yamato y varias de sus escoltas.",
+        "sourceUrl": "https://www.combinedfleet.com/yamato.htm"
+      }
+    ],
+    "editorialUpdated": "2026-10-10",
+    "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
+    "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
+    "eraIds": [
+      "era-acero"
+    ],
+    "specGroups": [
+      {
+        "title": "Dimensiones y desplazamiento",
+        "keys": [
+          "desplazamiento",
+          "eslora",
+          "manga",
+          "calado"
+        ]
+      },
+      {
+        "title": "Propulsión y prestaciones",
+        "keys": [
+          "propulsión",
+          "potencia",
+          "velocidad"
+        ]
+      },
+      {
+        "title": "Armamento y dotación",
+        "keys": [
+          "armamento",
+          "tripulación"
+        ]
+      }
+    ]
   },
   {
     "id": "uss-enterprise",
@@ -243,7 +359,56 @@
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(CV-6)_in_Puget_Sound,_September_1945.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/USS_Enterprise_%28CV-6%29_in_Puget_Sound%2C_September_1945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "role": "Operaciones de aviación embarcada",
+    "importance": "Su carrera permite seguir el papel de los portaviones en las campañas del Pacífico y la continuidad de operaciones pese a los daños.",
+    "historySections": [
+      {
+        "title": "El buque y su grupo aéreo",
+        "text": "El CV-6 pertenecía a la clase Yorktown. Su capacidad de combate dependía del buque, las aeronaves y la coordinación de su personal.",
+        "sourceUrl": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html"
+      },
+      {
+        "title": "Campañas del Pacífico",
+        "text": "Participó en Midway y en operaciones relacionadas con Guadalcanal. Su historial de 1942 también incluye Santa Cruz y los combates de las Salomón.",
+        "sourceUrl": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html"
+      },
+      {
+        "title": "Reconocimiento y posguerra",
+        "text": "Recibió veinte estrellas de batalla por su servicio en la Segunda Guerra Mundial. Tras la guerra ayudó al regreso de militares a Estados Unidos.",
+        "sourceUrl": "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html"
+      }
+    ],
+    "editorialUpdated": "2026-10-10",
+    "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
+    "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
+    "eraIds": [
+      "era-acero"
+    ],
+    "specGroups": [
+      {
+        "title": "Dimensiones y desplazamiento",
+        "keys": [
+          "desplazamiento",
+          "eslora",
+          "manga",
+          "calado"
+        ]
+      },
+      {
+        "title": "Propulsión y prestaciones",
+        "keys": [
+          "velocidad"
+        ]
+      },
+      {
+        "title": "Armamento y dotación",
+        "keys": [
+          "armamento",
+          "tripulación"
+        ]
+      }
+    ]
   },
   {
     "id": "hms-hood",
@@ -312,6 +477,20 @@
         "author": "HMS Hood Association",
         "type": "Archivo del proyecto de exploración",
         "url": "https://hmshood.org.uk/hoodtoday/2001expedition/hood/encrypt.htm"
+      },
+      {
+        "title": "Historial de HMS Hood",
+        "url": "https://www.hmshood.org.uk/history/",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
+      },
+      {
+        "title": "Hood: dotación y alojamiento",
+        "url": "https://www.hmshood.org.uk/ship/hoodspecs6.htm",
+        "author": "HMS Hood Association",
+        "type": "Documento web",
+        "accessed": "2026-10-10"
       }
     ],
     "imageColor": "#3d3d52",
@@ -325,7 +504,63 @@
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_H.M.S._Hood_1924_Sydney.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Aerial_view_of_H.M.S._Hood_1924_Sydney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "role": "Servicio de flota como crucero de batalla",
+    "importance": "Fue un símbolo de la Royal Navy entre guerras. Su pérdida en 1941 convirtió su historia en un vínculo entre evolución del diseño naval y memoria de la tripulación.",
+    "historySections": [
+      {
+        "title": "Una carrera de dos décadas",
+        "text": "Entró en servicio en 1920. Antes de la Segunda Guerra Mundial realizó despliegues y el crucero mundial de 1923–1924.",
+        "sourceUrl": "https://www.hmshood.org.uk/history/"
+      },
+      {
+        "title": "Diseño y evolución",
+        "text": "Combinaba velocidad y artillería pesada. La documentación de la asociación separa maquinaria, protección, armamento y alojamiento.",
+        "sourceUrl": "https://www.hmshood.org.uk/history/"
+      },
+      {
+        "title": "Pérdida y memoria",
+        "text": "Se hundió el 24 de mayo de 1941 durante el enfrentamiento con Bismarck y Prinz Eugen. La asociación conserva documentación y memoria de quienes sirvieron a bordo.",
+        "sourceUrl": "https://www.hmshood.org.uk/history/"
+      },
+      {
+        "title": "Tripulación y vida a bordo",
+        "text": "La dotación cambiaba entre paz y guerra. Los espacios de la marinería servían para comer y dormir, mientras que los oficiales disponían de camarotes. Cocinas, panadería y ventilación formaban parte de la infraestructura necesaria para sostener la vida diaria.",
+        "sourceUrl": "https://www.hmshood.org.uk/ship/hoodspecs6.htm"
+      }
+    ],
+    "editorialUpdated": "2026-10-10",
+    "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
+    "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
+    "eraIds": [
+      "era-acero"
+    ],
+    "specGroups": [
+      {
+        "title": "Dimensiones y desplazamiento",
+        "keys": [
+          "desplazamiento",
+          "eslora",
+          "manga",
+          "calado"
+        ]
+      },
+      {
+        "title": "Propulsión y prestaciones",
+        "keys": [
+          "propulsión",
+          "potencia",
+          "velocidad"
+        ]
+      },
+      {
+        "title": "Armamento y dotación",
+        "keys": [
+          "armamento",
+          "tripulación"
+        ]
+      }
+    ]
   },
   {
     "id": "uss-fletcher",
@@ -372,6 +607,10 @@
       {
         "date": "1969-08-01",
         "event": "Retirado del servicio tras la Guerra de Corea y Vietnam."
+      },
+      {
+        "date": "1972-02",
+        "event": "Vendido para desguace; esta fecha es posterior al fin del servicio activo."
       }
     ],
     "location": {
@@ -392,6 +631,13 @@
         "type": "Documento web",
         "url": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html",
         "accessed": "2026-10-10"
+      },
+      {
+        "title": "Historial de USS Fletcher (DD-445)",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/f/fletcher.html",
+        "author": "",
+        "type": "Referencia web",
+        "accessed": "2026-10-10"
       }
     ],
     "imageColor": "#2a5a7a",
@@ -405,7 +651,59 @@
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/File:USS_Fletcher_(DD-445)_off_New_York,_1942.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/6/6a/USS_Fletcher_%28DD-445%29_off_New_York%2C_1942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "role": "Escolta y operaciones de superficie",
+    "importance": "Como cabeza de clase, ofrece una entrada a la función de los destructores y a la evolución del servicio naval desde la Segunda Guerra Mundial hasta la posguerra.",
+    "historySections": [
+      {
+        "title": "Cabeza de clase",
+        "text": "El DD-445 entró en servicio en junio de 1942. Dio nombre a una clase de 175 destructores.",
+        "sourceUrl": "https://www.history.navy.mil/research/histories/ship-histories/danfs/f/fletcher.html"
+      },
+      {
+        "title": "Servicio de guerra",
+        "text": "Operó en el Pacífico, incluidos los combates relacionados con Guadalcanal. El archivo vincula su ficha con la campaña para ampliar ese contexto.",
+        "sourceUrl": "https://www.history.navy.mil/research/histories/ship-histories/danfs/f/fletcher.html"
+      },
+      {
+        "title": "Servicio posterior",
+        "text": "Su carrera incluyó servicio como DDE-445. Fue retirado en agosto de 1969 y vendido para desguace en febrero de 1972.",
+        "sourceUrl": "https://www.history.navy.mil/research/histories/ship-histories/danfs/f/fletcher.html"
+      }
+    ],
+    "editorialUpdated": "2026-10-10",
+    "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
+    "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
+    "eraIds": [
+      "era-acero",
+      "guerra-fria"
+    ],
+    "specGroups": [
+      {
+        "title": "Dimensiones y desplazamiento",
+        "keys": [
+          "desplazamiento",
+          "eslora",
+          "manga",
+          "calado"
+        ]
+      },
+      {
+        "title": "Propulsión y prestaciones",
+        "keys": [
+          "propulsión",
+          "potencia",
+          "velocidad"
+        ]
+      },
+      {
+        "title": "Armamento y dotación",
+        "keys": [
+          "armamento",
+          "tripulación"
+        ]
+      }
+    ]
   },
   {
     "id": "tirpitz",
@@ -485,6 +783,57 @@
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/File:Tirpitz_trials_1941_h59668.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Tirpitz_trials_1941_h59668.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "role": "Acorazado de flota y amenaza al tráfico aliado del norte",
+    "importance": "Su despliegue en Noruega permite estudiar cómo una fuerza naval puede influir en las decisiones enemigas sin librar continuamente combates de superficie.",
+    "historySections": [
+      {
+        "title": "Buque de la clase Bismarck",
+        "text": "Compartía el diseño general de su gemelo, pero su equipamiento y armamento cambiaron durante el servicio.",
+        "sourceUrl": "https://www.kbismarck.com/tirpitz.html"
+      },
+      {
+        "title": "Operaciones desde Noruega",
+        "text": "Su presencia obligó a considerar la amenaza a los convoyes aliados. Fue objeto de sucesivas operaciones británicas.",
+        "sourceUrl": "https://www.kbismarck.com/tirpitz.html"
+      },
+      {
+        "title": "Ataque final",
+        "text": "El 12 de noviembre de 1944 bombarderos Lancaster atacaron el buque cerca de Tromsø con bombas Tallboy. El Tirpitz volcó y se hundió.",
+        "sourceUrl": "https://www.kbismarck.com/tirpitz.html"
+      }
+    ],
+    "editorialUpdated": "2026-10-10",
+    "reviewStatus": "Síntesis ampliada; revisión técnica parcial",
+    "configuration": "Las cifras de síntesis pueden corresponder a diferentes momentos del servicio.",
+    "eraIds": [
+      "era-acero"
+    ],
+    "specGroups": [
+      {
+        "title": "Dimensiones y desplazamiento",
+        "keys": [
+          "desplazamiento",
+          "eslora",
+          "manga",
+          "calado"
+        ]
+      },
+      {
+        "title": "Propulsión y prestaciones",
+        "keys": [
+          "propulsión",
+          "potencia",
+          "velocidad"
+        ]
+      },
+      {
+        "title": "Armamento y dotación",
+        "keys": [
+          "armamento",
+          "tripulación"
+        ]
+      }
+    ]
   }
 ]

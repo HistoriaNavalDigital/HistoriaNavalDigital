@@ -25,7 +25,25 @@
         "type": "Documento web",
         "accessed": "2026-10-10"
       }
-    ]
+    ],
+    "kind": "Batalla",
+    "context": "La operación japonesa buscaba atacar Midway; la inteligencia estadounidense permitió preparar la defensa.",
+    "objectives": "Japón buscaba avanzar sobre Midway; Estados Unidos intentaba impedirlo y atacar la fuerza de portaviones.",
+    "phases": [
+      {
+        "title": "Preparación",
+        "text": "La información previa condicionó el despliegue estadounidense."
+      },
+      {
+        "title": "Ataques aéreos",
+        "text": "Aviación embarcada y de tierra atacó durante la batalla."
+      },
+      {
+        "title": "Pérdidas y retirada",
+        "text": "La pérdida de portaviones alteró la situación operativa."
+      }
+    ],
+    "consequences": "La batalla modificó el equilibrio de las fuerzas de portaviones en el Pacífico."
   },
   {
     "id": "guadalcanal",
@@ -54,7 +72,25 @@
         "type": "Documento web",
         "accessed": "2026-10-10"
       }
-    ]
+    ],
+    "kind": "Campaña",
+    "context": "La disputa por el aeródromo y las rutas de abastecimiento conectó combates terrestres, navales y aéreos.",
+    "objectives": "Las fuerzas aliadas buscaban sostener su posición; Japón intentaba recuperar la isla y abastecer sus tropas.",
+    "phases": [
+      {
+        "title": "Desembarcos",
+        "text": "Los desembarcos de agosto de 1942 abrieron la campaña."
+      },
+      {
+        "title": "Abastecimiento y combates",
+        "text": "Ambos bandos disputaron el acceso a la isla."
+      },
+      {
+        "title": "Retirada japonesa",
+        "text": "La retirada a comienzos de 1943 puso fin a esta fase."
+      }
+    ],
+    "consequences": "Consolidó una posición aliada desde la que continuar operaciones en las Salomón."
   },
   {
     "id": "ten-go",
@@ -82,7 +118,25 @@
         "type": "Documento web",
         "accessed": "2026-10-10"
       }
-    ]
+    ],
+    "kind": "Operación",
+    "context": "La situación en Okinawa dio lugar a la última salida del Yamato y sus escoltas.",
+    "objectives": "La fuerza japonesa se dirigía hacia Okinawa; la aviación estadounidense buscaba detenerla.",
+    "phases": [
+      {
+        "title": "Salida",
+        "text": "Yamato y sus escoltas abandonaron su base."
+      },
+      {
+        "title": "Localización y ataques",
+        "text": "Aviones estadounidenses atacaron con bombas y torpedos."
+      },
+      {
+        "title": "Hundimientos",
+        "text": "La fuerza no logró alcanzar su objetivo."
+      }
+    ],
+    "consequences": "Ilustra la vulnerabilidad de una formación de superficie ante ataques aéreos concentrados."
   },
   {
     "id": "tirpitz-catechism",
@@ -110,7 +164,25 @@
         "type": "Documento web",
         "accessed": "2026-10-10"
       }
-    ]
+    ],
+    "kind": "Ataque aéreo",
+    "context": "El buque había sufrido ataques anteriores que limitaron su capacidad de operar.",
+    "objectives": "Los bombarderos británicos buscaban destruir el acorazado cerca de Tromsø.",
+    "phases": [
+      {
+        "title": "Amenaza y ataques anteriores",
+        "text": "El Tirpitz había sido objeto de operaciones sucesivas."
+      },
+      {
+        "title": "Bombardeo",
+        "text": "Lancaster emplearon bombas Tallboy el 12 de noviembre de 1944."
+      },
+      {
+        "title": "Pérdida del buque",
+        "text": "El acorazado volcó y se hundió."
+      }
+    ],
+    "consequences": "Eliminó la amenaza que representaba el buque para las operaciones aliadas del norte."
   },
   {
     "id": "estrecho-dinamarca",
@@ -138,6 +210,24 @@
         "type": "Documento de archivo",
         "url": "https://hmshood.org.uk/reference/official/adm116/adm116-4351_to59.htm"
       }
-    ]
+    ],
+    "kind": "Batalla",
+    "context": "Bismarck y Prinz Eugen intentaban salir al Atlántico durante Rheinübung.",
+    "objectives": "La formación británica buscaba interceptar a los buques alemanes.",
+    "phases": [
+      {
+        "title": "Intercepción",
+        "text": "Las formaciones entraron en contacto entre Islandia y Groenlandia."
+      },
+      {
+        "title": "Combate de artillería",
+        "text": "Una explosión destruyó el Hood durante el intercambio."
+      },
+      {
+        "title": "Continuación de la operación",
+        "text": "Prince of Wales se retiró; Bismarck continuó con daños."
+      }
+    ],
+    "consequences": "La pérdida del Hood y los daños del Bismarck condicionaron los acontecimientos posteriores."
   }
 ]

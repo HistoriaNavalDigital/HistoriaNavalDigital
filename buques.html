@@ -39,7 +39,7 @@
             <label class="field-label">Estado final<select id="filter-status" class="filter-select"><option value="">Todos los estados</option></select></label>
           </div>
         </section>
-        <div class="catalog-toolbar result-toolbar"><p id="results-count" class="results-count" aria-live="polite"></p><div class="result-options"><label class="favorite-filter"><input type="checkbox" id="favorites-only"> Solo favoritos</label><label class="sort-label">Ordenar<select id="sort-ships" class="filter-select"><option value="nombre">Nombre A–Z</option><option value="fecha">Más antiguos primero</option><option value="fecha-desc">Más recientes primero</option></select></label></div></div>
+        <div class="catalog-toolbar result-toolbar"><p id="results-count" class="results-count" aria-live="polite"></p><div class="result-options"><button id="catalog-view" class="text-button" type="button" aria-pressed="false">Vista de lista</button><label class="favorite-filter"><input type="checkbox" id="favorites-only"> Solo favoritos</label><label class="sort-label">Ordenar<select id="sort-ships" class="filter-select"><option value="nombre">Nombre A–Z</option><option value="fecha">Más antiguos primero</option><option value="fecha-desc">Más recientes primero</option></select></label></div></div>
         <div id="filter-indicators" class="filter-indicators" aria-label="Filtros activos"></div>
         <div id="ships-grid" class="grid grid-3"></div>
       </div>
@@ -52,6 +52,7 @@
   <script src="assets/js/utils.js"></script>
   <script src="assets/js/features.js"></script>
   <script src="assets/js/data-loader.js"></script>
+  <script src="assets/js/archive.js"></script>
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/navigation.js"></script>
   <script src="assets/js/components.js"></script>

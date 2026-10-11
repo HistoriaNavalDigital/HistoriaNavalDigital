@@ -29,6 +29,7 @@ era_ids = {s['id'] for s in data.get('eras', [])}
 nation_ids = {s['id'] for s in data.get('nations', [])}
 conflict_ids = {s['id'] for s in data.get('conflicts', [])}
 for s in ships:
+    check(all(e in era_ids for e in s.get('eraIds',[s['era']])), f'{s["id"]}: era secundaria desconocida')
     for key in ['id','name','summary','description','nation','nationName','type','typeName','status','statusName','era','specs','tags','serviceHistory','location','sources']:
         check(key in s, f'{s["id"]}: falta {key}')
     check(s['era'] in era_ids, f'{s["id"]}: era desconocida')
@@ -50,7 +51,21 @@ for b in data.get('battles', []):
         check(-90 <= b['map']['lat'] <= 90 and -180 <= b['map']['lng'] <= 180, f'{b["id"]}: coordenadas inválidas')
 for tech in data.get('technology', []):
     check(all(s in ship_ids for s in tech.get('shipIds',[])), f'{tech["id"]}: ejemplo desconocido')
-    check((ROOT / f'assets/images/diagrams/{tech["id"]}.svg').exists(), f'{tech["id"]}: esquema ausente')
+    if tech.get('diagramAlt'): check((ROOT / f'assets/images/diagrams/{tech["id"]}.svg').exists(), f'{tech["id"]}: esquema ausente')
+
+
+class_ids={c['id'] for c in data.get('classes',[])}
+battle_ids={b['id'] for b in data.get('battles',[])}
+tech_ids={t['id'] for t in data.get('technology',[])}
+for c in data.get('classes',[]):
+    check(all(s in ship_ids for s in c['shipIds']), f'{c["id"]}: unidad desconocida')
+for s in ships:
+    check(s.get('class') in class_ids, f'{s["id"]}: clase desconocida')
+    check(all(k in s['specs'] for g in s.get('specGroups',[]) for k in g['keys']),f'{s["id"]}: característica agrupada desconocida')
+for c in data.get('collections',[]):
+    check(all(s in ship_ids for s in c['shipIds']), f'{c["id"]}: buque desconocido')
+    check(all(b in battle_ids for b in c['battleIds']), f'{c["id"]}: acontecimiento desconocido')
+    check(all(t in tech_ids for t in c['technologyIds']), f'{c["id"]}: tecnología desconocida')
 
 class Links(HTMLParser):
     def __init__(self, path): super().__init__(); self.path = path
@@ -61,7 +76,7 @@ class Links(HTMLParser):
             if not ref or url.scheme or url.netloc or ref.startswith('#'): continue
             file=(self.path.parent / unquote(url.path)).resolve()
             check(file.is_relative_to(ROOT) and file.exists(), f'{self.path.name}: recurso ausente {ref}')
-for path in ROOT.glob('*.html'):
+for path in ROOT.rglob('*.html'):
     text=path.read_text(); Links(path).feed(text)
     check('lang="es"' in text,f'{path.name}: idioma ausente')
     check('features.js' in text,f'{path.name}: utilidades de interfaz ausentes')
@@ -71,7 +86,7 @@ for path in (ROOT/'assets/css').glob('*.css'):
 for name in ['ships','eras','nations','conflicts']:
     if name != 'ships':
         for row in data.get(name,[]):
-            actual=sum(row['id'] in (s['conflicts'] if name=='conflicts' else [s['era' if name=='eras' else 'nation']]) for s in ships)
+            actual=sum(row['id'] in (s['conflicts'] if name=='conflicts' else (s.get('eraIds',[s['era']]) if name=='eras' else [s['nation']])) for s in ships)
             check(row.get('shipCount',actual)==actual,f'{name}/{row["id"]}: contador desactualizado')
 if errors:
     print('\n'.join(errors)); sys.exit(1)

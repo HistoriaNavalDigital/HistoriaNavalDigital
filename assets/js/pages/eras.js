@@ -22,6 +22,7 @@ const ErasPage = {
       ]);
 
       this.renderEras(eras, ships);
+      this.battles=await DataLoader.load("battles.json");
       this.renderConflicts(conflicts, ships);
     } catch (err) {
       Features.error(document.getElementById("eras-grid"));
@@ -34,7 +35,7 @@ const ErasPage = {
 
     container.innerHTML = eras
       .map((era) => {
-        const eraShips = ships.filter((s) => s.era === era.id);
+        const eraShips = ships.filter((s) => Archive.eraMatches(s,era.id));
         const shipLinks = eraShips
           .slice(0, 3)
           .map(
@@ -57,7 +58,7 @@ const ErasPage = {
             <p style="font-size: var(--text-sm);"><strong>${eraShips.length}</strong> buque(s) en el registro</p>
             ${!eraShips.length?'<p class="pending-note">Esta era está pendiente de incorporar buques documentados.</p>':""}
             ${shipLinks ? `<p style="margin-top: var(--space-3);">${shipLinks}</p>` : ""}
-            <a href="buques.html?era=${era.id}" class="btn btn-outline" style="margin-top: var(--space-4);">Ver buques</a>
+            ${eraShips.length?`<a href="buques.html?era=${era.id}" class="btn btn-outline" style="margin-top: var(--space-4);">Ver buques</a>`:`<a href="tecnologia.html">Comprender la evolución naval →</a>`}
           </div>
         `;
       })
@@ -78,7 +79,7 @@ const ErasPage = {
             <h3>${Utils.escapeHtml(conflict.name)}</h3>
             <p><strong>${Utils.escapeHtml(conflict.period)}</strong> · Teatros: ${conflict.theaters.map(Utils.escapeHtml).join(", ")}</p>
             <p>${Utils.escapeHtml(conflict.description)}</p>
-            <p style="font-size: var(--text-sm); margin-top: var(--space-3);"><strong>Batallas clave:</strong> ${conflict.keyBattles.map(Utils.escapeHtml).join(", ")}</p>
+            <p style="font-size: var(--text-sm); margin-top: var(--space-3);"><strong>Batallas clave:</strong> ${this.battles.filter(b=>b.conflict===conflict.id).map(b=>`<a href="batalla.html?id=${b.id}">${Utils.escapeHtml(b.name)}</a>`).join(", ")||"Todavía no hay acontecimientos incorporados"}</p>
             <p style="font-size: var(--text-sm);"><strong>${conflictShips.length}</strong> buque(s) registrado(s)</p>
             <a href="batallas.html?conflicto=${conflict.id}" class="btn btn-outline">Explorar batallas →</a>
           </div>

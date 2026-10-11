@@ -1,0 +1,63 @@
+[
+  {
+    "id": "atlantico-1941",
+    "name": "La salida del Bismarck",
+    "summary": "Un recorrido por el combate del Estrecho de Dinamarca, los buques implicados y su tecnología.",
+    "image": "assets/images/ships/bismarck.jpg",
+    "shipIds": [
+      "bismarck",
+      "hms-hood"
+    ],
+    "battleIds": [
+      "estrecho-dinamarca"
+    ],
+    "technologyIds": [
+      "armamento",
+      "blindaje",
+      "propulsion"
+    ],
+    "intro": "Empieza por el enfrentamiento, conoce a sus protagonistas y examina los sistemas que condicionaban el combate."
+  },
+  {
+    "id": "pacifico",
+    "name": "El Pacífico desde la cubierta",
+    "summary": "Portaviones, destructores y acorazados en escenarios distintos de la guerra del Pacífico.",
+    "image": "assets/images/ships/uss-enterprise.jpg",
+    "shipIds": [
+      "uss-enterprise",
+      "uss-fletcher",
+      "yamato"
+    ],
+    "battleIds": [
+      "midway",
+      "guadalcanal",
+      "ten-go"
+    ],
+    "technologyIds": [
+      "aviacion-naval",
+      "armamento"
+    ],
+    "intro": "Compara funciones navales y sigue los acontecimientos disponibles desde Midway hasta la última salida del Yamato."
+  },
+  {
+    "id": "gigantes",
+    "name": "Ingeniería de los grandes buques",
+    "summary": "Dimensiones, propulsión y armamento: comprender un buque más allá de sus cifras.",
+    "image": "assets/images/ships/yamato.jpg",
+    "shipIds": [
+      "yamato",
+      "bismarck",
+      "tirpitz"
+    ],
+    "battleIds": [
+      "ten-go",
+      "tirpitz-catechism"
+    ],
+    "technologyIds": [
+      "propulsion",
+      "blindaje",
+      "armamento"
+    ],
+    "intro": "Lee primero cómo funcionan los sistemas y después consulta las fichas. Las cifras requieren comparar unidades y configuraciones equivalentes."
+  }
+]

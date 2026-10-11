@@ -24,7 +24,7 @@ const Components = {
           <nav class="main-nav" id="main-navigation" role="navigation" aria-label="Navegación principal">
             <ul>${navLinks}</ul>
           </nav>
-          <div class="header-actions">
+          <div class="header-actions"><a class="header-search" href="${base}buscar.html" aria-label="Buscar en todo el archivo"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></a>
             <button class="theme-toggle" aria-label="Cambiar tema">🌙</button>
             <button class="nav-toggle" aria-label="Abrir menú" aria-controls="main-navigation" aria-expanded="false">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
