@@ -93,7 +93,7 @@ const Utils = {
   const imageContent = Features.image(ship.image, ship.name);
 
   return `
-    <article class="card">
+    <article class="card ship-card">
       <a href="${base}buque.html?id=${ship.id}" class="card-link">
         <div class="card-image">
          <div class="card-image-placeholder has-photo" style="background: linear-gradient(135deg, ${ship.imageColor || "#1a3a5c"} 0%, ${ship.imageColor || "#1a3a5c"}99 100%);">
@@ -107,7 +107,10 @@ const Utils = {
             <span class="badge badge-status ${statusClass}">${this.escapeHtml(ship.statusName)}</span>
           </div>
           <h3 class="card-title">${this.escapeHtml(ship.name)}</h3>
+          <p class="card-class">${this.escapeHtml(ship.className || 'Clase pendiente de documentar')}</p>
           <p class="card-text">${this.escapeHtml(ship.summary)}</p>
+          <dl class="card-facts"><div><dt>Servicio</dt><dd>${this.formatYear(ship.commissioned)}–${this.formatYear(ship.decommissioned)||'actualidad'}</dd></div><div><dt>Velocidad</dt><dd>${this.escapeHtml(ship.specs.velocidad||'Sin dato')}</dd></div></dl>
+          <span class="card-read">Explorar ficha <span aria-hidden="true">↗</span></span>
         </div>
       </a>
       <div class="card-actions"><button class="btn btn-outline" data-favorite="${ship.id}" aria-pressed="${Features.isFavorite(ship.id)}">${Features.isFavorite(ship.id)?"♥ Guardado":"♡ Guardar"}</button><a href="${base}comparar.html?ids=${encodeURIComponent(ship.id)}">Comparar →</a></div>

@@ -20,45 +20,27 @@
   <div id="site-header"></div>
 
   <main id="main-content" class="site-main">
-    <div class="page-layout">
-      <div id="sidebar"></div>
+    <div class="page-layout page-layout--full catalog-layout">
       <div class="page-content">
         <div id="breadcrumbs"></div>
 
         <header class="page-header">
           <h1>Registro de Buques</h1>
-          <p>Catálogo de embarcaciones históricas con buscador, filtros por tipología, nación y estado operativo.</p>
+          <p>Explora cada buque por su historia, clase y características. Filtra el archivo para encontrar lo que buscas.</p>
         </header>
 
-        <div class="search-bar">
-          <div class="search-input-wrapper">
-            <span class="search-icon" aria-hidden="true">🔍</span>
-            <input type="search" id="search-input" class="search-input" placeholder="Buscar por nombre, nación o etiqueta..." aria-label="Buscar buques">
+        <section class="catalog-filters" aria-labelledby="filter-title">
+          <div class="filter-heading"><h2 id="filter-title">Encuentra un buque</h2><button id="clear-filters" class="text-button">Restablecer filtros</button></div>
+          <label class="search-field"><span class="sr-only">Buscar buques</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input type="search" id="search-input" placeholder="Nombre, nación, clase o palabra clave…"></label>
+          <div class="catalog-filter-grid">
+            <label class="field-label">Tipo de buque<select id="filter-type" class="filter-select"><option value="">Todos los tipos</option></select></label>
+            <label class="field-label">Nación<select id="filter-nation" class="filter-select"><option value="">Todas las naciones</option></select></label>
+            <label class="field-label">Era histórica<select id="filter-era" class="filter-select"></select></label>
+            <label class="field-label">Estado final<select id="filter-status" class="filter-select"><option value="">Todos los estados</option></select></label>
           </div>
-        </div>
-
-        <div class="filter-group">
-          <select id="filter-nation" class="filter-select" aria-label="Filtrar por nación">
-            <option value="">Todas las naciones</option>
-          </select>
-          <select id="filter-type" class="filter-select" aria-label="Filtrar por tipología">
-            <option value="">Todas las tipologías</option>
-            <option value="acorazado">Acorazado</option>
-            <option value="crucero-batalla">Crucero de batalla</option>
-            <option value="portaviones">Portaviones</option>
-            <option value="destructor">Destructor</option>
-          </select>
-          <select id="filter-status" class="filter-select" aria-label="Filtrar por estado">
-            <option value="">Todos los estados</option>
-            <option value="hundido">Hundido</option>
-            <option value="retirado">Retirado</option>
-            <option value="desguazado">Desguazado</option>
-          </select>
-        </div>
-
-        <div class="catalog-toolbar"><label class="field-label">Era histórica<select id="filter-era" class="filter-select"></select></label><label class="field-label">Ordenar<select id="sort-ships" class="filter-select"><option value="nombre">Nombre A–Z</option><option value="fecha">Más antiguos primero</option><option value="fecha-desc">Más recientes primero</option></select></label><label><input type="checkbox" id="favorites-only"> Solo favoritos</label><button id="clear-filters" class="btn btn-outline">Limpiar filtros</button></div>
+        </section>
+        <div class="catalog-toolbar result-toolbar"><p id="results-count" class="results-count" aria-live="polite"></p><div class="result-options"><label class="favorite-filter"><input type="checkbox" id="favorites-only"> Solo favoritos</label><label class="sort-label">Ordenar<select id="sort-ships" class="filter-select"><option value="nombre">Nombre A–Z</option><option value="fecha">Más antiguos primero</option><option value="fecha-desc">Más recientes primero</option></select></label></div></div>
         <div id="filter-indicators" class="filter-indicators" aria-label="Filtros activos"></div>
-        <p id="results-count" class="results-count" aria-live="polite"></p>
         <div id="ships-grid" class="grid grid-3"></div>
       </div>
     </div>

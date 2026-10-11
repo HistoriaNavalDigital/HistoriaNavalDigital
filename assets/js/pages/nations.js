@@ -1,56 +1,24 @@
-/**
- * HistoriaNavalDigital — Nations page
- */
 const NationsPage = {
   async init() {
-    Components.mountLayout("naciones");
-
-    const breadcrumbsEl = document.getElementById("breadcrumbs");
-    if (breadcrumbsEl) {
-      breadcrumbsEl.innerHTML = Components.renderBreadcrumbs([
-        { label: "Inicio", href: "index.html" },
-        { label: "Naciones y Facciones", href: "naciones.html" },
-      ]);
-    }
-
-    Features.loading(document.getElementById("nations-grid"));
-    try {
-      const [nations, ships] = await Promise.all([DataLoader.getNations(), DataLoader.getShips()]);
-      this.renderNations(nations, ships);
-    } catch (err) {
-      Features.error(document.getElementById("nations-grid"));
-    }
+    Components.mountLayout('naciones');
+    document.getElementById('breadcrumbs').innerHTML = Components.renderBreadcrumbs([{label:'Inicio',href:'index.html'},{label:'Naciones y armadas'}]);
+    Features.loading(document.getElementById('nations-grid'));
+    try { const [nations,ships] = await Promise.all([DataLoader.getNations(),DataLoader.getShips()]); this.renderNations(nations,ships); }
+    catch { Features.error(document.getElementById('nations-grid')); }
   },
-
-  renderNations(nations, ships) {
-    const container = document.getElementById("nations-grid");
-    if (!container) return;
-
-    container.innerHTML = nations
-      .map((nation) => {
-        const nationShips = ships.filter((s) => s.nation === nation.id);
-        const shipList = nationShips
-          .map(
-            (s) =>
-              `<li><a href="buque.html?id=${s.id}">${Utils.escapeHtml(s.name)}</a> <span style="color: var(--color-text-muted); font-size: var(--text-sm);">(${Utils.escapeHtml(s.typeName)})</span></li>`
-          )
-          .join("");
-
-        return `
-          <div class="info-card">
-            <div class="info-card-icon">${nation.flag}</div>
-            <h3>${Utils.escapeHtml(nation.name)}</h3>
-            <p><strong>${Utils.escapeHtml(nation.period)}</strong></p>
-            <p>${Utils.escapeHtml(nation.description)}</p>
-            <p style="font-size: var(--text-sm); margin-top: var(--space-3);"><strong>Doctrina naval:</strong> ${Utils.escapeHtml(nation.navalDoctrine)}</p>
-            <p style="font-size: var(--text-sm);"><strong>Tipos principales:</strong> ${nation.keyShipTypes.map(Utils.escapeHtml).join(", ")}</p>
-            ${shipList ? `<ul style="margin-top: var(--space-4); padding-left: var(--space-5);">${shipList}</ul>` : ""}
-            <a href="buques.html?nacion=${nation.id}" class="btn btn-outline" style="margin-top: var(--space-4);">Ver todos los buques</a>
-          </div>
-        `;
-      })
-      .join("");
-  },
+  renderNations(nations,ships) {
+    document.getElementById('nations-grid').innerHTML = nations.map(nation => {
+      const records=ships.filter(s=>s.nation===nation.id),photo=records.find(s=>s.image);
+      const navy={'alemania':'Kriegsmarine','japon':'Armada Imperial Japonesa','estados-unidos':'United States Navy','reino-unido':'Royal Navy'}[nation.id]||'Armada';
+      return `<article class="nation-card">
+        <div class="nation-banner">${photo?Features.image(photo.image,photo.name):''}<span class="nation-period">${Utils.escapeHtml(nation.period)}</span></div>
+        <div class="nation-body"><header class="nation-heading"><img class="nation-flag" src="${HND.getAssetPath('assets/images/flags/'+nation.id+'.svg')}" width="60" height="36" alt=""><div><h2>${Utils.escapeHtml(nation.name)}</h2><p class="nation-navy">${Utils.escapeHtml(navy)}</p></div><span class="nation-count">${records.length}<small>buques</small></span></header>
+        <p class="nation-summary">${Utils.escapeHtml(nation.navalDoctrine)}</p>
+        <details class="nation-context"><summary>Contexto histórico</summary><p>${Utils.escapeHtml(nation.description)}</p><p><strong>Tipos principales:</strong> ${nation.keyShipTypes.map(t=>Utils.escapeHtml(t)).join(', ')}.</p></details>
+        <div class="nation-ships"><span class="eyebrow">En el archivo</span><div>${records.map(s=>`<a href="${HND.getAssetPath('buque.html')}?id=${encodeURIComponent(s.id)}">${Utils.escapeHtml(s.name)} <span aria-hidden="true">↗</span></a>`).join('')}</div></div>
+        <a href="${HND.getAssetPath('buques.html')}?nacion=${encodeURIComponent(nation.id)}" class="btn btn-outline nation-catalog">Explorar ${records.length} buque${records.length===1?'':'s'} →</a></div>
+      </article>`;
+    }).join('');
+  }
 };
-
-document.addEventListener("DOMContentLoaded", () => NationsPage.init());
+document.addEventListener('DOMContentLoaded',()=>NationsPage.init());

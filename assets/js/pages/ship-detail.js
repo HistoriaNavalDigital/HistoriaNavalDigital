@@ -78,7 +78,7 @@ const sisterShips = ship.class
     const locationText = ship.location.description || "Ubicación no disponible";
 const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h2>Galería multimedia</h2><div class="gallery-grid">${Features.gallery(shipMedia)}</div></section>`:"";
     container.innerHTML = `
-      <nav class="section-index" aria-label="Secciones de la ficha"><a href="#descripcion">Historia</a><a href="#especificaciones">Especificaciones</a><a href="#historial">Servicio</a><a href="#ubicacion">Localización</a>${shipMedia.length?'<a href="#galeria">Galería</a>':''}<a href="#fuentes">Fuentes</a></nav>
+      <nav class="section-index" aria-label="Secciones de la ficha"><a href="#descripcion" aria-current="location">Historia</a><a href="#especificaciones">Especificaciones</a><a href="#historial">Servicio</a><a href="#ubicacion">Localización</a>${shipMedia.length?'<a href="#galeria">Galería</a>':''}<a href="#fuentes">Fuentes</a></nav>
       <div class="ship-hero">
         <div class="ship-hero-image">
   ${Features.image(ship.imageDetail || ship.image,ship.name,ship.imageCredit,true)}
@@ -94,7 +94,7 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
           <p class="ship-summary">${Utils.escapeHtml(ship.summary)}</p>
           <div class="ship-meta-grid">
             <div class="meta-item">
-              <div class="meta-label">En servicio desde</div>
+              <div class="meta-label">Entrada en servicio</div>
               <div class="meta-value">${Utils.formatDate(ship.commissioned)}</div>
             </div>
             <div class="meta-item">
@@ -124,7 +124,7 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
 
       <section class="content-section" id="especificaciones">
         <h2>Especificaciones técnicas</h2>
-        <p class="editor-note">${Utils.escapeHtml(ship.specsNote||"Las dimensiones y el armamento pueden variar según la fecha y la configuración. Los datos pendientes se indican expresamente.")}</p><div class="specs-scroll"><table class="specs-table">
+        <p class="specs-caption">${Utils.escapeHtml(ship.specsNote||"Las características varían según la configuración y la fecha.")}</p><div class="specs-scroll"><table class="specs-table">
           <tbody>${specsRows}</tbody>
         </table></div>
       </section>
@@ -139,7 +139,7 @@ const gallery=shipMedia.length?`<section class="content-section" id="galeria"><h
         <p>${Utils.escapeHtml(locationText)}</p>${ship.id==='hms-hood'?'<a class="btn btn-outline" href="mapa.html?id=pecio-hood">Ver zona aproximada del pecio</a>':""}
       </section>
 ${gallery}
-<section class="content-section" id="fuentes"><h2>Fuentes y documentación</h2>${Features.sources(ship.sources)}<p class="editor-note">${Utils.escapeHtml(ship.reviewNote||"Revisión documental parcial. Consulta las referencias y la fecha de configuración de cada dato técnico.")}</p></section>
+<section class="content-section" id="fuentes"><h2>Fuentes y documentación</h2>${Features.sources(ship.sources)}<details class="review-details"><summary>Notas de documentación</summary><p>${Utils.escapeHtml(ship.reviewNote||"Revisión documental parcial. Consulta las referencias y la fecha de configuración de cada dato técnico.")}</p></details></section>
 
 ${
   sisterShips.length
@@ -161,6 +161,20 @@ ${
   <a href="buques.html" class="btn btn-outline">← Volver al catálogo</a>
 </div>
 `;
+    Features.syncFavorites();
+    const links = [...document.querySelectorAll('.section-index a')];
+    const activate = id => links.forEach(link => {
+      if (link.getAttribute('href') === '#' + id) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    });
+    links.forEach(link => link.addEventListener('click', () => activate(link.getAttribute('href').slice(1))));
+    if (window.IntersectionObserver) {
+      const observer = new window.IntersectionObserver(entries => {
+        const visible = entries.filter(entry => entry.isIntersecting).sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) activate(visible[0].target.id);
+      }, {rootMargin: '-135px 0px -55% 0px', threshold: 0});
+      document.querySelectorAll('.content-section[id]').forEach(section => observer.observe(section));
+    }
   },
 };
 document.addEventListener("DOMContentLoaded", () => ShipDetailPage.init());

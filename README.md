@@ -45,3 +45,6 @@ Las referencias enlazadas provienen de NHHC, HMS Hood Association y documentaci�
 ## Privacidad y servicios externos
 
 Favoritos y preferencias se guardan en el navegador mediante `localStorage`. Si el almacenamiento no está disponible, el sitio continúa funcionando e informa al intentar guardar favoritos. El mapa solicita cartografía a OpenStreetMap y necesita conexión. No hay cuentas ni sincronización de favoritos.
+
+## Diseño del catálogo
+La selección de tipo se concentra en un único desplegable dentro del panel de filtros. Se elimina la barra lateral duplicada. Las tarjetas muestran clase, años de servicio y velocidad; las fichas conservan las especificaciones completas y las notas documentales. Naciones usa imágenes y contexto desplegable; tecnología presenta explicaciones compactas y ejemplos con nombres de buques.

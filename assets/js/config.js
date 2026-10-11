@@ -8,11 +8,11 @@ const HND = {
 
   navItems: [
     { id: "inicio", label: "Inicio", href: "index.html", icon: "🏠" },
-    { id: "buques", label: "Registro de Buques", href: "buques.html", icon: "🚢" },
+    { id: "buques", label: "Buques", href: "buques.html", icon: "🚢" },
     { id: "eras", label: "Eras y Conflictos", href: "eras.html", icon: "⚔️" },
-    { id: "naciones", label: "Naciones y Facciones", href: "naciones.html", icon: "🌍" },
+    { id: "naciones", label: "Naciones", href: "naciones.html", icon: "🌍" },
     { id: "tecnologia", label: "Tecnología", href: "tecnologia.html", icon: "⚙️" },
-    { id: "multimedia", label: "Archivo Multimedia", href: "multimedia.html", icon: "🖼️" },
+    { id: "multimedia", label: "Multimedia", href: "multimedia.html", icon: "🖼️" },
   ],
 
   footerLinks: {

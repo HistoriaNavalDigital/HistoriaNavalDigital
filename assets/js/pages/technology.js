@@ -1,83 +1,27 @@
-/**
- * HistoriaNavalDigital — Technology page
- */
 const TechnologyPage = {
   async init() {
-    Components.mountLayout("tecnologia");
-
-    const breadcrumbsEl = document.getElementById("breadcrumbs");
-    if (breadcrumbsEl) {
-      breadcrumbsEl.innerHTML = Components.renderBreadcrumbs([
-        { label: "Inicio", href: "index.html" },
-        { label: "Tecnología y Construcción", href: "tecnologia.html" },
-      ]);
-    }
-
-    Features.loading(document.getElementById("technology-sections"));
-    try {
-      const tech = await DataLoader.getTechnology();
-      this.renderTechnology(tech);
-    } catch (err) {
-      Features.error(document.getElementById("technology-sections"));
-    }
+    Components.mountLayout('tecnologia');
+    document.getElementById('breadcrumbs').innerHTML=Components.renderBreadcrumbs([{label:'Inicio',href:'index.html'},{label:'Tecnología y construcción'}]);
+    Features.loading(document.getElementById('technology-sections'));
+    try { const [items,ships]=await Promise.all([DataLoader.getTechnology(),DataLoader.getShips()]);this.renderTechnology(items,ships); }
+    catch { Features.error(document.getElementById('technology-sections')); }
   },
-
-  renderTechnology(items) {
-    const container = document.getElementById("technology-sections");
-    if (!container) return;
-
-    container.innerHTML = items
-      .map(
-        (item, index) => `
-        <div class="tech-section">
-          <div class="tech-header" role="button" tabindex="0" aria-expanded="${index === 0}" aria-controls="tech-${item.id}" data-tech-id="${item.id}">
-            <div>
-              <div class="tech-category">${Utils.escapeHtml(item.category)}</div>
-              <h3>${Utils.escapeHtml(item.name)}</h3>
-            </div>
-            <span aria-hidden="true">${index === 0 ? "▼" : "▶"}</span>
-          </div>
-          <div id="tech-${item.id}" class="tech-body" style="display: ${index === 0 ? "block" : "none"};">
-            <p style="margin-bottom: var(--space-4);">${Utils.escapeHtml(item.description)}</p>
-            <img class="diagram" src="assets/images/diagrams/${item.id}.svg" alt="${Utils.escapeHtml(item.diagramAlt || item.name)}" loading="lazy">
-            <p>${(item.shipIds||[]).map(id=>`<a href="buque.html?id=${id}">Ver ejemplo: ${Utils.escapeHtml(id.replaceAll("-"," "))} →</a>`).join(" · ")}</p>
-            ${item.topics
-              .map(
-                (topic) => `
-              <div class="tech-topic">
-                <h4>${Utils.escapeHtml(topic.title)}</h4>
-                <div class="tech-topic-period">${Utils.escapeHtml(topic.period)}</div>
-                <p>${Utils.escapeHtml(topic.detail)}</p>
-              </div>
-            `
-              )
-              .join("")}
-          </div>
-        </div>
-      `
-      )
-      .join("");
-
-    container.querySelectorAll(".tech-header").forEach((header) => {
-      header.addEventListener("click", () => this.toggleSection(header));
-      header.addEventListener("keydown", (e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          this.toggleSection(header);
-        }
-      });
-    });
+  renderTechnology(items,ships) {
+    const explanations={
+      propulsion:{title:'Cómo se convierte el calor en movimiento',steps:[['Caldera','Genera vapor.'],['Turbina','El vapor hace girar el rotor.'],['Eje','Transmite el giro.'],['Hélice','Impulsa el buque en el agua.']],flow:true},
+      armamento:{title:'Sistemas que cumplen funciones distintas',steps:[['Artillería principal','Combate contra objetivos de superficie.'],['Batería secundaria','Complementa el armamento principal.'],['Defensa antiaérea','Responde a amenazas aéreas.'],['Control de tiro','Ayuda a dirigir el fuego.']]},
+      blindaje:{title:'Protección de las zonas vitales',steps:[['Cinturón','Protege los costados.'],['Cubierta','Protege desde arriba.'],['Compartimentos','Limitan la extensión de inundaciones.'],['Zonas vitales','Máquinas y depósitos de munición.']]},
+      'aviacion-naval':{title:'Operaciones desde un portaviones',steps:[['Despegue','Salida de las aeronaves.'],['Misión','Reconocimiento o combate.'],['Regreso','Aproximación al buque.'],['Recuperación','Aterrizaje en cubierta.']],flow:true}
+    };
+    document.getElementById('technology-sections').innerHTML=items.map((item,index)=>{
+      const explain=explanations[item.id];
+      return `<article class="tech-section"><div class="tech-header" role="button" tabindex="0" aria-expanded="${index===0}" aria-controls="tech-${item.id}" data-tech-id="${item.id}"><div class="tech-title-group"><span class="tech-number">0${index+1}</span><div><span class="tech-category">${Utils.escapeHtml(item.category)}</span><h2>${Utils.escapeHtml(item.name)}</h2></div></div><span class="tech-toggle" aria-hidden="true">${index===0?'−':'+'}</span></div>
+      <div id="tech-${item.id}" class="tech-body" style="display:${index===0?'block':'none'}"><p class="tech-intro">${Utils.escapeHtml(item.description)}</p><section class="tech-explainer" aria-label="${Utils.escapeHtml(explain.title)}"><h3>${Utils.escapeHtml(explain.title)}</h3><ol class="tech-steps ${explain.flow?'is-flow':''}">${explain.steps.map(([title,text],n)=>`<li><span class="step-number">${String(n+1).padStart(2,'0')}</span><strong>${Utils.escapeHtml(title)}</strong><p>${Utils.escapeHtml(text)}</p></li>`).join('')}</ol></section>
+      <div class="tech-topics">${item.topics.map(t=>`<section class="tech-topic"><span class="tech-topic-period">${Utils.escapeHtml(t.period)}</span><h3>${Utils.escapeHtml(t.title)}</h3><p>${Utils.escapeHtml(t.detail)}</p></section>`).join('')}</div>
+      <div class="tech-examples"><span class="eyebrow">Explorar en el archivo</span><div>${(item.shipIds||[]).map(id=>{const ship=ships.find(s=>s.id===id);return ship?`<a class="example-ship" href="buque.html?id=${encodeURIComponent(id)}">${Features.image(ship.image,ship.name)}<span>${Utils.escapeHtml(ship.name)}<small>${Utils.escapeHtml(ship.className||ship.typeName)}</small></span><span aria-hidden="true">↗</span></a>`:'';}).join('')}</div></div></div></article>`;
+    }).join('');
+    document.querySelectorAll('.tech-header').forEach(header=>{header.addEventListener('click',()=>this.toggleSection(header));header.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();this.toggleSection(header);}});});
   },
-
-  toggleSection(header) {
-    const body = header.nextElementSibling;
-    const arrow = header.querySelector("span");
-    const isOpen = body.style.display !== "none";
-
-    body.style.display = isOpen ? "none" : "block";
-    arrow.textContent = isOpen ? "▶" : "▼";
-    header.setAttribute("aria-expanded", !isOpen);
-  },
+  toggleSection(header) { const open=header.getAttribute('aria-expanded')==='true';header.setAttribute('aria-expanded',String(!open));header.nextElementSibling.style.display=open?'none':'block';header.querySelector('.tech-toggle').textContent=open?'+':'−'; }
 };
-
-document.addEventListener("DOMContentLoaded", () => TechnologyPage.init());
+document.addEventListener('DOMContentLoaded',()=>TechnologyPage.init());
